@@ -339,28 +339,51 @@ extern "C" {
 /*******************************************************************************
  * Category 1 : StdLib-like Function
  *******************************************************************************/
-INLINE_MODIFIER INLINE void * kal_mem_cpy(void* dest, const void* src, kal_uint32 size)
-{
-    return memcpy ( dest, src, size );
-}
 
-INLINE_MODIFIER INLINE void * kal_mem_set(void* dest, kal_int32 value, kal_uint32 size)
-{
-    return memset ( dest, value, size );
-}
+   #ifdef NVRAM_AUTO_GEN
+  #include <string.h>
 
-INLINE_MODIFIER INLINE kal_int32 kal_mem_cmp(const void* src1, const void* src2, kal_uint32 size)
-{
-    return memcmp ( src1, src2, size );
-}
+  #define kal_mem_cpy(dest, src, size) memcpy((dest), (src), (size))
+  #define kal_mem_set(dest, value, size) memset((dest), (value), (size))
+  #define kal_mem_cmp(src1, src2, size) memcmp((src1), (src2), (size))
+  #define kal_mem_bwcpy(dest, src, size) memmove((dest), (src), (size))
 
-INLINE_MODIFIER INLINE void * kal_mem_bwcpy(void* dest, const void* src, kal_uint32 size)
-{
-    char *destaddr = (char*)dest+(size-1);
-    char const *srcaddr = (char*)src+(size-1);
-    while (size-- > 0) *destaddr-- = *srcaddr--;
-    return destaddr;
-}
+  static __inline boot_mode_type kal_query_boot_mode(void)
+  {
+      return NORMAL_BOOT;
+     }
+
+  static __inline kal_uint32 stack_timer_get_remaining_time(stack_timer_struct *stack_timer)
+  {
+      (void)stack_timer;
+      return 0;
+  }
+
+  #else
+
+  INLINE_MODIFIER INLINE void * kal_mem_cpy(void* dest, const void* src, kal_uint32 size)
+  {
+      return memcpy(dest, src, size);
+  }
+
+  INLINE_MODIFIER INLINE void * kal_mem_set(void* dest, kal_int32 value, kal_uint32 size)
+  {
+      return memset(dest, value, size);
+  }
+
+  INLINE_MODIFIER INLINE kal_int32 kal_mem_cmp(const void* src1, const void* src2, kal_uint32 size)
+  {
+      return memcmp(src1, src2, size);
+  }
+
+  INLINE_MODIFIER INLINE void * kal_mem_bwcpy(void* dest, const void* src, kal_uint32 size)
+  {
+      char *destaddr = (char*)dest+(size-1);
+      char const *srcaddr = (char*)src+(size-1);
+      while (size-- > 0) *destaddr-- = *srcaddr--;
+      return destaddr;
+  }
+  #endif /* NVRAM_AUTO_GEN */
 
 #if defined(KAL_ON_OSCAR)
 #define kal_snprintf _snprintf
@@ -632,13 +655,13 @@ kal_bool kal_query_systemInit(void);
  * SEE ALSO
  *  boot_mode_type
  ******************************************************************************/
-INLINE_MODIFIER INLINE boot_mode_type kal_query_boot_mode(void)
-{
-    extern boot_mode_type system_boot_mode;
-    return system_boot_mode;
-}
-
-/* DOM-NOT_FOR_SDK-END */
+   #ifndef NVRAM_AUTO_GEN
+  INLINE_MODIFIER INLINE boot_mode_type kal_query_boot_mode(void)
+  {
+      extern boot_mode_type system_boot_mode;
+      return system_boot_mode;
+  }
+  #endif
 
 /*******************************************************************************
  * Category 3 : LISR, HISR and TASK functions
@@ -3466,14 +3489,7 @@ extern stack_timer_status_type stack_timer_status(stack_timer_struct *stack_time
  * SEE ALSO
  *  stack_create_timer stack_start_timer stack_stop_timer
  ******************************************************************************/
-INLINE_MODIFIER INLINE kal_uint32 stack_timer_get_remaining_time(stack_timer_struct *stack_timer)
-{
-    kal_uint32 remaining = 0;
 
-    stack_timer_status(stack_timer, &remaining);
-
-    return remaining;
-}
 /*******************************************************************************
  * <GROUP Functions>
  *

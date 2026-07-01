@@ -165,7 +165,7 @@ APCSINT     =
 -include tools/RVCTBuildNo.tmp
 
 ifeq ($(strip $(COMPILER)),GCC)
-  CFLAGS          := -Wno-attributes -Wno-pragmas
+  CFLAGS          := -Wno-attributes -Wno-pragmas -fcommon
   ifeq ($(strip $(GCC_WARN_AS_ERROR)),TRUE)
     CFLAGS          += -Werror
   endif
@@ -175,7 +175,7 @@ ifneq ($(filter MT6280, $(strip $(PLATFORM))),)
 ifeq ($(strip $(COMPILER)),GCC)
     PLATFORM_FLAGS  := -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs
     PLATFORM_AFLAGS  := -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -mimplicit-it=always -mapcs-32
-    OFLAGS          := -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections
+    OFLAGS          := -Os -fno-strict-aliasing -fno-exceptions -ffunction-sections -fdata-sections
     OAFLAGS         := -gdwarf-2
     CFLAGS          += $(PLATFORM_FLAGS) $(OFLAGS) -Wall -c -mno-unaligned-access -fshort-wchar
  ifeq ($(strip $(OS_VERSION)),MSWin32)
@@ -193,7 +193,7 @@ ifeq ($(strip $(NEED_BUILD_MD_OFFLOAD_COPRO)),FALSE)
  ifeq ($(strip $(COMPILER)),GCC)
      PLATFORM_FLAGS  := -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs
      PLATFORM_AFLAGS  := -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -mimplicit-it=always -mapcs-32
-     OFLAGS          := -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections
+     OFLAGS          := -Os -fno-strict-aliasing -fno-exceptions -ffunction-sections -fdata-sections
      OAFLAGS         := -gdwarf-2
      CFLAGS          += $(PLATFORM_FLAGS) $(OFLAGS) -Wall -c -mno-unaligned-access -fshort-wchar
   ifeq ($(strip $(OS_VERSION)),MSWin32)
@@ -209,7 +209,7 @@ ifeq ($(strip $(NEED_BUILD_MD_OFFLOAD_COPRO)),TRUE)
  ifeq ($(strip $(COMPILER)),GCC)
      PLATFORM_FLAGS  := -march=armv5te -mlittle-endian -Wa,-mimplicit-it=arm -mabi=aapcs -mthumb-interwork ##add interwork, remove mcpu
      PLATFORM_AFLAGS  := -march=armv5te -mlittle-endian -mimplicit-it=arm -mapcs-32 -mthumb-interwork #add interwork, remove mcpu
-     OFLAGS          := -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections
+     OFLAGS          := -Os -fno-strict-aliasing -fno-exceptions -ffunction-sections -fdata-sections
      OAFLAGS         := -gdwarf-2
      CFLAGS          += $(PLATFORM_FLAGS) $(OFLAGS) -Wall -c -mno-unaligned-access -fshort-wchar
   ifeq ($(strip $(OS_VERSION)),MSWin32)
@@ -228,7 +228,7 @@ ifeq ($(strip $(MDSYS)),MD1)
 ifeq ($(strip $(COMPILER)),GCC)
     PLATFORM_FLAGS  := -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs
     PLATFORM_AFLAGS  := -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -mimplicit-it=always -mapcs-32
-    OFLAGS          := -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections
+    OFLAGS          := -Os -fno-strict-aliasing -fno-exceptions -ffunction-sections -fdata-sections
     OAFLAGS         := -gdwarf-2
     CFLAGS          += $(PLATFORM_FLAGS) $(OFLAGS) -Wall -Wno-attributes -Wno-pragmas -c -mno-unaligned-access -fshort-wchar
  ifeq ($(strip $(OS_VERSION)),MSWin32)
@@ -246,7 +246,7 @@ ifneq ($(filter MT6575 MT6577, $(strip $(PLATFORM))),)
 ifeq ($(strip $(COMPILER)),GCC)
     PLATFORM_FLAGS  := -march=armv6zk -mcpu=arm1176jz-s -mlittle-endian -Wa,-mimplicit-it=arm -mabi=aapcs
     PLATFORM_AFLAGS  := -march=armv6zk -mcpu=arm1176jz-s -mlittle-endian -mimplicit-it=arm -mapcs-32
-    OFLAGS          := -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections
+    OFLAGS          := -Os -fno-strict-aliasing -fno-exceptions -ffunction-sections -fdata-sections
     OAFLAGS         := -gdwarf-3
     CFLAGS          += $(PLATFORM_FLAGS) $(OFLAGS) -Wall -c -mno-unaligned-access -fshort-wchar
  ifeq ($(strip $(OS_VERSION)),MSWin32)
@@ -264,7 +264,7 @@ ifeq ($(strip $(MDSYS)),MD2)
 ifeq ($(strip $(COMPILER)),GCC)
     PLATFORM_FLAGS  := -march=armv5te -mcpu=arm926ej-s -mlittle-endian -Wa,-mimplicit-it=arm -mabi=aapcs
     PLATFORM_AFLAGS  := -march=armv5te -mcpu=arm926ej-s -mlittle-endian -mimplicit-it=arm -mapcs-32
-    OFLAGS          := -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections
+    OFLAGS          := -Os -fno-strict-aliasing -fno-exceptions -ffunction-sections -fdata-sections
     OAFLAGS         := -gdwarf-2
     CFLAGS          += $(PLATFORM_FLAGS) $(OFLAGS) -Wall -c -mno-unaligned-access -fshort-wchar
  ifeq ($(strip $(OS_VERSION)),MSWin32)
@@ -541,4 +541,5 @@ endif
 
   LNKOPT += --keep verno.obj(*_RW)
   LNKOPT += $(NVRAM_LNK_OPT)
+  CFLAGS += -fcommon
 endif #ifeq ($(strip $(COMPILER)),RVCT)
