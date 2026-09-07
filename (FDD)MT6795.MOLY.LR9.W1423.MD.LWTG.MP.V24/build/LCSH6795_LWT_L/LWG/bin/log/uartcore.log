@@ -1,0 +1,5 @@
+make[1]: Entering directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+Module uartcore is in DEFALUT mode
+tools/GCC/4.6.2/linux/bin/arm-none-eabi-ar: creating ./build/LCSH6795_LWT_L/LWG/bin/lib/libuartcore.a
+./build/LCSH6795_LWT_L/LWG/bin/lib/libuartcore.a is updated
+make[1]: Leaving directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'

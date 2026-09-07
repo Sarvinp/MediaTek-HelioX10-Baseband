@@ -1,0 +1,2 @@
+build/LCSH6795_LWT_L/LWG/bin/dep/codegen_dep/cgen_preflow.det: tools/CreateEmptyTrcGenFiles ./service/dhl/database/TrcGen.lst build/LCSH6795_LWT_L/LWG/bin/~LCSH6795_LWT_L(LWG).mak make/Option.mak make/MODEM.mak
+build/LCSH6795_LWT_L/LWG/bin/dep/codegen_dep/cgen_preflow.det:

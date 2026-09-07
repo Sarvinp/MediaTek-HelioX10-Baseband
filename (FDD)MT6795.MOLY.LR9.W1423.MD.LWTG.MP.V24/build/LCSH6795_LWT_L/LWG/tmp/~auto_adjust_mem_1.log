@@ -1,0 +1,3 @@
+AAPMC_TEMP_FOLDER = ./build/LCSH6795_LWT_L/LWG/tmp
+AAPMC_LINKLOG = ./build/LCSH6795_LWT_L/LWG/tmp/aapmc_link.log
+AAPMC_TARGDIR = ./build/LCSH6795_LWT_L/LWG/bin

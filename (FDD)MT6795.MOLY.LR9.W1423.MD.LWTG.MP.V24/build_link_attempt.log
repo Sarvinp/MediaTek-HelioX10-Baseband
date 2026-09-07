@@ -1,0 +1,5 @@
+Unrecognized ""
+Lack off one of (md_rename errc_gen getusr new update remake clean codegen nvram_auto_gen bootloader emiclean emigen sysgen sys_auto_gen sys_mem_gen ckmemlayout drv_feature_check viewlog rel c,r c,u ckcr removecode scan check_scan check check_dep remake_dep update_dep clean_codegen slim_codegen slim_update genlog findpad elfpatch gendsp cksysdrv nvram_auto_gen rmdebugobj cust_menu_tree_check genmoduleinfo gen_modlibtbl ximgen gen_bt_switch_info gendummylis gendummysym echo_dspinfo video_mem_gen umts_gen asngen asngen_l4 asnregen slim_mcddll lte_mcddll eas_gen memquery cga)
+Or try  -h
+project_name = make
+flavor = LCSH6795_LWT_L

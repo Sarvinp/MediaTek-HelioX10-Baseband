@@ -1,0 +1,453 @@
+make[1]: Entering directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+generate nvram_lid_statistics_bak.h success
+generate nvram_gen_trc.h success
+Path = /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/GCC/4.6.2/linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/gcc-arm-none-eabi-4_6-2012q4/bin
+Compile nvram_auto_gen.c...
+Building BSP data items: adc_nvram_def
+Compile custom/driver/common/adc_nvram_def.c
+Platform is: linux
+genindex = 187   tarindex = 187 
+Buid spend time:  0 S
+Building MODEM data items: ul1_nvram_def
+Compile custom/modem/common/ps/ul1_nvram_def.c
+Building MIDDLEWARE data items: audio_nvram_def
+Compile custom/middleware/common/audio_nvram_def.c
+Building NVRAM data items: ex_nvram_def
+Compile custom/service/nvram/ex_nvram_def.c
+Compile custom/common/hal/nvram/nvram_data_items.c...
+Compile custom/common/hal/nvram/nvram_cust_pack.c...
+Compile custom/common/hal/nvram/custom_nvram_sec.c...
+Compile service/nvram/src/nvram_factory_config.c...
+Compile custom/middleware/common/fs_quota.c...
+Compile tools/NVRAMStatistic/src/fs_quota_entry_dump.c...
+build nvram_auto_gen done
+make[1]: Leaving directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+begin:41e350, end:41e358
+init_func = 40cbcd, total = 1
+init_func[0] = 40cbcd
+argv[1] = ./build/LCSH6795_LWT_L/LWG, argv[2] = linux
+nvram_gen_construct_ltable
+addr = 418af0, entry size: 56, real size: 22624 = result size:22624
+ltable[0](0x418af0) = NVRAM_EF_SYS_LID(0), size = 34, total_records = 3
+ltable[1](0x418b28) = NVRAM_EF_IMPT_COUNTER_LID(8), size = 2, total_records = 1
+ltable[2](0x418b60) = NVRAM_EF_L1_AGCPATHLOSS_LID(15), size = 260, total_records = 1
+ltable[3](0x418b98) = NVRAM_EF_L1_RAMPTABLE_GSM850_LID(16), size = 672, total_records = 1
+ltable[4](0x418bd0) = NVRAM_EF_L1_RAMPTABLE_GSM900_LID(17), size = 672, total_records = 1
+ltable[5](0x418c08) = NVRAM_EF_L1_RAMPTABLE_DCS1800_LID(18), size = 672, total_records = 1
+ltable[6](0x418c40) = NVRAM_EF_L1_RAMPTABLE_PCS1900_LID(19), size = 672, total_records = 1
+ltable[7](0x418c78) = NVRAM_EF_L1_EPSK_RAMPTABLE_GSM850_LID(20), size = 672, total_records = 1
+ltable[8](0x418cb0) = NVRAM_EF_L1_EPSK_RAMPTABLE_GSM900_LID(21), size = 672, total_records = 1
+ltable[9](0x418ce8) = NVRAM_EF_L1_EPSK_RAMPTABLE_DCS1800_LID(22), size = 672, total_records = 1
+ltable[10](0x418d20) = NVRAM_EF_L1_EPSK_RAMPTABLE_PCS1900_LID(23), size = 672, total_records = 1
+ltable[11](0x418d58) = NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_GSM850_LID(24), size = 64, total_records = 1
+ltable[12](0x418d90) = NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_GSM900_LID(25), size = 64, total_records = 1
+ltable[13](0x418dc8) = NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_DCS1800_LID(26), size = 64, total_records = 1
+ltable[14](0x418e00) = NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_PCS1900_LID(27), size = 64, total_records = 1
+ltable[15](0x418e38) = NVRAM_EF_L1_AFCDATA_LID(28), size = 8, total_records = 1
+ltable[16](0x418e70) = NVRAM_EF_L1_TXIQ_LID(29), size = 44, total_records = 1
+ltable[17](0x418ea8) = NVRAM_EF_L1_RFSPECIALCOEF_LID(30), size = 544, total_records = 1
+ltable[18](0x418ee0) = NVRAM_EF_L1_INTERSLOT_RAMP_GSM850_LID(31), size = 16, total_records = 1
+ltable[19](0x418f18) = NVRAM_EF_L1_INTERSLOT_RAMP_GSM900_LID(32), size = 16, total_records = 1
+ltable[20](0x418f50) = NVRAM_EF_L1_INTERSLOT_RAMP_DCS1800_LID(33), size = 16, total_records = 1
+ltable[21](0x418f88) = NVRAM_EF_L1_INTERSLOT_RAMP_PCS1900_LID(34), size = 16, total_records = 1
+ltable[22](0x418fc0) = NVRAM_EF_L1_CRYSTAL_AFCDATA_LID(35), size = 64, total_records = 1
+ltable[23](0x418ff8) = NVRAM_EF_L1_CRYSTAL_CAPDATA_LID(36), size = 4, total_records = 1
+ltable[24](0x419030) = NVRAM_EF_L1_GMSK_TX_POWER_ROLLBACK_TABLE_LID(37), size = 20, total_records = 1
+ltable[25](0x419068) = NVRAM_EF_L1_EPSK_TX_POWER_ROLLBACK_TABLE_LID(38), size = 20, total_records = 1
+ltable[26](0x4190a0) = NVRAM_EF_L1_GMSK_TXPC_LID(39), size = 244, total_records = 1
+ltable[27](0x4190d8) = NVRAM_EF_L1_EPSK_TXPC_LID(40), size = 244, total_records = 1
+ltable[28](0x419110) = NVRAM_EF_L1_LNAPATHLOSS_LID(41), size = 130, total_records = 1
+ltable[29](0x419148) = NVRAM_EF_L1_TEMPERATURE_ADC_LID(42), size = 16, total_records = 1
+ltable[30](0x419180) = NVRAM_EF_UL1_TEMP_DAC_LID(2816), size = 16, total_records = 1
+ltable[31](0x4191b8) = NVRAM_EF_UL1_PATHLOSS_BAND1_LID(2817), size = 720, total_records = 1
+ltable[32](0x4191f0) = NVRAM_EF_UL1_PATHLOSS_BAND2_LID(2818), size = 720, total_records = 1
+ltable[33](0x419228) = NVRAM_EF_UL1_PATHLOSS_BAND3_LID(2819), size = 720, total_records = 1
+ltable[34](0x419260) = NVRAM_EF_UL1_PATHLOSS_BAND4_LID(2820), size = 720, total_records = 1
+ltable[35](0x419298) = NVRAM_EF_UL1_PATHLOSS_BAND5_LID(2821), size = 720, total_records = 1
+ltable[36](0x4192d0) = NVRAM_EF_UL1_PATHLOSS_BAND6_LID(2822), size = 720, total_records = 1
+ltable[37](0x419308) = NVRAM_EF_UL1_PATHLOSS_BAND7_LID(2823), size = 720, total_records = 1
+ltable[38](0x419340) = NVRAM_EF_UL1_PATHLOSS_BAND8_LID(2824), size = 720, total_records = 1
+ltable[39](0x419378) = NVRAM_EF_UL1_PATHLOSS_BAND9_LID(2825), size = 720, total_records = 1
+ltable[40](0x4193b0) = NVRAM_EF_UL1_PATHLOSS_BAND10_LID(2826), size = 720, total_records = 1
+ltable[41](0x4193e8) = NVRAM_EF_UL1_PATHLOSS_BAND11_LID(2827), size = 720, total_records = 1
+ltable[42](0x419420) = NVRAM_EF_UL1_PATHLOSS_BAND19_LID(2835), size = 720, total_records = 1
+ltable[43](0x419458) = NVRAM_EF_UL1_TXDAC_BAND1_LID(2836), size = 708, total_records = 1
+ltable[44](0x419490) = NVRAM_EF_UL1_TXDAC_BAND2_LID(2837), size = 708, total_records = 1
+ltable[45](0x4194c8) = NVRAM_EF_UL1_TXDAC_BAND3_LID(2838), size = 708, total_records = 1
+ltable[46](0x419500) = NVRAM_EF_UL1_TXDAC_BAND4_LID(2839), size = 708, total_records = 1
+ltable[47](0x419538) = NVRAM_EF_UL1_TXDAC_BAND5_LID(2840), size = 708, total_records = 1
+ltable[48](0x419570) = NVRAM_EF_UL1_TXDAC_BAND6_LID(2841), size = 708, total_records = 1
+ltable[49](0x4195a8) = NVRAM_EF_UL1_TXDAC_BAND7_LID(2842), size = 708, total_records = 1
+ltable[50](0x4195e0) = NVRAM_EF_UL1_TXDAC_BAND8_LID(2843), size = 708, total_records = 1
+ltable[51](0x419618) = NVRAM_EF_UL1_TXDAC_BAND9_LID(2844), size = 708, total_records = 1
+ltable[52](0x419650) = NVRAM_EF_UL1_TXDAC_BAND10_LID(2845), size = 708, total_records = 1
+ltable[53](0x419688) = NVRAM_EF_UL1_TXDAC_BAND11_LID(2846), size = 708, total_records = 1
+ltable[54](0x4196c0) = NVRAM_EF_UL1_TXDAC_BAND19_LID(2854), size = 708, total_records = 1
+ltable[55](0x4196f8) = NVRAM_EF_UL1_TXPAOCTLEV_BAND1_LID(2855), size = 96, total_records = 1
+ltable[56](0x419730) = NVRAM_EF_UL1_TXPAOCTLEV_BAND2_LID(2856), size = 96, total_records = 1
+ltable[57](0x419768) = NVRAM_EF_UL1_TXPAOCTLEV_BAND3_LID(2857), size = 96, total_records = 1
+ltable[58](0x4197a0) = NVRAM_EF_UL1_TXPAOCTLEV_BAND4_LID(2858), size = 96, total_records = 1
+ltable[59](0x4197d8) = NVRAM_EF_UL1_TXPAOCTLEV_BAND5_LID(2859), size = 96, total_records = 1
+ltable[60](0x419810) = NVRAM_EF_UL1_TXPAOCTLEV_BAND6_LID(2860), size = 96, total_records = 1
+ltable[61](0x419848) = NVRAM_EF_UL1_TXPAOCTLEV_BAND7_LID(2861), size = 96, total_records = 1
+ltable[62](0x419880) = NVRAM_EF_UL1_TXPAOCTLEV_BAND8_LID(2862), size = 96, total_records = 1
+ltable[63](0x4198b8) = NVRAM_EF_UL1_TXPAOCTLEV_BAND9_LID(2863), size = 96, total_records = 1
+ltable[64](0x4198f0) = NVRAM_EF_UL1_TXPAOCTLEV_BAND10_LID(2864), size = 96, total_records = 1
+ltable[65](0x419928) = NVRAM_EF_UL1_TXPAOCTLEV_BAND11_LID(2865), size = 96, total_records = 1
+ltable[66](0x419960) = NVRAM_EF_UL1_TXPAOCTLEV_BAND19_LID(2873), size = 96, total_records = 1
+ltable[67](0x419998) = NVRAM_EF_UL1_PATHLOSS2_BAND1_LID(2874), size = 98, total_records = 1
+ltable[68](0x4199d0) = NVRAM_EF_UL1_PATHLOSS2_BAND2_LID(2875), size = 98, total_records = 1
+ltable[69](0x419a08) = NVRAM_EF_UL1_PATHLOSS2_BAND3_LID(2876), size = 98, total_records = 1
+ltable[70](0x419a40) = NVRAM_EF_UL1_PATHLOSS2_BAND4_LID(2877), size = 98, total_records = 1
+ltable[71](0x419a78) = NVRAM_EF_UL1_PATHLOSS2_BAND5_LID(2878), size = 98, total_records = 1
+ltable[72](0x419ab0) = NVRAM_EF_UL1_PATHLOSS2_BAND6_LID(2879), size = 98, total_records = 1
+ltable[73](0x419ae8) = NVRAM_EF_UL1_PATHLOSS2_BAND7_LID(2880), size = 98, total_records = 1
+ltable[74](0x419b20) = NVRAM_EF_UL1_PATHLOSS2_BAND8_LID(2881), size = 98, total_records = 1
+ltable[75](0x419b58) = NVRAM_EF_UL1_PATHLOSS2_BAND9_LID(2882), size = 98, total_records = 1
+ltable[76](0x419b90) = NVRAM_EF_UL1_PATHLOSS2_BAND10_LID(2883), size = 98, total_records = 1
+ltable[77](0x419bc8) = NVRAM_EF_UL1_PATHLOSS2_BAND11_LID(2884), size = 98, total_records = 1
+ltable[78](0x419c00) = NVRAM_EF_UL1_PATHLOSS2_BAND19_LID(2892), size = 98, total_records = 1
+ltable[79](0x419c38) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND1_LID(2893), size = 72, total_records = 1
+ltable[80](0x419c70) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND2_LID(2894), size = 72, total_records = 1
+ltable[81](0x419ca8) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND3_LID(2895), size = 72, total_records = 1
+ltable[82](0x419ce0) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND4_LID(2896), size = 72, total_records = 1
+ltable[83](0x419d18) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND5_LID(2897), size = 72, total_records = 1
+ltable[84](0x419d50) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND6_LID(2898), size = 72, total_records = 1
+ltable[85](0x419d88) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND7_LID(2899), size = 72, total_records = 1
+ltable[86](0x419dc0) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND8_LID(2900), size = 72, total_records = 1
+ltable[87](0x419df8) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND9_LID(2901), size = 72, total_records = 1
+ltable[88](0x419e30) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND10_LID(2902), size = 72, total_records = 1
+ltable[89](0x419e68) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND11_LID(2903), size = 72, total_records = 1
+ltable[90](0x419ea0) = NVRAM_EF_UL1_TXPADRIFTCOMP_BAND19_LID(2911), size = 72, total_records = 1
+ltable[91](0x419ed8) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND1_LID(2912), size = 96, total_records = 1
+ltable[92](0x419f10) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND2_LID(2913), size = 96, total_records = 1
+ltable[93](0x419f48) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND3_LID(2914), size = 96, total_records = 1
+ltable[94](0x419f80) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND4_LID(2915), size = 96, total_records = 1
+ltable[95](0x419fb8) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND5_LID(2916), size = 96, total_records = 1
+ltable[96](0x419ff0) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND6_LID(2917), size = 96, total_records = 1
+ltable[97](0x41a028) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND7_LID(2918), size = 96, total_records = 1
+ltable[98](0x41a060) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND8_LID(2919), size = 96, total_records = 1
+ltable[99](0x41a098) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND9_LID(2920), size = 96, total_records = 1
+ltable[100](0x41a0d0) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND10_LID(2921), size = 96, total_records = 1
+ltable[101](0x41a108) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND11_LID(2922), size = 96, total_records = 1
+ltable[102](0x41a140) = NVRAM_EF_UL1_TXPRACHTMCOMP_BAND19_LID(2930), size = 96, total_records = 1
+ltable[103](0x41a178) = NVRAM_EF_UL1_AFCDAC_LID(2931), size = 8, total_records = 1
+ltable[104](0x41a1b0) = NVRAM_EF_UL1_AFCCAP_LID(2932), size = 4, total_records = 1
+ltable[105](0x41a1e8) = NVRAM_EF_BARCODE_NUM_LID(107), size = 64, total_records = 1
+ltable[106](0x41a220) = NVRAM_EF_CAL_FLAG_LID(108), size = 312, total_records = 1
+ltable[107](0x41a258) = NVRAM_EF_CAL_DATA_CHECK_LID(109), size = 1352, total_records = 1
+ltable[108](0x41a290) = NVRAM_EF_IMEI_IMEISV_LID(163), size = 10, total_records = 10
+ltable[109](0x41a2c8) = NVRAM_EF_SML_LID(164), size = 204, total_records = 10
+ltable[110](0x41a300) = NVRAM_EF_SIM_LOCK_LID(165), size = 284, total_records = 2
+ltable[111](0x41a338) = NVRAM_EF_SYS_STATISTICS_LID(7), size = 4488, total_records = 1
+ltable[112](0x41a370) = NVRAM_EF_AS_BAND_SETTING_LID(121), size = 13, total_records = 2
+ltable[113](0x41a3a8) = NVRAM_EF_L1_2G_RF_PARAMETER_LID(113), size = 1080, total_records = 1
+ltable[114](0x41a3e0) = NVRAM_EF_BAND_INFO_LID(122), size = 6, total_records = 2
+ltable[115](0x41a418) = NVRAM_EF_TST_FILTER_LID(123), size = 4086, total_records = 1
+ltable[116](0x41a450) = NVRAM_EF_DHL_FILTER_LID(408), size = 4086, total_records = 1
+ltable[117](0x41a488) = NVRAM_EF_PORT_SETTING_LID(124), size = 80, total_records = 1
+ltable[118](0x41a4c0) = NVRAM_EF_SMSAL_SMS_LID(156), size = 184, total_records = 100
+ltable[119](0x41a4f8) = NVRAM_EF_SMSAL_MAILBOX_ADDR_LID(157), size = 34, total_records = 4
+ltable[120](0x41a530) = NVRAM_EF_SMSAL_COMMON_PARAM_LID(158), size = 16, total_records = 2
+ltable[121](0x41a568) = NVRAM_EF_SMSAL_SMSP_LID(159), size = 40, total_records = 4
+ltable[122](0x41a5a0) = NVRAM_EF_SMSAL_MWIS_LID(160), size = 6, total_records = 10
+ltable[123](0x41a5d8) = NVRAM_EF_CB_DEFAULT_CH_LID(161), size = 20, total_records = 2
+ltable[124](0x41a610) = NVRAM_EF_CB_CH_INFO_LID(162), size = 238, total_records = 2
+ltable[125](0x41a648) = NVRAM_EF_TCM_CID_0_PROFILE_LID(148), size = 132, total_records = 2
+ltable[126](0x41a680) = NVRAM_EF_TCM_PDP_PROFILE_LID(149), size = 132, total_records = 22
+ltable[127](0x41a6b8) = NVRAM_EF_CFU_FLAG_LID(150), size = 2, total_records = 2
+ltable[128](0x41a6f0) = NVRAM_EF_MM_LOCIGPRS_LID(151), size = 112, total_records = 2
+ltable[129](0x41a728) = NVRAM_EF_ALS_LINE_ID_LID(153), size = 2, total_records = 2
+ltable[130](0x41a760) = NVRAM_EF_MSCAP_LID(154), size = 10, total_records = 1
+ltable[131](0x41a798) = NVRAM_EF_CLASSMARK_RACAP_LID(126), size = 20, total_records = 1
+ltable[132](0x41a7d0) = NVRAM_EF_SIM_ASSERT_LID(127), size = 16, total_records = 80
+ltable[133](0x41a808) = NVRAM_EF_RTC_DATA_LID(128), size = 16, total_records = 1
+ltable[134](0x41a840) = NVRAM_EF_NET_PAR_LID(129), size = 8190, total_records = 1
+ltable[135](0x41a878) = NVRAM_EF_UMTS_BAND_PRIORITY_LID(140), size = 22, total_records = 1
+ltable[136](0x41a8b0) = NVRAM_EF_UMTS_DMCR_SETTING_LID(411), size = 96, total_records = 1
+ltable[137](0x41a8e8) = NVRAM_EF_UMTS_SIB_SKIP_SETTING_LID(412), size = 96, total_records = 1
+ltable[138](0x41a920) = NVRAM_EF_UMTS_IMSI_LID(131), size = 24, total_records = 2
+ltable[139](0x41a958) = NVRAM_EF_UMTS_START_HFN_LID(132), size = 6, total_records = 2
+ltable[140](0x41a990) = NVRAM_EF_UMTS_USIME_RRC_DYNAMIC_CAP_LID(133), size = 51, total_records = 2
+ltable[141](0x41a9c8) = NVRAM_EF_UMTS_FREQUENCY_REPOSITORY_LID(138), size = 2000, total_records = 1
+ltable[142](0x41aa00) = NVRAM_EF_PREV_VISITED_CELL_INFO_LID(139), size = 2000, total_records = 2
+ltable[143](0x41aa38) = NVRAM_EF_L1_3G_CAL_DATA_LID(134), size = 8184, total_records = 1
+ltable[144](0x41aa70) = NVRAM_EF_ETWS_SETTING_LID(171), size = 1, total_records = 1
+ltable[145](0x41aaa8) = NVRAM_EF_CSM_ESSP_LID(174), size = 1, total_records = 1
+ltable[146](0x41aae0) = NVRAM_EF_CUST_HW_LEVEL_TBL_LID(141), size = 440, total_records = 1
+ltable[147](0x41ab18) = NVRAM_EF_UEM_MANUFACTURE_DATA_LID(142), size = 240, total_records = 1
+ltable[148](0x41ab50) = NVRAM_EF_UEM_RMI_DATA_LID(143), size = 216, total_records = 1
+ltable[149](0x41ab88) = NVRAM_EF_GPS_SETTING_DATA_LID(144), size = 48, total_records = 1
+ltable[150](0x41abc0) = NVRAM_EF_MS_SECURITY_LID(166), size = 38, total_records = 2
+ltable[151](0x41abf8) = NVRAM_EF_PHB_LN_ENTRY_LID(168), size = 924, total_records = 12
+ltable[152](0x41ac30) = NVRAM_EF_PHB_LN_TYPE_SEQ_LID(169), size = 60, total_records = 2
+ltable[153](0x41ac68) = NVRAM_EF_SYS_CACHE_OCTET_LID(179), size = 8, total_records = 20
+ltable[154](0x41aca0) = NVRAM_EF_RAC_PREFERENCE_LID(183), size = 12, total_records = 2
+ltable[155](0x41acd8) = NVRAM_EF_PS_CONFORMANCE_TESTMODE_LID(170), size = 4, total_records = 1
+ltable[156](0x41ad10) = NVRAM_EF_PHB_LID(167), size = 86, total_records = 10
+ltable[157](0x41ad48) = NVRAM_EF_TST_CONFIG_LID(193), size = 5, total_records = 1
+ltable[158](0x41ad80) = NVRAM_EF_MSQ_LIST_LID(173), size = 1002, total_records = 1
+ltable[159](0x41adb8) = NVRAM_EF_EPSLOCI_EPSNSC_TIN_LID(258), size = 76, total_records = 2
+ltable[160](0x41adf0) = NVRAM_EF_LTE_PREFERENCE_LID(259), size = 24, total_records = 2
+ltable[161](0x41ae28) = NVRAM_EF_ERRC_STORED_CARRIER_LID(260), size = 386, total_records = 1
+ltable[162](0x41ae60) = NVRAM_EF_ERRC_PERFORMANCE_PARA_LID(261), size = 1598, total_records = 1
+ltable[163](0x41ae98) = NVRAM_EF_ERRC_FINGER_PRINT_LID(262), size = 996, total_records = 8
+ltable[164](0x41aed0) = NVRAM_EF_ERRC_LEARNED_MCC_LID(263), size = 304, total_records = 6
+ltable[165](0x41af08) = NVRAM_EF_ERRC_STORED_CELL_LID(264), size = 384, total_records = 1
+ltable[166](0x41af40) = NVRAM_EF_ERRC_AFR_SETTING_LID(265), size = 64, total_records = 1
+ltable[167](0x41af78) = NVRAM_EF_LTE_CAP_LID(266), size = 3, total_records = 1
+ltable[168](0x41afb0) = NVRAM_EF_UE_EUTRA_CAP_CSFB_LID(267), size = 104, total_records = 1
+ltable[169](0x41afe8) = NVRAM_EF_UE_EUTRA_CAP_MMDC_LID(268), size = 104, total_records = 1
+ltable[170](0x41b020) = NVRAM_EF_NWSEL_DATA_LID(185), size = 188, total_records = 2
+ltable[171](0x41b058) = NVRAM_EF_EL1_PWRONCAL_LID(194), size = 16256, total_records = 1
+ltable[172](0x41b090) = NVRAM_EF_EL1_DSPLOGFILTER_LID(195), size = 2048, total_records = 1
+ltable[173](0x41b0c8) = NVRAM_EF_EL1_FREQADJTBL_LID(196), size = 8, total_records = 1
+ltable[174](0x41b100) = NVRAM_EF_EL1_RSSIGAINTBL_1STBAND_LID(197), size = 2942, total_records = 1
+ltable[175](0x41b138) = NVRAM_EF_EL1_RSSIGAINTBL_2NDBAND_LID(198), size = 2942, total_records = 1
+ltable[176](0x41b170) = NVRAM_EF_EL1_RSSIGAINTBL_3RDBAND_LID(199), size = 2942, total_records = 1
+ltable[177](0x41b1a8) = NVRAM_EF_EL1_RSSIGAINTBL_4THBAND_LID(200), size = 2942, total_records = 1
+ltable[178](0x41b1e0) = NVRAM_EF_EL1_RSSIGAINTBL_5THBAND_LID(201), size = 2942, total_records = 1
+ltable[179](0x41b218) = NVRAM_EF_EL1_RSSIGAINTBL_6THBAND_LID(202), size = 2942, total_records = 1
+ltable[180](0x41b250) = NVRAM_EF_EL1_RSSIGAINTBL_7THBAND_LID(203), size = 2942, total_records = 1
+ltable[181](0x41b288) = NVRAM_EF_EL1_RSSIGAINTBL_8THBAND_LID(204), size = 2942, total_records = 1
+ltable[182](0x41b2c0) = NVRAM_EF_EL1_RSSIGAINTBL_9THBAND_LID(205), size = 2942, total_records = 1
+ltable[183](0x41b2f8) = NVRAM_EF_EL1_RSSIGAINTBL_10THBAND_LID(206), size = 2942, total_records = 1
+ltable[184](0x41b330) = NVRAM_EF_EL1_RSSIGAINTBL_11THBAND_LID(207), size = 2942, total_records = 1
+ltable[185](0x41b368) = NVRAM_EF_EL1_RSSIGAINTBL_12THBAND_LID(208), size = 2942, total_records = 1
+ltable[186](0x41b3a0) = NVRAM_EF_EL1_RSSIGAINTBL_13THBAND_LID(209), size = 2942, total_records = 1
+ltable[187](0x41b3d8) = NVRAM_EF_EL1_RSSIGAINTBL_14THBAND_LID(210), size = 2942, total_records = 1
+ltable[188](0x41b410) = NVRAM_EF_EL1_CTRL_REG_RW_LID(211), size = 2104, total_records = 1
+ltable[189](0x41b448) = NVRAM_EF_EL1_TXDAC_1STBAND_LID(212), size = 2160, total_records = 1
+ltable[190](0x41b480) = NVRAM_EF_EL1_TXDAC_2NDBAND_LID(213), size = 2160, total_records = 1
+ltable[191](0x41b4b8) = NVRAM_EF_EL1_TXDAC_3RDBAND_LID(214), size = 2160, total_records = 1
+ltable[192](0x41b4f0) = NVRAM_EF_EL1_TXDAC_4THBAND_LID(215), size = 2160, total_records = 1
+ltable[193](0x41b528) = NVRAM_EF_EL1_TXDAC_5THBAND_LID(216), size = 2160, total_records = 1
+ltable[194](0x41b560) = NVRAM_EF_EL1_TXDAC_6THBAND_LID(217), size = 2160, total_records = 1
+ltable[195](0x41b598) = NVRAM_EF_EL1_TXDAC_7THBAND_LID(218), size = 2160, total_records = 1
+ltable[196](0x41b5d0) = NVRAM_EF_EL1_TXDAC_8THBAND_LID(219), size = 2160, total_records = 1
+ltable[197](0x41b608) = NVRAM_EF_EL1_TXDAC_9THBAND_LID(220), size = 2160, total_records = 1
+ltable[198](0x41b640) = NVRAM_EF_EL1_TXDAC_10THBAND_LID(221), size = 2160, total_records = 1
+ltable[199](0x41b678) = NVRAM_EF_EL1_TXDAC_11THBAND_LID(222), size = 2160, total_records = 1
+ltable[200](0x41b6b0) = NVRAM_EF_EL1_TXDAC_12THBAND_LID(223), size = 2160, total_records = 1
+ltable[201](0x41b6e8) = NVRAM_EF_EL1_TXDAC_13THBAND_LID(224), size = 2160, total_records = 1
+ltable[202](0x41b720) = NVRAM_EF_EL1_TXDAC_14THBAND_LID(225), size = 2160, total_records = 1
+ltable[203](0x41b758) = NVRAM_EF_EL1_TXPAOCTLEV_1STBAND_LID(226), size = 102, total_records = 1
+ltable[204](0x41b790) = NVRAM_EF_EL1_TXPAOCTLEV_2NDBAND_LID(227), size = 102, total_records = 1
+ltable[205](0x41b7c8) = NVRAM_EF_EL1_TXPAOCTLEV_3RDBAND_LID(228), size = 102, total_records = 1
+ltable[206](0x41b800) = NVRAM_EF_EL1_TXPAOCTLEV_4THBAND_LID(229), size = 102, total_records = 1
+ltable[207](0x41b838) = NVRAM_EF_EL1_TXPAOCTLEV_5THBAND_LID(230), size = 102, total_records = 1
+ltable[208](0x41b870) = NVRAM_EF_EL1_TXPAOCTLEV_6THBAND_LID(231), size = 102, total_records = 1
+ltable[209](0x41b8a8) = NVRAM_EF_EL1_TXPAOCTLEV_7THBAND_LID(232), size = 102, total_records = 1
+ltable[210](0x41b8e0) = NVRAM_EF_EL1_TXPAOCTLEV_8THBAND_LID(233), size = 102, total_records = 1
+ltable[211](0x41b918) = NVRAM_EF_EL1_TXPAOCTLEV_9THBAND_LID(234), size = 102, total_records = 1
+ltable[212](0x41b950) = NVRAM_EF_EL1_TXPAOCTLEV_10THBAND_LID(235), size = 102, total_records = 1
+ltable[213](0x41b988) = NVRAM_EF_EL1_TXPAOCTLEV_11THBAND_LID(236), size = 102, total_records = 1
+ltable[214](0x41b9c0) = NVRAM_EF_EL1_TXPAOCTLEV_12THBAND_LID(237), size = 102, total_records = 1
+ltable[215](0x41b9f8) = NVRAM_EF_EL1_TXPAOCTLEV_13THBAND_LID(238), size = 102, total_records = 1
+ltable[216](0x41ba30) = NVRAM_EF_EL1_TXPAOCTLEV_14THBAND_LID(239), size = 102, total_records = 1
+ltable[217](0x41ba68) = NVRAM_EF_EL1_ETVINLUTDATA_1STBAND_LID(240), size = 1584, total_records = 1
+ltable[218](0x41baa0) = NVRAM_EF_EL1_ETVINLUTDATA_2NDBAND_LID(241), size = 1584, total_records = 1
+ltable[219](0x41bad8) = NVRAM_EF_EL1_ETVINLUTDATA_3RDBAND_LID(242), size = 1584, total_records = 1
+ltable[220](0x41bb10) = NVRAM_EF_EL1_ETVINLUTDATA_4THBAND_LID(243), size = 1584, total_records = 1
+ltable[221](0x41bb48) = NVRAM_EF_EL1_ETVINLUTDATA_5THBAND_LID(244), size = 1584, total_records = 1
+ltable[222](0x41bb80) = NVRAM_EF_EL1_ETVINLUTDATA_6THBAND_LID(245), size = 1584, total_records = 1
+ltable[223](0x41bbb8) = NVRAM_EF_EL1_ETVINLUTDATA_7THBAND_LID(246), size = 1584, total_records = 1
+ltable[224](0x41bbf0) = NVRAM_EF_EL1_ETVINLUTDATA_8THBAND_LID(247), size = 1584, total_records = 1
+ltable[225](0x41bc28) = NVRAM_EF_EL1_ETVINLUTDATA_9THBAND_LID(248), size = 1584, total_records = 1
+ltable[226](0x41bc60) = NVRAM_EF_EL1_ETVINLUTDATA_10THBAND_LID(249), size = 1584, total_records = 1
+ltable[227](0x41bc98) = NVRAM_EF_EL1_ETVINLUTDATA_11THBAND_LID(250), size = 1584, total_records = 1
+ltable[228](0x41bcd0) = NVRAM_EF_EL1_ETVINLUTDATA_12THBAND_LID(251), size = 1584, total_records = 1
+ltable[229](0x41bd08) = NVRAM_EF_EL1_ETVINLUTDATA_13THBAND_LID(252), size = 1584, total_records = 1
+ltable[230](0x41bd40) = NVRAM_EF_EL1_ETVINLUTDATA_14THBAND_LID(253), size = 1584, total_records = 1
+ltable[231](0x41bd78) = NVRAM_EF_EL1_ETCOMPPARAM_LID(254), size = 562, total_records = 1
+ltable[232](0x41bdb0) = NVRAM_EF_EL1_TEMPERATUREDAC_LID(255), size = 16, total_records = 1
+ltable[233](0x41bde8) = NVRAM_EF_EL1_BAND_INDICATOR_LID(269), size = 30, total_records = 1
+ltable[234](0x41be20) = NVRAM_EF_EL1_RX_PDATABASE_LID(270), size = 364, total_records = 1
+ltable[235](0x41be58) = NVRAM_EF_EL1_TX_PDATABASE_LID(271), size = 252, total_records = 1
+ltable[236](0x41be90) = NVRAM_EF_EL1_RF_IO_LID(272), size = 84, total_records = 1
+ltable[237](0x41bec8) = NVRAM_EF_EL1_CUSTOM_DYNAMIC_INIT_LID(273), size = 2, total_records = 1
+ltable[238](0x41bf00) = NVRAM_EF_EL1_CUSTOM_DYNAMIC_INIT_DEBUG_LID(274), size = 832, total_records = 1
+ltable[239](0x41bf38) = NVRAM_EF_EL1_RF_RX_PATH_CONFIG_LID(275), size = 2, total_records = 1
+ltable[240](0x41bf70) = NVRAM_EF_EL1_MIPI_FEATURE_LID(276), size = 2, total_records = 1
+ltable[241](0x41bfa8) = NVRAM_EF_EL1_MIPI_RX_EVENT_1STBAND_LID(281), size = 300, total_records = 1
+ltable[242](0x41bfe0) = NVRAM_EF_EL1_MIPI_RX_EVENT_2NDBAND_LID(282), size = 300, total_records = 1
+ltable[243](0x41c018) = NVRAM_EF_EL1_MIPI_RX_EVENT_3RDBAND_LID(283), size = 300, total_records = 1
+ltable[244](0x41c050) = NVRAM_EF_EL1_MIPI_RX_EVENT_4THBAND_LID(284), size = 300, total_records = 1
+ltable[245](0x41c088) = NVRAM_EF_EL1_MIPI_RX_EVENT_5THBAND_LID(285), size = 300, total_records = 1
+ltable[246](0x41c0c0) = NVRAM_EF_EL1_MIPI_RX_EVENT_6THBAND_LID(286), size = 300, total_records = 1
+ltable[247](0x41c0f8) = NVRAM_EF_EL1_MIPI_RX_EVENT_7THBAND_LID(287), size = 300, total_records = 1
+ltable[248](0x41c130) = NVRAM_EF_EL1_MIPI_RX_EVENT_8THBAND_LID(288), size = 300, total_records = 1
+ltable[249](0x41c168) = NVRAM_EF_EL1_MIPI_RX_EVENT_9THBAND_LID(289), size = 300, total_records = 1
+ltable[250](0x41c1a0) = NVRAM_EF_EL1_MIPI_RX_EVENT_10THBAND_LID(290), size = 300, total_records = 1
+ltable[251](0x41c1d8) = NVRAM_EF_EL1_MIPI_RX_EVENT_11THBAND_LID(291), size = 300, total_records = 1
+ltable[252](0x41c210) = NVRAM_EF_EL1_MIPI_RX_EVENT_12THBAND_LID(292), size = 300, total_records = 1
+ltable[253](0x41c248) = NVRAM_EF_EL1_MIPI_RX_EVENT_13THBAND_LID(293), size = 300, total_records = 1
+ltable[254](0x41c280) = NVRAM_EF_EL1_MIPI_RX_EVENT_14THBAND_LID(294), size = 300, total_records = 1
+ltable[255](0x41c2b8) = NVRAM_EF_EL1_MIPI_TX_EVENT_1STBAND_LID(295), size = 300, total_records = 1
+ltable[256](0x41c2f0) = NVRAM_EF_EL1_MIPI_TX_EVENT_2NDBAND_LID(296), size = 300, total_records = 1
+ltable[257](0x41c328) = NVRAM_EF_EL1_MIPI_TX_EVENT_3RDBAND_LID(297), size = 300, total_records = 1
+ltable[258](0x41c360) = NVRAM_EF_EL1_MIPI_TX_EVENT_4THBAND_LID(298), size = 300, total_records = 1
+ltable[259](0x41c398) = NVRAM_EF_EL1_MIPI_TX_EVENT_5THBAND_LID(299), size = 300, total_records = 1
+ltable[260](0x41c3d0) = NVRAM_EF_EL1_MIPI_TX_EVENT_6THBAND_LID(300), size = 300, total_records = 1
+ltable[261](0x41c408) = NVRAM_EF_EL1_MIPI_TX_EVENT_7THBAND_LID(301), size = 300, total_records = 1
+ltable[262](0x41c440) = NVRAM_EF_EL1_MIPI_TX_EVENT_8THBAND_LID(302), size = 300, total_records = 1
+ltable[263](0x41c478) = NVRAM_EF_EL1_MIPI_TX_EVENT_9THBAND_LID(303), size = 300, total_records = 1
+ltable[264](0x41c4b0) = NVRAM_EF_EL1_MIPI_TX_EVENT_10THBAND_LID(304), size = 300, total_records = 1
+ltable[265](0x41c4e8) = NVRAM_EF_EL1_MIPI_TX_EVENT_11THBAND_LID(305), size = 300, total_records = 1
+ltable[266](0x41c520) = NVRAM_EF_EL1_MIPI_TX_EVENT_12THBAND_LID(306), size = 300, total_records = 1
+ltable[267](0x41c558) = NVRAM_EF_EL1_MIPI_TX_EVENT_13THBAND_LID(307), size = 300, total_records = 1
+ltable[268](0x41c590) = NVRAM_EF_EL1_MIPI_TX_EVENT_14THBAND_LID(308), size = 300, total_records = 1
+ltable[269](0x41c5c8) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_1STBAND_LID(323), size = 1820, total_records = 1
+ltable[270](0x41c600) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_2NDBAND_LID(324), size = 1820, total_records = 1
+ltable[271](0x41c638) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_3RDBAND_LID(325), size = 1820, total_records = 1
+ltable[272](0x41c670) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_4THBAND_LID(326), size = 1820, total_records = 1
+ltable[273](0x41c6a8) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_5THBAND_LID(327), size = 1820, total_records = 1
+ltable[274](0x41c6e0) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_6THBAND_LID(328), size = 1820, total_records = 1
+ltable[275](0x41c718) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_7THBAND_LID(329), size = 1820, total_records = 1
+ltable[276](0x41c750) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_8THBAND_LID(330), size = 1820, total_records = 1
+ltable[277](0x41c788) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_9THBAND_LID(331), size = 1820, total_records = 1
+ltable[278](0x41c7c0) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_10THBAND_LID(332), size = 1820, total_records = 1
+ltable[279](0x41c7f8) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_11THBAND_LID(333), size = 1820, total_records = 1
+ltable[280](0x41c830) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_12THBAND_LID(334), size = 1820, total_records = 1
+ltable[281](0x41c868) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_13THBAND_LID(335), size = 1820, total_records = 1
+ltable[282](0x41c8a0) = NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_14THBAND_LID(336), size = 1820, total_records = 1
+ltable[283](0x41c8d8) = NVRAM_EF_EL1_MPRADJTBL_LID(256), size = 168, total_records = 1
+ltable[284](0x41c910) = NVRAM_EF_EL1_AMPRADJTBL_LID(257), size = 728, total_records = 1
+ltable[285](0x41c948) = NVRAM_EF_EL1_MIPI_TPC_EVENT_1STBAND_LID(309), size = 72, total_records = 1
+ltable[286](0x41c980) = NVRAM_EF_EL1_MIPI_TPC_EVENT_2NDBAND_LID(310), size = 72, total_records = 1
+ltable[287](0x41c9b8) = NVRAM_EF_EL1_MIPI_TPC_EVENT_3RDBAND_LID(311), size = 72, total_records = 1
+ltable[288](0x41c9f0) = NVRAM_EF_EL1_MIPI_TPC_EVENT_4THBAND_LID(312), size = 72, total_records = 1
+ltable[289](0x41ca28) = NVRAM_EF_EL1_MIPI_TPC_EVENT_5THBAND_LID(313), size = 72, total_records = 1
+ltable[290](0x41ca60) = NVRAM_EF_EL1_MIPI_TPC_EVENT_6THBAND_LID(314), size = 72, total_records = 1
+ltable[291](0x41ca98) = NVRAM_EF_EL1_MIPI_TPC_EVENT_7THBAND_LID(315), size = 72, total_records = 1
+ltable[292](0x41cad0) = NVRAM_EF_EL1_MIPI_TPC_EVENT_8THBAND_LID(316), size = 72, total_records = 1
+ltable[293](0x41cb08) = NVRAM_EF_EL1_MIPI_TPC_EVENT_9THBAND_LID(317), size = 72, total_records = 1
+ltable[294](0x41cb40) = NVRAM_EF_EL1_MIPI_TPC_EVENT_10THBAND_LID(318), size = 72, total_records = 1
+ltable[295](0x41cb78) = NVRAM_EF_EL1_MIPI_TPC_EVENT_11THBAND_LID(319), size = 72, total_records = 1
+ltable[296](0x41cbb0) = NVRAM_EF_EL1_MIPI_TPC_EVENT_12THBAND_LID(320), size = 72, total_records = 1
+ltable[297](0x41cbe8) = NVRAM_EF_EL1_MIPI_TPC_EVENT_13THBAND_LID(321), size = 72, total_records = 1
+ltable[298](0x41cc20) = NVRAM_EF_EL1_MIPI_TPC_EVENT_14THBAND_LID(322), size = 72, total_records = 1
+ltable[299](0x41cc58) = NVRAM_EF_EL1_RXON_BPIOFFSET_LID(277), size = 12, total_records = 1
+ltable[300](0x41cc90) = NVRAM_EF_EL1_TXON_BPIOFFSET_LID(278), size = 16, total_records = 1
+ltable[301](0x41ccc8) = NVRAM_EF_EL1_RXOFF_BPIOFFSET_LID(279), size = 8, total_records = 1
+ltable[302](0x41cd00) = NVRAM_EF_EL1_TXOFF_BPIOFFSET_LID(280), size = 4, total_records = 1
+ltable[303](0x41cd38) = NVRAM_EF_EL1_MIPI_BYPASS_FEATURE_LID(370), size = 2, total_records = 1
+ltable[304](0x41cd70) = NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_1STBAND_LID(371), size = 300, total_records = 1
+ltable[305](0x41cda8) = NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_2NDBAND_LID(372), size = 300, total_records = 1
+ltable[306](0x41cde0) = NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_3RDBAND_LID(373), size = 300, total_records = 1
+ltable[307](0x41ce18) = NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_1STBAND_LID(376), size = 72, total_records = 1
+ltable[308](0x41ce50) = NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_2NDBAND_LID(377), size = 72, total_records = 1
+ltable[309](0x41ce88) = NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_3RDBAND_LID(378), size = 72, total_records = 1
+ltable[310](0x41cec0) = NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_1STBAND_LID(381), size = 1820, total_records = 1
+ltable[311](0x41cef8) = NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_2NDBAND_LID(382), size = 1820, total_records = 1
+ltable[312](0x41cf30) = NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_3RDBAND_LID(383), size = 1820, total_records = 1
+ltable[313](0x41cf68) = NVRAM_EF_EL1_MIPI_RX_DATA_1STBAND_LID(337), size = 2400, total_records = 1
+ltable[314](0x41cfa0) = NVRAM_EF_EL1_MIPI_RX_DATA_2NDBAND_LID(338), size = 2400, total_records = 1
+ltable[315](0x41cfd8) = NVRAM_EF_EL1_MIPI_RX_DATA_3RDBAND_LID(339), size = 2400, total_records = 1
+ltable[316](0x41d010) = NVRAM_EF_EL1_MIPI_RX_DATA_4THBAND_LID(340), size = 2400, total_records = 1
+ltable[317](0x41d048) = NVRAM_EF_EL1_MIPI_RX_DATA_5THBAND_LID(341), size = 2400, total_records = 1
+ltable[318](0x41d080) = NVRAM_EF_EL1_MIPI_RX_DATA_6THBAND_LID(342), size = 2400, total_records = 1
+ltable[319](0x41d0b8) = NVRAM_EF_EL1_MIPI_RX_DATA_7THBAND_LID(343), size = 2400, total_records = 1
+ltable[320](0x41d0f0) = NVRAM_EF_EL1_MIPI_RX_DATA_8THBAND_LID(344), size = 2400, total_records = 1
+ltable[321](0x41d128) = NVRAM_EF_EL1_MIPI_RX_DATA_9THBAND_LID(345), size = 2400, total_records = 1
+ltable[322](0x41d160) = NVRAM_EF_EL1_MIPI_RX_DATA_10THBAND_LID(346), size = 2400, total_records = 1
+ltable[323](0x41d198) = NVRAM_EF_EL1_MIPI_RX_DATA_11THBAND_LID(347), size = 2400, total_records = 1
+ltable[324](0x41d1d0) = NVRAM_EF_EL1_MIPI_RX_DATA_12THBAND_LID(348), size = 2400, total_records = 1
+ltable[325](0x41d208) = NVRAM_EF_EL1_MIPI_RX_DATA_13THBAND_LID(349), size = 2400, total_records = 1
+ltable[326](0x41d240) = NVRAM_EF_EL1_MIPI_RX_DATA_14THBAND_LID(350), size = 2400, total_records = 1
+ltable[327](0x41d278) = NVRAM_EF_EL1_MIPI_TX_DATA_1STBAND_LID(351), size = 2880, total_records = 1
+ltable[328](0x41d2b0) = NVRAM_EF_EL1_MIPI_TX_DATA_2NDBAND_LID(352), size = 2880, total_records = 1
+ltable[329](0x41d2e8) = NVRAM_EF_EL1_MIPI_TX_DATA_3RDBAND_LID(353), size = 2880, total_records = 1
+ltable[330](0x41d320) = NVRAM_EF_EL1_MIPI_TX_DATA_4THBAND_LID(354), size = 2880, total_records = 1
+ltable[331](0x41d358) = NVRAM_EF_EL1_MIPI_TX_DATA_5THBAND_LID(355), size = 2880, total_records = 1
+ltable[332](0x41d390) = NVRAM_EF_EL1_MIPI_TX_DATA_6THBAND_LID(356), size = 2880, total_records = 1
+ltable[333](0x41d3c8) = NVRAM_EF_EL1_MIPI_TX_DATA_7THBAND_LID(357), size = 2880, total_records = 1
+ltable[334](0x41d400) = NVRAM_EF_EL1_MIPI_TX_DATA_8THBAND_LID(358), size = 2880, total_records = 1
+ltable[335](0x41d438) = NVRAM_EF_EL1_MIPI_TX_DATA_9THBAND_LID(359), size = 2880, total_records = 1
+ltable[336](0x41d470) = NVRAM_EF_EL1_MIPI_TX_DATA_10THBAND_LID(360), size = 2880, total_records = 1
+ltable[337](0x41d4a8) = NVRAM_EF_EL1_MIPI_TX_DATA_11THBAND_LID(361), size = 2880, total_records = 1
+ltable[338](0x41d4e0) = NVRAM_EF_EL1_MIPI_TX_DATA_12THBAND_LID(362), size = 2880, total_records = 1
+ltable[339](0x41d518) = NVRAM_EF_EL1_MIPI_TX_DATA_13THBAND_LID(363), size = 2880, total_records = 1
+ltable[340](0x41d550) = NVRAM_EF_EL1_MIPI_TX_DATA_14THBAND_LID(364), size = 2880, total_records = 1
+ltable[341](0x41d588) = NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_1STBAND_LID(365), size = 2880, total_records = 1
+ltable[342](0x41d5c0) = NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_2NDBAND_LID(366), size = 2880, total_records = 1
+ltable[343](0x41d5f8) = NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_3RDBAND_LID(367), size = 2880, total_records = 1
+ltable[344](0x41d630) = NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_4THBAND_LID(374), size = 300, total_records = 1
+ltable[345](0x41d668) = NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_5THBAND_LID(375), size = 300, total_records = 1
+ltable[346](0x41d6a0) = NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_4THBAND_LID(379), size = 72, total_records = 1
+ltable[347](0x41d6d8) = NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_5THBAND_LID(380), size = 72, total_records = 1
+ltable[348](0x41d710) = NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_4THBAND_LID(384), size = 1820, total_records = 1
+ltable[349](0x41d748) = NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_5THBAND_LID(385), size = 1820, total_records = 1
+ltable[350](0x41d780) = NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_4THBAND_LID(368), size = 2880, total_records = 1
+ltable[351](0x41d7b8) = NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_5THBAND_LID(369), size = 2880, total_records = 1
+ltable[352](0x41d7f0) = NVRAM_EF_HMU_CONFIG_LID(403), size = 1400, total_records = 1
+ltable[353](0x41d828) = NVRAM_EF_HMU_HD_CONFIG_LID(404), size = 784, total_records = 1
+ltable[354](0x41d860) = NVRAM_EF_NMU_CONFIG_LID(405), size = 12, total_records = 1
+ltable[355](0x41d898) = NVRAM_EF_REGIONAL_PHONE_MODE_LID(407), size = 1, total_records = 1
+ltable[356](0x41d8d0) = NVRAM_EF_IMS_PROFILE_LID(176), size = 1184, total_records = 2
+ltable[357](0x41d908) = NVRAM_EF_LTECSR_PROFILE_LID(177), size = 28, total_records = 1
+ltable[358](0x41d940) = NVRAM_EF_VDM_ADS_PROFILE_LID(178), size = 52, total_records = 2
+ltable[359](0x41d978) = NVRAM_EF_L1_MIPI_CTRL_TABLE_GSM850_LID(116), size = 5888, total_records = 1
+ltable[360](0x41d9b0) = NVRAM_EF_L1_MIPI_CTRL_TABLE_GSM900_LID(117), size = 5888, total_records = 1
+ltable[361](0x41d9e8) = NVRAM_EF_L1_MIPI_CTRL_TABLE_DCS1800_LID(118), size = 5888, total_records = 1
+ltable[362](0x41da20) = NVRAM_EF_L1_MIPI_CTRL_TABLE_PCS1900_LID(119), size = 5888, total_records = 1
+ltable[363](0x41da58) = NVRAM_EF_L1_CUSTOM_DRDI_STATUS_DEBUGINFO_LID(120), size = 200, total_records = 1
+ltable[364](0x41da90) = NVRAM_EF_SBP_MODEM_CONFIG_LID(409), size = 16, total_records = 1
+ltable[365](0x41dac8) = NVRAM_EF_SBP_MODEM_DATA_CONFIG_LID(410), size = 16, total_records = 1
+ltable[366](0x41db00) = NVRAM_EF_UL1_3G_RF_PARAMETER_LID(1026), size = 860, total_records = 1
+ltable[367](0x41db38) = NVRAM_EF_UL1_IOT_CUSTOMIZATION_LID(1027), size = 4, total_records = 1
+ltable[368](0x41db70) = NVRAM_EF_UL1_HSPA_CATEGORY_LID(1028), size = 2, total_records = 1
+ltable[369](0x41dba8) = NVRAM_EF_UL1_CUSTOM_DYNAMIC_INIT_DEBUG_LID(192), size = 864, total_records = 1
+ltable[370](0x41dbe0) = NVRAM_EF_UL1_MIPI_TPC_HIGHBAND1_LID(1029), size = 2816, total_records = 1
+ltable[371](0x41dc18) = NVRAM_EF_UL1_MIPI_TPC_HIGHBAND2_LID(1030), size = 2816, total_records = 1
+ltable[372](0x41dc50) = NVRAM_EF_UL1_MIPI_TPC_HIGHBAND3_LID(1031), size = 2816, total_records = 1
+ltable[373](0x41dc88) = NVRAM_EF_UL1_MIPI_TPC_LOWBAND1_LID(1032), size = 2816, total_records = 1
+ltable[374](0x41dcc0) = NVRAM_EF_UL1_MIPI_TPC_LOWBAND2_LID(1033), size = 2816, total_records = 1
+ltable[375](0x41dcf8) = NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND1_LID(1039), size = 288, total_records = 1
+ltable[376](0x41dd30) = NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND2_LID(1040), size = 288, total_records = 1
+ltable[377](0x41dd68) = NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND3_LID(1041), size = 288, total_records = 1
+ltable[378](0x41dda0) = NVRAM_EF_UL1_MIPI_RX_EVENT_LOWBAND1_LID(1042), size = 288, total_records = 1
+ltable[379](0x41ddd8) = NVRAM_EF_UL1_MIPI_RX_EVENT_LOWBAND2_LID(1043), size = 288, total_records = 1
+ltable[380](0x41de10) = NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND1_LID(1044), size = 1904, total_records = 1
+ltable[381](0x41de48) = NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND2_LID(1045), size = 1904, total_records = 1
+ltable[382](0x41de80) = NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND3_LID(1046), size = 1904, total_records = 1
+ltable[383](0x41deb8) = NVRAM_EF_UL1_MIPI_RX_DATA_LOWBAND1_LID(1047), size = 1904, total_records = 1
+ltable[384](0x41def0) = NVRAM_EF_UL1_MIPI_RX_DATA_LOWBAND2_LID(1048), size = 1904, total_records = 1
+ltable[385](0x41df28) = NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND1_LID(1049), size = 192, total_records = 1
+ltable[386](0x41df60) = NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND2_LID(1050), size = 192, total_records = 1
+ltable[387](0x41df98) = NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND3_LID(1051), size = 192, total_records = 1
+ltable[388](0x41dfd0) = NVRAM_EF_UL1_MIPI_TX_EVENT_LOWBAND1_LID(1052), size = 192, total_records = 1
+ltable[389](0x41e008) = NVRAM_EF_UL1_MIPI_TX_EVENT_LOWBAND2_LID(1053), size = 192, total_records = 1
+ltable[390](0x41e040) = NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND1_LID(1054), size = 1224, total_records = 1
+ltable[391](0x41e078) = NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND2_LID(1055), size = 1224, total_records = 1
+ltable[392](0x41e0b0) = NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND3_LID(1056), size = 1224, total_records = 1
+ltable[393](0x41e0e8) = NVRAM_EF_UL1_MIPI_TX_DATA_LOWBAND1_LID(1057), size = 1224, total_records = 1
+ltable[394](0x41e120) = NVRAM_EF_UL1_MIPI_TX_DATA_LOWBAND2_LID(1058), size = 1224, total_records = 1
+ltable[395](0x41e158) = NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND1_LID(1059), size = 16, total_records = 1
+ltable[396](0x41e190) = NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND2_LID(1060), size = 16, total_records = 1
+ltable[397](0x41e1c8) = NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND3_LID(1061), size = 16, total_records = 1
+ltable[398](0x41e200) = NVRAM_EF_UL1_MIPI_ASM_ISOLATION_LOWBAND1_LID(1062), size = 16, total_records = 1
+ltable[399](0x41e238) = NVRAM_EF_UL1_MIPI_ASM_ISOLATION_LOWBAND2_LID(1063), size = 16, total_records = 1
+ltable[400](0x41e270) = NVRAM_EF_UL1_MIPI_INIT_CW_LID(1064), size = 480, total_records = 1
+ltable[401](0x41e2a8) = NVRAM_EF_UL1_MIPI_SLEEP_CW_LID(1065), size = 320, total_records = 1
+ltable[402](0x41e2e0) = NVRAM_EF_SYS_EXCEPTION_LID(6), size = 512, total_records = 10
+ltable[403](0x41e318) = NVRAM_EF_ADC_LID(2560), size = 48, total_records = 1
+nvram_gen_trace
+Create 2f2932b0:./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/nvram_gen_trc.h successfully!
+nvram_gen_cat_xml
+Create 2f2932b0:./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/custom_nvram_lid_cat.xml successfully!
+nvram_gen_lid_size
+nvram_gen_statistic
+nvram_gen_restore_function
+Create 2f2932b0:./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/custom_nvram_restore.c successfully!
+Create 2f2944a0:./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/nvram_restore_dom.h successfully!
+nvram_gen_secro
+nvram_gen_database_key
+Create 2f2944a0:./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/custom_nvram_database.h successfully!
+nvram_gen_fs_quota: begin
+Create 2f2944a0:./build/LCSH6795_LWT_L/LWG/cksysdrv/~fs_quota_usage.log successfully!
+nvram_gen_fs_quota: end
+./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/nvram_ltable_list.h
+./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.map
+./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota.o
+g_fs_quota_init

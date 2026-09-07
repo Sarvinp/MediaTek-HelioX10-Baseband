@@ -1,0 +1,672 @@
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libc.so.6                     ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.o (fgets@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_gen_util.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_gen_util.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_factory_config.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_factory_config.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_data_items.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_data_items.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_cust_pack.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_cust_pack.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/custom_nvram_sec.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/custom_nvram_sec.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ul1_nvram_def.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ul1_nvram_def.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/audio_nvram_def.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/audio_nvram_def.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ex_nvram_def.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ex_nvram_def.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/adc_nvram_def.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/adc_nvram_def.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota_entry_dump.o
+ .note.gnu.property
+                0x0000000000000000       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota_entry_dump.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x400000))
+                0x00000000004002a8                . = (SEGMENT_START ("text-segment", 0x400000) + SIZEOF_HEADERS)
+
+.interp         0x00000000004002a8       0x1c
+ *(.interp)
+ .interp        0x00000000004002a8       0x1c /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.property
+                0x00000000004002c8       0x30
+ .note.gnu.property
+                0x00000000004002c8       0x30 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x00000000004002f8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00000000004002f8       0x24 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x000000000040031c       0x20
+ .note.ABI-tag  0x000000000040031c       0x20 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000400340       0x28
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000400340       0x28 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x0000000000400368      0x2a0
+ *(.dynsym)
+ .dynsym        0x0000000000400368      0x2a0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x0000000000400608      0x13b
+ *(.dynstr)
+ .dynstr        0x0000000000400608      0x13b /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x0000000000400744       0x38
+ *(.gnu.version)
+ .gnu.version   0x0000000000400744       0x38 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x0000000000400780        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000400780        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x0000000000400780       0x40
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000400780       0x40 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x00000000004007c0     0x8310
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x00000000004007c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x00000000004007c0        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x00000000004007c0     0x1098 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000401858       0x78 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x00000000004018d0       0x18 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x00000000004018e8        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x00000000004018e8       0x18 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x0000000000401900       0x18 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ .rela_nvram_ltable
+                0x0000000000401918     0x71a0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ .rela_indirect_init
+                0x0000000000408ab8       0x18 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x0000000000408ad0      0x1f8
+ *(.rela.plt)
+ .rela.plt      0x0000000000408ad0      0x1f8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                [!provide]                        PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                        PROVIDE (__rela_iplt_end = .)
+
+.init           0x0000000000408cc8       0x1b
+ *(.init)
+ .init          0x0000000000408cc8       0x16 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o
+                0x0000000000408cc8                _init
+ .init          0x0000000000408cde        0x5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000408cf0      0x160
+ *(.plt)
+ .plt           0x0000000000408cf0      0x160 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ *(.iplt)
+
+.text           0x0000000000408e50     0x3e0d
+ *(.text.unlikely .text.*_unlikely)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000408e50       0x26 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000408e50                _start
+ .text          0x0000000000408e76        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x0000000000408e76        0xa 90909090
+ .text          0x0000000000408e80       0xb9 /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+ .text          0x0000000000408f39     0x3577 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.o
+                0x0000000000408f39                nvram_gen_check_sys_cache
+                0x0000000000409138                nvram_gen_sys_cache_default
+                0x00000000004092b7                nvram_gen_sys_cache_res_func
+                0x0000000000409537                nvram_gen_ltable_list
+                0x00000000004098ab                nvram_gen_lid_size
+                0x000000000040a084                nvram_gen_statistic
+                0x000000000040a25b                nvram_gen_array
+                0x000000000040a4c5                nvram_gen_secro
+                0x000000000040b03d                nvram_gen_create_file
+                0x000000000040b22e                nvram_gen_close_file
+                0x000000000040b250                nvram_gen_restore_function
+                0x000000000040b5cc                nvram_gen_database_key
+                0x000000000040b64e                nvram_gen_custpack_table
+                0x000000000040bb7f                nvram_gen_cat_xml
+                0x000000000040c0b7                nvram_gen_trace
+                0x000000000040c23e                main
+ .text          0x000000000040c4b0      0x71d ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_gen_util.o
+                0x000000000040c4b0                free_int_ilm
+                0x000000000040c4c6                nvram_gen_assign_entry
+                0x000000000040c995                nvram_gen_construct_ltable
+                0x000000000040cb61                nvram_gen_search_entry
+ .text          0x000000000040cbcd        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_factory_config.o
+ .text          0x000000000040cbcd        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_data_items.o
+ .text          0x000000000040cbcd        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_cust_pack.o
+ .text          0x000000000040cbcd        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/custom_nvram_sec.o
+ .text          0x000000000040cbcd        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ul1_nvram_def.o
+ .text          0x000000000040cbcd        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/audio_nvram_def.o
+ .text          0x000000000040cbcd        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ex_nvram_def.o
+ .text          0x000000000040cbcd        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/adc_nvram_def.o
+ .text          0x000000000040cbcd        0xb ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota.o
+                0x000000000040cbcd                fs_quota_init
+ .text          0x000000000040cbd8       0x85 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota_entry_dump.o
+                0x000000000040cbd8                nvram_gen_fs_quota
+ .text          0x000000000040cc5d        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o
+ .text          0x000000000040cc5d        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.plt.got        0x000000000040cc60       0x10
+ .plt.got       0x000000000040cc60       0x10 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000040cc60                __cxa_finalize@@GLIBC_2.2.5
+
+.plt.sec        0x000000000040cc70      0x150
+ .plt.sec       0x000000000040cc70      0x150 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000040cc70                strcasecmp@@GLIBC_2.2.5
+                0x000000000040cc80                __errno_location@@GLIBC_2.2.5
+                0x000000000040cc90                puts@@GLIBC_2.2.5
+                0x000000000040cca0                fclose@@GLIBC_2.2.5
+                0x000000000040ccb0                strlen@@GLIBC_2.2.5
+                0x000000000040ccc0                __stack_chk_fail@@GLIBC_2.4
+                0x000000000040ccd0                strchr@@GLIBC_2.2.5
+                0x000000000040cce0                printf@@GLIBC_2.2.5
+                0x000000000040ccf0                strrchr@@GLIBC_2.2.5
+                0x000000000040cd00                fputc@@GLIBC_2.2.5
+                0x000000000040cd10                fgets@@GLIBC_2.2.5
+                0x000000000040cd20                strcmp@@GLIBC_2.2.5
+                0x000000000040cd30                fprintf@@GLIBC_2.2.5
+                0x000000000040cd40                malloc@@GLIBC_2.2.5
+                0x000000000040cd50                access@@GLIBC_2.2.5
+                0x000000000040cd60                fopen@@GLIBC_2.2.5
+                0x000000000040cd70                sprintf@@GLIBC_2.2.5
+                0x000000000040cd80                exit@@GLIBC_2.2.5
+                0x000000000040cd90                fwrite@@GLIBC_2.2.5
+                0x000000000040cda0                strerror@@GLIBC_2.2.5
+                0x000000000040cdb0                strstr@@GLIBC_2.2.5
+
+.fini           0x000000000040cdc0        0xd
+ *(.fini)
+ .fini          0x000000000040cdc0        0x8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o
+                0x000000000040cdc0                _fini
+ .fini          0x000000000040cdc8        0x5 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x000000000040cde0     0x937d
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x000000000040cde0        0x4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000040cde0                _IO_stdin_used
+ *fill*         0x000000000040cde4        0x4 
+ .rodata        0x000000000040cde8     0x2104 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.o
+ *fill*         0x000000000040eeec        0x4 
+ .rodata        0x000000000040eef0      0x1ca ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_gen_util.o
+ *fill*         0x000000000040f0ba        0x6 
+ .rodata        0x000000000040f0c0     0x103f ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_factory_config.o
+ *fill*         0x00000000004100ff        0x1 
+ .rodata        0x0000000000410100     0x4e98 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_data_items.o
+                0x0000000000410100                NVRAM_EF_ZERO_DEFAULT
+                0x0000000000410101                NVRAM_EF_FF_DEFAULT
+                0x00000000004101a0                COMMON_NVRAM_EF_NWSEL_DATA_DEFAULT
+                0x000000000041025c                NVRAM_EF_ETWS_SETTING_DEFAULT
+ *fill*         0x0000000000414f98        0x8 
+ .rodata        0x0000000000414fa0      0x822 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_cust_pack.o
+                0x0000000000414fa0                NVRAM_EF_MSQ_LIST_DEFAULT
+                0x00000000004153a0                COMMON_NVRAM_EF_SMSAL_MAILBOX_ADDR_DEFAULT
+                0x00000000004153e0                COMMON_NVRAM_EF_MS_SECURITY_DEFAULT
+                0x0000000000415406                COMMON_NVRAM_EF_ALS_LINE_ID_DEFAULT
+                0x0000000000415408                COMMON_NVRAM_EF_MSCAP_DEFAULT
+                0x0000000000415418                COMMON_NVRAM_EF_RAC_PREFERENCE_DEFAULT
+                0x0000000000415430                COMMON_NVRAM_EF_SMSAL_COMMON_PARAM_DEFAULT
+                0x0000000000415440                COMMON_NVRAM_EF_CB_DEFAULT_CH_DEFAULT
+                0x0000000000415460                COMMON_NVRAM_EF_UL1_3G_RF_PARAMETER_DEFAULT
+                0x00000000004157bc                COMMON_NVRAM_EF_UL1_IOT_CUSTOMIZATION_DEFAULT
+                0x00000000004157c0                COMMON_NVRAM_EF_UL1_HSPA_CATEGORY_DEFAULT
+ *fill*         0x00000000004157c2       0x1e 
+ .rodata        0x00000000004157e0      0x21c ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/custom_nvram_sec.o
+                0x00000000004157e0                custom_secret_key
+                0x00000000004157e8                NVRAM_SECURE_PARA
+                0x0000000000415800                NVRAM_EF_SML_DEFAULT
+                0x00000000004158e0                NVRAM_EF_SML_TMO_DEFAULT
+ *fill*         0x00000000004159fc        0x4 
+ .rodata        0x0000000000415a00      0x687 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ul1_nvram_def.o
+ .rodata        0x0000000000416087       0x2f ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ex_nvram_def.o
+ *fill*         0x00000000004160b6        0xa 
+ .rodata        0x00000000004160c0       0x69 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/adc_nvram_def.o
+ .rodata        0x0000000000416129       0x34 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota_entry_dump.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000416160       0xe4
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000416160       0xe4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000416160                __GNU_EH_FRAME_HDR
+
+.eh_frame       0x0000000000416248      0x374
+ *(.eh_frame)
+ .eh_frame      0x0000000000416248       0x30 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (size before relaxing)
+ *fill*         0x0000000000416278        0x0 
+ .eh_frame      0x0000000000416278       0x28 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x00000000004162a0       0x18 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000004162b8       0x18 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x00000000004162d0      0x208 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.o
+                                        0x220 (size before relaxing)
+ .eh_frame      0x00000000004164d8       0xa0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_gen_util.o
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000000416578       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000000416598       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota_entry_dump.o
+                                         0x38 (size before relaxing)
+ .eh_frame      0x00000000004165b8        0x4 /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+                0x00000000004165bc                . = (ALIGN (CONSTANT (MAXPAGESIZE)) - ((CONSTANT (MAXPAGESIZE) - .) & (CONSTANT (MAXPAGESIZE) - 0x1)))
+                0x0000000000417dc0                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000417dc0        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000417dc0        0x8
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x0000000000417dc0        0x8 /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000417dc8        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(.fini_array)
+ .fini_array    0x0000000000417dc8        0x8 /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+ *(SORT_BY_NAME(.fini_array.*))
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(. data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000417dd0      0x1f0
+ *(.dynamic)
+ .dynamic       0x0000000000417dd0      0x1f0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000417dd0                _DYNAMIC
+
+.got            0x0000000000417fc0       0x28
+ *(.got)
+ .got           0x0000000000417fc0       0x28 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x0000000000417fe8                . = DATA_SEGMENT_RELRO_END (., 0x18)
+
+.got.plt        0x0000000000417fe8       0xc0
+ *(.got.plt)
+ .got.plt       0x0000000000417fe8       0xc0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000417fe8                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+
+.data           0x00000000004180c0      0x6c0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000004180c0        0x4 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000004180c0                data_start
+                0x00000000004180c0                __data_start
+ .data.rel.ro   0x00000000004180c4        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ .data          0x00000000004180c4        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o
+ .data          0x00000000004180c4        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+ *fill*         0x00000000004180c4        0x4 
+ .data.rel.local
+                0x00000000004180c8        0x8 /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+                0x00000000004180c8                __dso_handle
+ .data          0x00000000004180d0        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.o
+ .data          0x00000000004180d0        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_gen_util.o
+ .data          0x00000000004180d0        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_factory_config.o
+ .data          0x00000000004180d0       0x20 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_data_items.o
+ *fill*         0x00000000004180f0       0x10 
+ .data.rel.local
+                0x0000000000418100      0x680 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_data_items.o
+                0x0000000000418100                nvram_sys_cache
+ .data          0x0000000000418780        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_cust_pack.o
+ .data          0x0000000000418780        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/custom_nvram_sec.o
+ .data          0x0000000000418780        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ul1_nvram_def.o
+ .data          0x0000000000418780        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/audio_nvram_def.o
+ .data          0x0000000000418780        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ex_nvram_def.o
+ .data          0x0000000000418780        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/adc_nvram_def.o
+ .data          0x0000000000418780        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota.o
+ .data          0x0000000000418780        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota_entry_dump.o
+ .data          0x0000000000418780        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o
+ .data          0x0000000000418780        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x0000000000418780        0x0
+ .tm_clone_table
+                0x0000000000418780        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+ .tm_clone_table
+                0x0000000000418780        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000418780                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000418780                __bss_start = .
+
+.bss            0x0000000000418780      0x370
+ *(.dynbss)
+ .dynbss        0x0000000000418780        0x8 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000418780                stderr@@GLIBC_2.2.5
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000418788        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x0000000000418788        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000418788        0x1 /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+ *fill*         0x0000000000418789       0x17 
+ .bss           0x00000000004187a0      0x320 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.o
+                0x00000000004187a0                s
+                0x00000000004189a0                indirect_end_symbol
+ .bss           0x0000000000418ac0       0x2c ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_gen_util.o
+                0x0000000000418ac0                custpack_total_to_verify
+                0x0000000000418ac4                secupack_total_to_verify
+                0x0000000000418ac8                secupack_size_to_verify
+                0x0000000000418acc                secupack_idx
+                0x0000000000418ad0                nvram_gen_backup_size
+                0x0000000000418ad4                nvram_gen_backup_total
+                0x0000000000418ad8                system_boot_mode
+                0x0000000000418ae0                logical_data_item_table
+                0x0000000000418ae8                nvram_gen_total_lid
+ .bss           0x0000000000418aec        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_factory_config.o
+ .bss           0x0000000000418aec        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_data_items.o
+ .bss           0x0000000000418aec        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_cust_pack.o
+ .bss           0x0000000000418aec        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/custom_nvram_sec.o
+ .bss           0x0000000000418aec        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ul1_nvram_def.o
+ .bss           0x0000000000418aec        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/audio_nvram_def.o
+ .bss           0x0000000000418aec        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ex_nvram_def.o
+ .bss           0x0000000000418aec        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/adc_nvram_def.o
+ .bss           0x0000000000418aec        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota.o
+ .bss           0x0000000000418aec        0x0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota_entry_dump.o
+ .bss           0x0000000000418aec        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o
+ .bss           0x0000000000418aec        0x0 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+                0x0000000000418af0                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000418aec        0x4 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+
+NVRAM_LTABLE    0x0000000000418af0     0x5868
+                0x0000000000418af0                nvram_ltable_begin = .
+ *(_nvram_ltable)
+ _nvram_ltable  0x0000000000418af0       0x38 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_gen_util.o
+                0x0000000000418af0                logical_data_item_table_internal
+ _nvram_ltable  0x0000000000418b28     0x1810 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_factory_config.o
+                0x0000000000418b28                logical_data_item_table_factory
+ _nvram_ltable  0x000000000041a338     0x37c8 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_data_items.o
+                0x000000000041a338                logical_data_item_table_core
+ _nvram_ltable  0x000000000041db00      0x7e0 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ul1_nvram_def.o
+                0x000000000041db00                logical_data_item_table_ul1
+ _nvram_ltable  0x000000000041e2e0       0x38 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ex_nvram_def.o
+                0x000000000041e2e0                logical_data_item_table_exception
+ _nvram_ltable  0x000000000041e318       0x38 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/adc_nvram_def.o
+                0x000000000041e318                logical_data_item_table_adc
+                0x000000000041e350                nvram_ltable_end = .
+                0x000000000041e350                indirect_init_begin = .
+ *(_indirect_init)
+ _indirect_init
+                0x000000000041e350        0x8 ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota.o
+                0x000000000041e350                g_fs_quota_init
+                0x000000000041e358                indirect_init_end = .
+                0x000000000041e358                . = ALIGN (0x8)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000420358        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000420358                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000420358                . = ALIGN (0x8)
+                0x000000000041e358                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000420358                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2d
+ *(.comment)
+ .comment       0x0000000000000000       0x2d /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_gen_util.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_factory_config.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_data_items.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_cust_pack.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/custom_nvram_sec.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ul1_nvram_def.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/audio_nvram_def.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ex_nvram_def.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/adc_nvram_def.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota.o
+ .comment       0x000000000000002d       0x2e ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota_entry_dump.o
+ .comment       0x000000000000002d       0x2e /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_auto_gen.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_gen_util.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_factory_config.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_data_items.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/nvram_cust_pack.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/custom_nvram_sec.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ul1_nvram_def.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/audio_nvram_def.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/ex_nvram_def.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/adc_nvram_def.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota.o
+LOAD ./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/debug/fs_quota_entry_dump.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib64/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+OUTPUT(./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/nvram_auto_gen elf64-x86-64)

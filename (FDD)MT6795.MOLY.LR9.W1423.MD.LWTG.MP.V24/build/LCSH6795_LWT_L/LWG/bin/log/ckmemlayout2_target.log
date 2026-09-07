@@ -1,0 +1,3 @@
+cmd=perl tools/ckLDS.pl 2 TRUE ./build/LCSH6795_LWT_L/LWG/custom/system/ldsLCSH6795_LWT_L.txt ./build/LCSH6795_LWT_L/LWG/bin/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.map ./build/LCSH6795_LWT_L/LWG/tmp/~flash_cfg_tmp.c "build/LCSH6795_LWT_L/LWG/bin/~LCSH6795_LWT_L(LWG).mak" ./build/LCSH6795_LWT_L/LWG/custom/system 0 ./build/LCSH6795_LWT_L/LWG/bin/log/infomake.log
+======================================================================
+==============================0=====================================

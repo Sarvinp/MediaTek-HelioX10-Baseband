@@ -1,0 +1,19 @@
+ACTION: 0,
+CMMFILE: ./build/LCSH6795_LWT_L/LWG/cmm/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00_nocode.cmm,
+CMMDIR:  ./build/LCSH6795_LWT_L/LWG/cmm,
+
+ELFFILE: ../bin/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.elf, 
+MAKEFILE: build/LCSH6795_LWT_L/LWG/bin/~LCSH6795_LWT_L(LWG).mak,
+
+MAUI_BIN: LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.MOLY_LR9_W1423_MD_LWTG_MP_V24.bin, 
+LISFILE: ./build/LCSH6795_LWT_L/LWG/bin/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.sym, 
+
+CC_CMD: tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc  -mthumb       , 
+VIA_CMD: @, 
+OPTION_TMP: ./build/LCSH6795_LWT_L/LWG/tmp/~customIncDef.tmp
+
+TMP_FOLDER: ./build/LCSH6795_LWT_L/LWG/tmp
+INFOMAKE_PATH: ./build/LCSH6795_LWT_L/LWG/bin/log/infomake.log
+
+TMPFILE_PATH: ./build/LCSH6795_LWT_L/LWG/tmp/cp_dsp_info.tmp
+Generate ./build/LCSH6795_LWT_L/LWG/cmm/MT6795_MD_Info.cmm from ./tools/DebuggingSuite/Misc/MT6795_MD_Info.cmm

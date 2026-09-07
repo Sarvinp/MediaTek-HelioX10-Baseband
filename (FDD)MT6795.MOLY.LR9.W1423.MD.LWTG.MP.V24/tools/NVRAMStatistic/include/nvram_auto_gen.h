@@ -263,4 +263,32 @@
 #define NVRAM_AUTO_GEN_MAX_PATH_LEN 128
 #define NVRAM_EXIT_CODE_ERROR 3
 
+
+/* ------------------------------------------------ */
+/* Host-side build protection for nvram_auto_gen    */
+/* ------------------------------------------------ */
+#ifdef NVRAM_AUTO_GEN
+
+/* These stubs prevent parsing errors when building
+   the PC-side nvram_auto_gen tool with modern GCC */
+
+#ifndef __packed
+#define __packed
+#endif
+
+#ifndef kal_uint8
+typedef unsigned char kal_uint8;
+#endif
+
+#ifndef kal_uint16
+typedef unsigned short kal_uint16;
+#endif
+
+#ifndef kal_uint32
+typedef unsigned int kal_uint32;
+#endif
+
+#endif /* NVRAM_AUTO_GEN */
+
+
 #endif/*NVRAM_AUTO_GEN_H*/

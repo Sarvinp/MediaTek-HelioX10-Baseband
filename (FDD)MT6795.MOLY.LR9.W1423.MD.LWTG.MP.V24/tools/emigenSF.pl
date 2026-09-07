@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 #
 my $DebugPrint    = 0; # 1 for debug; 0 for non-debug
-require "tools/emigenMD.pl";
+require "./tools/emigenMD.pl";
 #****************************************************************************
 # subroutine:  Lookup_SFI_setting_by_IDX_CLK_BB_REG
 # input:       MEM_IDX, CLK , PLATFORM , REGISTER

@@ -511,9 +511,9 @@ my $COMBO_SFI_CONFIG_H_OWNER     = "Way Chen(mtk54483)";
 my $COMBO_SFI_DEFS_H_OWNER       = "Way Chen(mtk54483)";
 my $COMBO_NFI_CONFIG_H_OWNER       = "Way Chen(mtk54483)";
 
-require "tools/emigenemi.pl";
-require "tools/emigenflash.pl";
-require "tools/emigenSF.pl";
+require "./tools/emigenemi.pl";
+require "./tools/emigenflash.pl";
+require "./tools/emigenSF.pl";
 
 #****************************************************************************
 # parse makefile

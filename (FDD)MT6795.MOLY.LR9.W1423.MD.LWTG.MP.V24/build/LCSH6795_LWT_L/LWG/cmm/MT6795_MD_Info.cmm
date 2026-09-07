@@ -1,0 +1,25 @@
+;;
+;; MT6595_MD_Info.cmm
+;;
+
+;; Modem paths and selection for MD (CR4)
+GLOBAL &OPT_MD_ELF_PATH
+&OPT_MD_ELF_PATH="../bin/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.elf"
+
+GLOBAL &OPT_MD_BIN_PATH
+&OPT_MD_BIN_PATH="../bin/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.MOLY_LR9_W1423_MD_LWTG_MP_V24.bin"
+
+GLOBAL &OPT_MD_SRC_PATH
+&OPT_MD_SRC_PATH="../../../.."
+
+;; Modem DSP path
+GLOBAL &OPT_DSP_BIN_PATH
+&OPT_DSP_BIN_PATH="../bin/MT6795_MP_SPI_MT6795_DSPMOLY_LR9_W1423_MD_LWTG_MP_V24.bin"
+
+
+;; For Multi-Core Debugging
+
+GLOBAL &OPT_MD_ELF_AUTO_LOAD
+&OPT_MD_ELF_AUTO_LOAD=1
+;   1: auto load elf file specified in &OPT_ELF_PATH
+;   0: manually select elf file

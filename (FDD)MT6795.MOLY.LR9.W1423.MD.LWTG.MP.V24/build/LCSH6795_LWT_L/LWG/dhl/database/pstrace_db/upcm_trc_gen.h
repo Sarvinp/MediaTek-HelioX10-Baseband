@@ -1,0 +1,13 @@
+#ifndef _upcm_trc_GEN_H_
+#define _upcm_trc_GEN_H_
+
+// UPCM_UL_RAW_DATA
+#define UPCM_UL_RAW_DATA_size NULL
+#define UPCM_UL_RAW_DATA UPCM_UL_RAW_DATA__enum,UPCM_UL_RAW_DATA_size
+
+// UPCM_DL_RAW_DATA
+#define UPCM_DL_RAW_DATA_size NULL
+#define UPCM_DL_RAW_DATA UPCM_DL_RAW_DATA__enum,UPCM_DL_RAW_DATA_size
+
+
+#endif // upcm_trc_gen.h

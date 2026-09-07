@@ -1,0 +1,33 @@
+Original System Folder Path: custom/system/MT6795_SP_MP/LWG
+Output System Folder Path: ./build/LCSH6795_LWT_L/LWG/custom/system
+===== Delete process =====
+delete custom_fota.h
+delete custom_demp.h
+delete custom_flash.h
+delete custom_scatstruct.h
+delete custom_sds_type.h
+delete custom_MemoryDevice.h
+delete custom_FeatureConfig.h
+delete custom_blconfig.c
+delete ldsLCSH6795_LWT_L_flashtool.txt
+delete custom_sds_dp.c
+delete ldsLCSH6795_LWT_L.txt
+delete custom_secure_config.h
+delete custom_img_config.h
+delete custom_img_config.c
+delete custom_EMI_release.h
+delete combo_flash_id.h
+delete custom_config.c
+delete flash_opt_gen.h
+delete custom_demp.c
+delete custom_scatstruct.c
+delete custom_sds_dp.h
+delete custom_fota.c
+delete sys_mem_size.h
+delete combo_flash_config.h
+delete custom_emi_offset.h
+===== Copy process =====
+[custom_FeatureConfig.h] Need to Copy
+Copy from custom/system/MT6795_SP_MP/LWG/custom_FeatureConfig.h.conf to ./build/LCSH6795_LWT_L/LWG/custom/system/custom_FeatureConfig.h
+[custom_MemoryDevice.h] Need to Copy
+Copy from custom/system/MT6795_SP_MP/LWG/custom_MemoryDevice.h.conf to ./build/LCSH6795_LWT_L/LWG/custom/system/custom_MemoryDevice.h

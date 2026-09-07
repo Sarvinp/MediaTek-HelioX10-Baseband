@@ -1,0 +1,3 @@
+service/config/src/hal/syscomp_config.c:260:0: warning: "MODULE_ID_FOR_PRINT_TRACE" redefined [enabled by default]
+service/config/src/hal/syscomp_config.c:255:0: note: this is the location of the previous definition
+linux[Info]: bb chip folder ./build/LCSH6795_LWT_L/LWG/custom/system

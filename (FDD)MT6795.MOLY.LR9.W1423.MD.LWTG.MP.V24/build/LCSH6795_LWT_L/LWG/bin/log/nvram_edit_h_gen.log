@@ -1,0 +1,6 @@
+make[1]: Entering directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+./build/LCSH6795_LWT_L/LWG/nvram_auto_gen/nvram_editor.h
+OS_VERSION = linux
+def_h = adc_nvram_def.h audio_nvram_def.h ul1_nvram_def.h
+editor_h = adc_nvram_editor.h audio_nvram_editor.h ul1_nvram_editor.h
+make[1]: Leaving directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'

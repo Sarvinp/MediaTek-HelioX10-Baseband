@@ -29,7 +29,7 @@ ifeq ($(strip $(OS_VERSION)),MSWin32)
     override PATH := tools/MinGW/bin:${PATH}
 	export $(PATH)
 else
-    GCC := "/usr/bin/gcc"
+    GCC := env PATH=/usr/bin:/bin /usr/bin/gcc -B/usr/bin
     LINKER_SCRIPT := tools/NVRAMStatistic/src/nvram_auto_gen_linux.txt
     MV := mv
 endif
@@ -76,15 +76,15 @@ $(bsp_obj)
 NVM_GEN_OBJS += $(output_path)/fs_quota.o $(output_path)/fs_quota_entry_dump.o
 QUOTA_SRC += fs_quota.o fs_quota_entry_dump.o
 
-ifeq ($(strip $(LEVEL)), VENDOR) # vendor release
-	NVM_OPTION =  -fshort-enums  -D "NVRAM_AUTO_GEN" -D "__VENDOR_RELEASE__"
-else
-	NVM_OPTION =  -fshort-enums  -D "NVRAM_AUTO_GEN" 
-endif
 
+ifeq ($(strip $(LEVEL)), VENDOR) # vendor release
+        NVM_OPTION =  -fshort-enums -D "NVRAM_AUTO_GEN" -D "__VENDOR_RELEASE__" 
+else
+        NVM_OPTION =  -fshort-enums -D "NVRAM_AUTO_GEN" 
+endif
 NVM_INC = -I "tools/NVRAMStatistic/include" -I "service/nvram/include"
 
-QUOTA_OPTION =  -D "BUILD_TIME_CHECK_GEN" -D "GEN_FOR_PC"
+QUOTA_OPTION =  -D "BUILD_TIME_CHECK_GEN"
 QUOTA_INC = -I "custom/common/"
 
 
