@@ -304,6 +304,12 @@ custom_rsp_type_enum custom_test_func(custom_cmdLine *commandBuffer_p)
 const custom_atcmd custom_cmd_table[ ] =
 {    
     {"AT%CUSTOM",custom_test_func},
+    {"AT+HTCSBP",custom_test_func},
+    {"AT+HTCTEST",custom_test_func},
+    {"AT+EIMS",custom_test_func},
+    {"AT+ERLM",custom_test_func},
+    {"AT+CGREG",custom_test_func},
+    {"AT+CAPL",custom_test_func},
     {NULL, NULL}  // this lind should not be removed, it will be treat as 
 };
 
