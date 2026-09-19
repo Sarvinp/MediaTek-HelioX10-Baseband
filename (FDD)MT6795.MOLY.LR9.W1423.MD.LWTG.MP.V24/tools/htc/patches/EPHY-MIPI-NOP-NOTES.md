@@ -21,3 +21,16 @@ R3-B: nop ALL 20 sites (15 EPHY_ErrorCheck_* reporters + 3 EPHY_RF_Check* driver
 + 2 subband checkers) in one image: modem_1_lwg_n.img.mipi-nop-all.img
 sha256 7492cba4fbef803e005a08b52f9d29a2e7f9ab7a69e2a63525c6d086fb2f5174
 map: tools/htc/patches/nop_sites.txt
+
+R3-C RESULT (executed 2026-09-19): *** MOLY MODEM BOOTS ***
+Image: modem_1_lwg_n.img.no-asserts.img = mipi-nop-all (20 sites)
+  + 4 assert-path patches: 3 kal_assert_fail veneers (ROM 0x3fb5a8,
+  0x3fa665, 0x3fa72d) + kal_assert_fail_specific (0x37d184) -> bx lr
+  sha256 8c94401496477aff8211741835c0d373bc4a9c6e06c0b0125fba446ea0be68b0
+On device: gsm.version.baseband = MOLY.LR9.W1423.MD.LWTG.MP.V24 2026/09/09 14:06
+  stable >60s, zero MD WDT, zero exceptions - first time in project.
+  RIL conversation active (OPERATOR/DATA_REGISTRATION_STATE/CREG answers).
+  SIM detected as USIM (gsm.ril.uicctype, gsm.serial populated) but
+  gsm.sim.state=NOT_READY - UIM/SIM init stall is the next open item.
+Note: production modem firmware ships with asserts compiled out
+  (NDEBUG); these dev checks only exist in debug-config builds.
