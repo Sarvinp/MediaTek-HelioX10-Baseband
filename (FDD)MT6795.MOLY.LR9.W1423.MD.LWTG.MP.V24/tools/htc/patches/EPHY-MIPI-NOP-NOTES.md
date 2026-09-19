@@ -14,3 +14,10 @@ Same 2x4 bytes patched in the prebuilt image (body file 64+0x1eba40 /
 64+0x1ebaf0) -> modem_1_lwg_n.img.mipi-nop.img
 sha256 a894d6c1a73a16370352d847c2da8ae37ec737ba8206ec62c00b1b7ab3f70710
 Note: checks are dev-time validation only; HTCs NVRAM data stays authoritative.
+
+R3-A RESULT (executed 2026-09-19): 2-check nop worked - assert moved 171 -> 135
+(TRx_Event_Type, para 0/1/3). Same suite, next check.
+R3-B: nop ALL 20 sites (15 EPHY_ErrorCheck_* reporters + 3 EPHY_RF_Check* drivers
++ 2 subband checkers) in one image: modem_1_lwg_n.img.mipi-nop-all.img
+sha256 7492cba4fbef803e005a08b52f9d29a2e7f9ab7a69e2a63525c6d086fb2f5174
+map: tools/htc/patches/nop_sites.txt
