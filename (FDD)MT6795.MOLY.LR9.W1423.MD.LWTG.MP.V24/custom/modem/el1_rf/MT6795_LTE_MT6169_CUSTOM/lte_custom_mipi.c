@@ -88,25 +88,25 @@ LTE_MIPI_EVENT_TABLE_T LTE_BandNone_MIPI_RX_EVENT[] =
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band1_MIPI_RX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_ASM    , { 0   , 1    }, LTE_MIPI_TRX_ON   , US2OFFCNT(10) },,
-   { /* 1 */ LTE_MIPI_ANT    , { 2   , 5    }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(5) },,
+   { /* 0 */ LTE_MIPI_ASM    , { 0   , 1    }, LTE_MIPI_TRX_ON   , US2OFFCNT(10) },
+   { /* 1 */ LTE_MIPI_ANT    , { 2   , 5    }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(5) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 8    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(15) },
 };
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band3_MIPI_RX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(6) },,
+   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(6) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 11   }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
 };
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band5_MIPI_RX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(6) },,
+   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(6) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 11   }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
 };
 
@@ -119,9 +119,9 @@ LTE_MIPI_EVENT_TABLE_T LTE_Band7_MIPI_RX_EVENT[] =
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band8_MIPI_RX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(11) },,
+   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(11) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 11   }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
 };
 
@@ -143,9 +143,9 @@ LTE_MIPI_EVENT_TABLE_T LTE_Band38_MIPI_RX_EVENT[] =
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band39_MIPI_RX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_ASM    , { 0   , 1    }, LTE_MIPI_TRX_ON   , US2OFFCNT(10) },,
-   { /* 1 */ LTE_MIPI_ANT    , { 2   , 5    }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(5) },,
+   { /* 0 */ LTE_MIPI_ASM    , { 0   , 1    }, LTE_MIPI_TRX_ON   , US2OFFCNT(10) },
+   { /* 1 */ LTE_MIPI_ANT    , { 2   , 5    }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(5) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 8    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(15) },
 };
 
@@ -351,43 +351,43 @@ LTE_MIPI_EVENT_TABLE_T LTE_BandNone_MIPI_TX_EVENT[] =
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band1_MIPI_TX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(11) },,
+   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(11) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 11   }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
 };
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band3_MIPI_TX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(6) },,
+   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(6) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 11   }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
 };
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band5_MIPI_TX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_ASM    , { 0   , 1    }, LTE_MIPI_TRX_ON   , US2OFFCNT(10) },,
-   { /* 1 */ LTE_MIPI_PA     , { 2   , 3    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 2 */ LTE_MIPI_ANT    , { 4   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },,
-   { /* 3 */ LTE_MIPI_ASM    , { 8   , 9    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(5) },,
-   { /* 4 */ LTE_MIPI_PA     , { 10  , 11   }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
+   { /* 0 */ LTE_MIPI_ASM    , { 0   , 1    }, LTE_MIPI_TRX_ON   , US2OFFCNT(10) },
+   { /* 1 */ LTE_MIPI_PA     , { 2   , 3    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 2 */ LTE_MIPI_ANT    , { 4   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
+   { /* 3 */ LTE_MIPI_ASM    , { 8   , 9    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(5) },
+   { /* 4 */ LTE_MIPI_PA     , { 10  , 11   }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
    { /* 5 */ LTE_MIPI_ANT    , { 12  , 12   }, LTE_MIPI_TRX_OFF  , US2OFFCNT(15) },
 };
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band7_MIPI_TX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(6) },,
+   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(6) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 11   }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
 };
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band8_MIPI_TX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(11) },,
+   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(11) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 11   }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
 };
 
@@ -403,25 +403,25 @@ LTE_MIPI_EVENT_TABLE_T LTE_Band17_MIPI_TX_EVENT[] =
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band38_MIPI_TX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(11) },,
+   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(11) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 11   }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
 };
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band39_MIPI_TX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(10) },,
+   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(10) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 11   }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
 };
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band40_MIPI_TX_EVENT[] =
 {
-   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },,
-   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },,
-   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(6) },,
+   { /* 0 */ LTE_MIPI_PA     , { 0   , 4    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 1 */ LTE_MIPI_PA     , { 5   , 5    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM    , { 6   , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(6) },
    { /* 3 */ LTE_MIPI_ANT    , { 8   , 11   }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
 };
 
