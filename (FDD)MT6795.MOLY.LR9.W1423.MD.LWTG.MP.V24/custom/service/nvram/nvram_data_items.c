@@ -9297,7 +9297,7 @@ ltable_entry_struct logical_data_item_table_core[] =
         NVRAM_EF_EL1_CTRL_REG_RW_LID,
         NVRAM_EF_EL1_CTRL_REG_RW_TOTAL,
         NVRAM_EF_EL1_CTRL_REG_RW_SIZE,
-        NVRAM_NORMAL(NVRAM_EF_FF_DEFAULT),
+        NVRAM_NORMAL(NVRAM_EF_ZERO_DEFAULT),
         NVRAM_CATEGORY_USER,
         NVRAM_ATTR_MULTIPLE,
         "EL1A",
