@@ -1,0 +1,3 @@
+r39c nop sites (rebuilt binary, resolved by symbol):
+EPHY_ErrorCheck_* (13 checkers), EPHY_RF_CheckSplitInd/RFMipiData/RFMipiBypass, ephy_check_subband_MipiDataTable, ephy_check_subband_MipiTpcSectionData.part.5, EPHY_ErrorCheck_Subband_MipiTpcSectionData
+resolved from readelf by NAME (old addresses invalid after rebuild)
