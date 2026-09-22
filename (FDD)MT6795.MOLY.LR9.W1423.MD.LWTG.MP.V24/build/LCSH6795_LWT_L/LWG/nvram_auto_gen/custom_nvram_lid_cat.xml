@@ -1443,7 +1443,7 @@
         <DESCRIPTION> NVRAM_EF_EL1_RSSIGAINTBL_14THBAND_LID </DESCRIPTION>
     </NVRAMITEM>
     <NVRAMITEM id="NVRAM_EF_EL1_CTRL_REG_RW_LID" prefix="EL1A" version="000" record_size="2104" total_record="1">
-        <DEFAULT_VALUE defaultByteFill="0xFF"></DEFAULT_VALUE>
+        <DEFAULT_VALUE defaultByteFill="0x00"></DEFAULT_VALUE>
         <DESCRIPTION> NVRAM_EF_EL1_CTRL_REG_RW_LID </DESCRIPTION>
     </NVRAMITEM>
     <NVRAMITEM id="NVRAM_EF_EL1_TXDAC_1STBAND_LID" prefix="EL1B" version="000" record_size="2160" total_record="1">

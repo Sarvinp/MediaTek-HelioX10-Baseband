@@ -67,23 +67,23 @@
  *
  * removed!
  * removed!
-Add common API:SFI_Dev_WorkingFrequencyQuery() to query SF Frequency
-[Query time]
-After MAUI TCT_Schedule() ready, each task is created.
-[Use method]
-1. Include header: mcu\interface\hal\storage\Flash_sfi_release.h
-2. Call SFI_Dev_WorkingFrequencyQuery()
-3. Return value of this function(enum):
-   SFI_CLK_UNKNOWN = 0
-   SFI_CLK_78MHZ   = 78
-   SFI_CLK_104MHZ  = 104
-   SFI_CLK_130MHZ  = 130
-[Notice]
-This function always exists, if the platform is not Serial Flash supported, return UNKNOWN .
+Add common API:SFI_Dev_WorkingFrequencyQuery() to query SF Frequency
+[Query time]
+After MAUI TCT_Schedule() ready, each task is created.
+[Use method]
+1. Include header: mcu\interface\hal\storage\Flash_sfi_release.h
+2. Call SFI_Dev_WorkingFrequencyQuery()
+3. Return value of this function(enum):
+   SFI_CLK_UNKNOWN = 0
+   SFI_CLK_78MHZ   = 78
+   SFI_CLK_104MHZ  = 104
+   SFI_CLK_130MHZ  = 130
+[Notice]
+This function always exists, if the platform is not Serial Flash supported, return UNKNOWN .
 
-[Check-in branches]
-11B
-11B.1132SP
+[Check-in branches]
+11B
+11B.1132SP
 MODEM_DEV
 
  * removed!

@@ -1,4 +1,4 @@
-ARRAY(0x5f0bf370c4b8)
+ARRAY(0x5fc926e964b8)
  0 ltable_entry_struct logical_data_item_table_adc[] = 
 NVRAM_EF_ADC_LID                                      "MT1F", //"MP00"
 
@@ -56,7 +56,7 @@ NVRAM_EF_UL1_VPA_SRC_SEL_LOWBAND2_LID                 "ULN9"
 NVRAM_EF_UL1_TAS_RF_LID                               "ULNA"
 NVRAM_EF_UL1_TAS_CUSTOM_LID                           "ULNB"
 
- 2 ltable_entry_struct logical_data_item_table_core[] = 
+ 2 ltable_entry_struct logical_data_item_table_core[] = 
 NVRAM_EF_SYS_STATISTICS_LID                           "MT04"
 NVRAM_EF_AS_BAND_SETTING_LID                          "MT10"
 NVRAM_EF_L1_2G_RF_PARAMETER_LID                       "MT8W"

@@ -16,4 +16,5 @@ TMP_FOLDER: ./build/LCSH6795_LWT_L/LWG/tmp
 INFOMAKE_PATH: ./build/LCSH6795_LWT_L/LWG/bin/log/infomake.log
 
 TMPFILE_PATH: ./build/LCSH6795_LWT_L/LWG/tmp/cp_dsp_info.tmp
+Generate ./build/LCSH6795_LWT_L/LWG/cmm/MT6795_MD_Info.cmm from ./build/LCSH6795_LWT_L/LWG/cmm/MT6795_MD_Info.cmm
 Generate ./build/LCSH6795_LWT_L/LWG/cmm/MT6795_MD_Info.cmm from ./tools/DebuggingSuite/Misc/MT6795_MD_Info.cmm

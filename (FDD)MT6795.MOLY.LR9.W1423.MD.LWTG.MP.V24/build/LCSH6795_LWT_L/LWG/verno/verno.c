@@ -1,7 +1,7 @@
 #include "kal_public_api.h"
 #if defined(__MTK_TARGET__)
 __attribute__ ((section ("RELEASE_VERNO_RW"))) static kal_char verno_str[] = "MOLY.LR9.W1423.MD.LWTG.MP.V24";
-__attribute__ ((section ("BUILD_TIME_RW"))) static kal_char build_date_time_str[] = "2026/07/11 15:42";
+__attribute__ ((section ("BUILD_TIME_RW"))) static kal_char build_date_time_str[] = "2026/09/22 17:06";
 __attribute__ ((section ("RELEASE_BRANCH_RW"))) static kal_char build_branch_str[] = "LR9.W1423.MD.LWTG.MP LCSH6795_LWT_L";
 extern kal_uint32 RELEASE_VERNO_RW$$Base;
 extern kal_uint32 BUILD_TIME_RW$$Base;
@@ -43,7 +43,7 @@ kal_char* build_date_time(void)
    return (kal_char*)&BUILD_TIME_RW$$Base;
 #endif
 #else
-   static kal_char build_date_time_str[] = "2026/07/11 15:42";
+   static kal_char build_date_time_str[] = "2026/09/22 17:06";
    return build_date_time_str;
 #endif
 }

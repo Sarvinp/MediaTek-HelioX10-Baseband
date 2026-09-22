@@ -1,0 +1,11 @@
+Failed to get DSPMOLY version
+build/LCSH6795_LWT_L/LWG/rel/L4/csm/ss/applib2_asn_common.c
+build/LCSH6795_LWT_L/LWG/rel/L4/csm/ss/applib2_asn_memory.c
+build/LCSH6795_LWT_L/LWG/modem/dbme/db_access.c
+build/LCSH6795_LWT_L/LWG/modem/dbme/dbme.c
+build/LCSH6795_LWT_L/LWG/modem/rrc_asn/rrc_db_decode.c
+build/LCSH6795_LWT_L/LWG/modem/rrc_asn/rrc_db_encode.c
+custom/driver/drv/misc_drv/_Default_BB/MT6795/custom_sim_driver.c
+MOLY.LR9.W1423.MD.LWTG.MP.V24
+MOLY.LR9.W1423.MD.LWTG.MP.V24
+MT6795_S00

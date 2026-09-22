@@ -1,0 +1,36 @@
+project_name = LCSH6795_LWT_L
+flavor = LWG
+clean build/LCSH6795_LWT_L/LWG/tmp/*.*
+make: Nothing to be done for 'gen_concatenate_proj'.
+concatenate_proj_mak = build/LCSH6795_LWT_L/LWG/bin/~LCSH6795_LWT_L(LWG).mak
+*******************************************
+recommended Build Environment
+*******************************************
+* [OS]                : Linux
+* [PERL]              : v5.10.1 or v5.14.2
+* [MAKE]              : GNU Make v3.81
+* [SHELL]             : GNU bash v4.1.5
+* [GCC-ARM-NONE-EABI] : v4.6.2 or above
+* [NATIVE GCC(UBUNTU)]: v4.5 or above
+
+*******************************************
+ Start checking current Build Environment  
+*******************************************
+* [PERL]              : v5.34.0            [NOT RECOMMENDED] !!!
+* [MAKE]              : GUN Make v4.3     [NOT RECOMMENDED] !!!
+* [SHELL]             : GNU bash v5.1.16    [HIGHER THAN RECOMMENDED] !!!
+* [GCC-ARM-NONE-EABI] : v4.6.2             [OK] !!!
+* [NATIVE GCC(UBUNTU)]: gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0  [OK] !!!
+
+current Build Env. is not recommendation 
+To avoid unexpected errors , please install the recommended Tool Chain.
+*******************************************
+  Build Environment is NOT RECOMMENDED!
+*******************************************
+
+makefile check is done
+Generate BOOTLOADER CMM file ...
+Generate BOOTLOADER version number ...
+check system drive ....
+Done.
+2026/09/09 13:13:20 

@@ -165,7 +165,7 @@ APCSINT     =
 -include tools/RVCTBuildNo.tmp
 
 ifeq ($(strip $(COMPILER)),GCC)
-  CFLAGS          := -Wno-attributes -Wno-pragmas
+  CFLAGS          := -Wno-attributes -Wno-pragmas -fcommon
   ifeq ($(strip $(GCC_WARN_AS_ERROR)),TRUE)
     CFLAGS          += -Werror
   endif

@@ -15,14 +15,14 @@ LPSDRAM_CHIP_SELECT:0, cs:1
 BAKCUP_MDL_PATH match with /build/ PREMATCH:./, MATCH:build, POSTMATCH:/LCSH6795_LWT_L/LWG/tmp
 file is tools/MemoryDeviceList/MemoryDeviceList_MT6795_SinceW1443.xls
 1:,2:/MemoryDeviceList/,3:MT6795_SinceW1443
-cp -f tools/MemoryDeviceList/MemoryDeviceList_MT6795_SinceW1443.xls build/LCSH6795_LWT_L/LWG/tmp/MemoryDeviceList_MT6795_SinceW1443_RAM_2026_07_11_15_42_453749416.xls
+cp -f tools/MemoryDeviceList/MemoryDeviceList_MT6795_SinceW1443.xls build/LCSH6795_LWT_L/LWG/tmp/MemoryDeviceList_MT6795_SinceW1443_RAM_2026_09_19_15_59_43376051.xls
 [sheetname]: RAM, row:{0, 3}, col:{0, 2}
 $href->{0}->{Density (Mb)} = 768
 $href->{0}->{Vendor} = NA
 $href->{0}->{Part Number} = NA
-$MDL_INFO_LIST[1]->{0}->{Vendor} = NA
 $MDL_INFO_LIST[1]->{0}->{Part Number} = NA
 $MDL_INFO_LIST[1]->{0}->{Density (Mb)} = 768
+$MDL_INFO_LIST[1]->{0}->{Vendor} = NA
 FAT SPACE is: 0, BlockSize is: 0, SectorSize is 512
 
 ./build/LCSH6795_LWT_L/LWG/custom/system/custom_EMI_release.h is generated

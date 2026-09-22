@@ -1,15 +1,15 @@
 copro_info_gen input:
-FALSE
+TRUE
 ./build/LCSH6795_LWT_L/LWG/tmp/~copro_info.tmp
 build/LCSH6795_LWT_L/LWG/bin/~LCSH6795_LWT_L(LWG).mak
 ./build/LCSH6795_LWT_L/LWG/bin/log/infomake.log
 ./build/LCSH6795_LWT_L/LWG/md_copro/bin/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.sym
 ./build/LCSH6795_LWT_L/LWG/md_copro/custom/system/ldsLCSH6795_LWT_L.txt
 
-[NeedToGen] FORCE=0, BuiltWithCopro=0
+[NeedToGen] FORCE=1, BuiltWithCopro=0
 => No need to generate tmp file contents
 Set Default Value:
 --------------------------------------------------------------
-CoproTotalRAMUsage => 4194304(0x400000)
-ForceToUseCoproInfo => 0(0x0)
+ForceToUseCoproInfo => 1(0x1)
 CoproLoadViewSize => 1048576(0x100000)
+CoproTotalRAMUsage => 4194304(0x400000)

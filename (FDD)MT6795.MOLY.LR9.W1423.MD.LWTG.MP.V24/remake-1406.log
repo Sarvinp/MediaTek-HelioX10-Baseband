@@ -1,0 +1,216 @@
+project_name = LCSH6795_LWT_L
+flavor = LWG
+clean build/LCSH6795_LWT_L/LWG/tmp/*.*
+make: Nothing to be done for 'gen_concatenate_proj'.
+concatenate_proj_mak = build/LCSH6795_LWT_L/LWG/bin/~LCSH6795_LWT_L(LWG).mak
+*******************************************
+recommended Build Environment
+*******************************************
+* [OS]                : Linux
+* [PERL]              : v5.10.1 or v5.14.2
+* [MAKE]              : GNU Make v3.81
+* [SHELL]             : GNU bash v4.1.5
+* [GCC-ARM-NONE-EABI] : v4.6.2 or above
+* [NATIVE GCC(UBUNTU)]: v4.5 or above
+
+*******************************************
+ Start checking current Build Environment  
+*******************************************
+* [PERL]              : v5.34.0            [NOT RECOMMENDED] !!!
+* [MAKE]              : GUN Make v4.3     [NOT RECOMMENDED] !!!
+* [SHELL]             : GNU bash v5.1.16    [HIGHER THAN RECOMMENDED] !!!
+* [GCC-ARM-NONE-EABI] : v4.6.2             [OK] !!!
+* [NATIVE GCC(UBUNTU)]: gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0  [OK] !!!
+
+current Build Env. is not recommendation 
+To avoid unexpected errors , please install the recommended Tool Chain.
+*******************************************
+  Build Environment is NOT RECOMMENDED!
+*******************************************
+
+makefile check is done
+
+start Drv feature check...
+get feature list from drv_features.h...
+get feature list from drv_features_option.h...
+generate feature check file...
+validate features...
+infoFilename = ././build/LCSH6795_LWT_L/LWG/bin/log/info.log
+check def/undef features for drv_features.h...
+log generated at ././build/LCSH6795_LWT_L/LWG/bin/log/drv_features_option.log
+
+[drv_features.h, drv_features_option.h]
+All feature count = 1179
+Defined count = 106
+Undef count = 1073
+
+[drv_features_option.h]
+Mismatch Config count = 0
+
+DRV Feature Check - Done
+make[1]: Nothing to be done for 'cgen_preprocess'.
+make[1]: Nothing to be done for 'cgen_cfg'.
+Clean asn1_common.a audio.a ccci.a cccidev.a cccisrv.a config.a custom.a dbinfo.a devdrv.a drv.a ephy_ext.a ft.a ftc.a hmu.a ipcore.a l1_ext.a l4misc.a mc.a md_drv.a media.a mml1_rf_ext.a nvram.a sys_drv.a sys_svc.a tty.a uartcore.a ul1_hs_plus_ext.a verno.a under ./build/LCSH6795_LWT_L/LWG/bin/lib
+Start to build asn1_common.a audio.a ccci.a cccidev.a cccisrv.a config.a custom.a dbinfo.a devdrv.a drv.a ephy_ext.a ft.a ftc.a hmu.a ipcore.a l1_ext.a l4misc.a mc.a md_drv.a media.a mml1_rf_ext.a nvram.a sys_drv.a sys_svc.a tty.a uartcore.a ul1_hs_plus_ext.a verno.a
+Copying header files ......
+cp: cannot stat './modem/gl1/l1_dm/common/l1_const.h': No such file or directory
+cp: cannot stat './interface/modem/l1/fdd/internal/ul1_cnst.h': No such file or directory
+cp: cannot stat './interface/modem/l1/fdd/internal/ul1_def.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_types.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_core_private.h': No such file or directory
+cp: cannot stat './modem/md_sm/common/l1sm/l1sm_internal_public.h': No such file or directory
+cp: cannot stat './modem/gl1/l1_dm/common/tool.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_tool.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_public.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_core.h': No such file or directory
+cp: cannot stat './modem/interface/l1/gsm/mph_cnst.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_private.h': No such file or directory
+cp: cannot stat './driver/sleep_drv/internal/inc/dcxo_div.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_timertype.h': No such file or directory
+cp: cannot stat './modem/ul1/ul1_hs_plus/common/ul1_types.h': No such file or directory
+cp: cannot stat './modem/common/mcd/include/mcd_struct.h': No such file or directory
+2026/09/09 14:06:15 Building asn1_common
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/asn1_common.log
+		    Total 0 warnings found.
+2026/09/09 14:06:16 Building audio
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/audio.log
+		    Total 12 warnings found.
+2026/09/09 14:06:17 Building ccci
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ccci.log
+		    Total 0 warnings found.
+2026/09/09 14:06:18 Building cccidev
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/cccidev.log
+		    Total 1 warnings found.
+2026/09/09 14:06:20 Building cccisrv
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/cccisrv.log
+		    Total 0 warnings found.
+2026/09/09 14:06:22 Building config
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/config.log
+		    Total 1 warnings found.
+2026/09/09 14:06:22 Building custom
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/custom.log
+		    Total 0 warnings found.
+2026/09/09 14:06:24 Building dbinfo
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/dbinfo.log
+		    Total 0 warnings found.
+2026/09/09 14:06:25 Building devdrv
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/devdrv.log
+		    Total 0 warnings found.
+2026/09/09 14:06:28 Building drv
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/drv.log
+		    Total 0 warnings found.
+2026/09/09 14:06:29 Building ephy_ext
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ephy_ext.log
+		    Total 0 warnings found.
+2026/09/09 14:06:29 Building ft
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ft.log
+		    Total 1 warnings found.
+2026/09/09 14:06:30 Building ftc
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ftc.log
+		    Total 0 warnings found.
+2026/09/09 14:06:31 Building hmu
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/hmu.log
+		    Total 0 warnings found.
+2026/09/09 14:06:32 Building ipcore
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ipcore.log
+		    Total 0 warnings found.
+2026/09/09 14:06:33 Building l1_ext
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/l1_ext.log
+		    Total 0 warnings found.
+2026/09/09 14:06:34 Building l4misc
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/l4misc.log
+		    Total 0 warnings found.
+2026/09/09 14:06:35 Building mc
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/mc.log
+		    Total 0 warnings found.
+2026/09/09 14:06:36 Building md_drv
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/md_drv.log
+		    Total 0 warnings found.
+2026/09/09 14:06:37 Building media
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/media.log
+		    Total 0 warnings found.
+2026/09/09 14:06:37 Building mml1_rf_ext
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/mml1_rf_ext.log
+		    Total 0 warnings found.
+2026/09/09 14:06:38 Building nvram
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/nvram.log
+		    Total 4 warnings found.
+2026/09/09 14:06:39 Building sys_drv
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/sys_drv.log
+		    Total 0 warnings found.
+2026/09/09 14:06:41 Building sys_svc
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/sys_svc.log
+		    Total 10 warnings found.
+2026/09/09 14:06:42 Building tty
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/tty.log
+		    Total 1 warnings found.
+2026/09/09 14:06:43 Building uartcore
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/uartcore.log
+		    Total 0 warnings found.
+2026/09/09 14:06:43 Building ul1_hs_plus_ext
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ul1_hs_plus_ext.log
+		    Total 0 warnings found.
+2026/09/09 14:06:44 Building verno
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/verno.log
+		    Total 0 warnings found.
+Linking LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.MOLY_LR9_W1423_MD_LWTG_MP_V24 ...
+2026/09/09 14:06:45 
+make[1]: Entering directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+make -fmake/build.mak -r -R FORCE_GEN=TRUE copro_info_gen
+make[2]: Entering directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+
+start Drv feature check...
+get feature list from drv_features.h...
+get feature list from drv_features_option.h...
+generate feature check file...
+validate features...
+infoFilename = ././build/LCSH6795_LWT_L/LWG/bin/log/info.log
+check def/undef features for drv_features.h...
+log generated at ././build/LCSH6795_LWT_L/LWG/bin/log/drv_features_option.log
+
+[drv_features.h, drv_features_option.h]
+All feature count = 1179
+Defined count = 106
+Undef count = 1073
+
+[drv_features_option.h]
+Mismatch Config count = 0
+
+DRV Feature Check - Done
+make[2]: Leaving directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+Result[5]: Calculating correct Modem Reserved Size value...Done.
+Do not need to adjust memory configuration and refer to ./build/LCSH6795_LWT_L/LWG/bin/log/ModemReservedSize_AutoConfig.log
+
+copy ./build/LCSH6795_LWT_L/LWG/bin/log/auto_adjust_mem.log ./build/LCSH6795_LWT_L/LWG/bin/MODEM_RESV_SIZE_DEBUG/auto_adjust_mem.log
+make[1]: Leaving directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+Creating binary file LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.MOLY_LR9_W1423_MD_LWTG_MP_V24.bin
+Generating DbgInfo Database...
+[DbgInfoGen] Printing the DBGINFO header...
+[DbgInfoGen] Parsing the symbol table...
+[DbgInfoGen] Parsing the line table...
+[DbgInfoGen]     GCC: (GNU Tools for ARM Embedded Processors) 4.6.2 20121016 (release) [ARM/embedded-4_6-branch revision 192487]
+[DbgInfoGen] Printing the symbol table...
+[DbgInfoGen] Printing the file table...
+[DbgInfoGen] The DbgInfo DB is created. (./build/LCSH6795_LWT_L/LWG/dhl/database/DbgInfo_LR9.W1423.MD.LWTG.MP_LCSH6795_LWT_L_MOLY_LR9_W1423_MD_LWTG_MP_V24_2026_09_09_14_06)
+make[1]: Entering directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+make[1]: Leaving directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+Cgen -sfcm:
+Check DB result: 0
+Examine DB result: 0
+Generating "./build/LCSH6795_LWT_L/LWG/dhl/database/MDDB_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24.EDB".
+Check ./build/LCSH6795_LWT_L/LWG/dhl/database/MDDB_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24.EDB
+Check DB result: 0
+Write DB result: 0
+Create file "./build/LCSH6795_LWT_L/LWG/dhl/database/MDDB_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24.EDB" successfully.
+Cgen -sfcm:
+Check DB result: 0
+Examine DB result: 0
+Generating "./build/LCSH6795_LWT_L/LWG/dhl/database/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24".
+Check ./build/LCSH6795_LWT_L/LWG/dhl/database/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24
+Check DB result: 0
+Write DB result: 0
+Create file "./build/LCSH6795_LWT_L/LWG/dhl/database/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24" successfully.
+Generate cmm files
+check system drive ....
+Done.
+2026/09/09 14:06:59 

@@ -1,0 +1,2161 @@
+./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libaudio.a(audio_service.obj) (ccci_owner_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj) (ccci_get_ch_info)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj) (ccci_cldma_hs1)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj) (ccci_debug_check_seq)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj) (ccci_excep_dbg_logging_InHS2)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj) (ccci_get_hw_handle_api)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init.obj) (lte_ccci_hw_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj) (ccci_lb_it_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_misc_data.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj) (ccci_misc_data_feature_support)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj) (cccitty_dev_expt_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj) (cccitty_ttyc_hdr_cmd_get_chunk_size)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj) (cccitty_on_dev_event)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj) (cccitty_ttyc_hdr_cmd_put_bytes_ior)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj) (cccitty_dev_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj) (ccci_fs_svc_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj) (ccci_ims_svc_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj) (ccci_rpc_svc_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj) (ccci_rpc_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libul1_hs_plus.a(wrinit.obj) (ccci_register_sysmsgsvc_callback)
+./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj) (cldmac_q_attach)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj) (cldmac_get_instance)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj) (hifcldma_seq_err_D2H_int)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj) (hifcldma_simple_send_gpd)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj) (hifcldmaq_set_gpd)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj) (hifcldmaq_except_initial)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_ccif_clock)
+./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_main.obj) (imc_ccci_send)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj) (kal_get_active_module_id)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj) (qbm_init_q_config)
+./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmadev.a(cldma_dev.obj) (wccif_write_seq)
+./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmadev.a(hifcldma_qmu_except.obj) (hifwccif_except_sw_int_poll)
+./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libconfig.a(syscomp_config.obj) (hifwccifrx_hisr_handler)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libconfig.a(syscomp_config.obj) (cccidev_task_create)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj) (ccmni_task_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj) (ccmni_ccci_ul_cb)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj) (ccmni_dev_main_init)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libconfig.a(syscomp_config.obj) (cccisrv_task_create)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj) (ccci_ipc_main)
+ccci_fs_filename    0xc8              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ccci_debug_buff_size
+                    0x4               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+rpc_gpd_pool        0x38              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+g_ccci_fs_ttt       0x28              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                    0x1120            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ap_md_share_data    0x168             ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_excep_dbg_log_type_hs2
+                    0x1               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_ctrl_pool      0x1490            ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_fs_assert_dump_type
+                    0x1               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+MDExceShareMemBase  0x1000            ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                    0x4               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+MDFileShareMemBase  0x143e8           ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+g_uem_ccci_tst_baudrate
+ccci_debug_buff     0x4               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_excep_dbg_log_size_hs2
+                    0x4               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_excep_dbg_log_base_hs2
+                    0x4               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+g_uem_ccci_tst_port
+g_ccci_fs_polling   0x2000            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                    0x1120            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                    0x1120            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_debug_buff_addr
+                    0x4               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+g_ccci_fs_int       0xa8              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+IPC_RPC_REQ_BUF     0x8               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .text.ccci_ulior_net_cb
+                0x00000000      0x164 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .text.ccci_stream_write
+                0x00000000       0x12 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .text.ccci_mailbox_write
+                0x00000000       0x26 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .text.ccci_get_ex_shm_info
+                0x00000000       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .text.ccci_task_main_init
+                0x00000000        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                0x00000000        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                0x00000000        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .text.ccci_debug_get_status_ccciseq_funp
+                0x00000000       0x14 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x00000000       0x14 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .text.ccci_except_clear_ch
+                0x00000000       0x44 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .data.ccci_exception_check_write_result
+                0x00000000        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .data.ccci_exception_info_write_result
+                0x00000000        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .text.ccci_lb_it_task_init
+                0x00000000        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .text.ccci_lb_it_1_task_main
+                0x00000000        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .text.ccci_lb_it_2_task_main
+                0x00000000        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .text.ccci_lb_it_3_task_main
+                0x00000000        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .text.ccci_lb_it_4_task_main
+                0x00000000        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .text.ccci_lb_it_1_task_create
+                0x00000000       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .text.ccci_lb_it_2_task_create
+                0x00000000       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .text.ccci_lb_it_3_task_create
+                0x00000000       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .text.ccci_lb_it_4_task_create
+                0x00000000       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .rodata.ccciit_handler_info.41141
+                0x00000000        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .rodata.ccciit_handler_info.41145
+                0x00000000        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .rodata.ccciit_handler_info.41153
+                0x00000000        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .rodata.ccciit_handler_info.41149
+                0x00000000        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_misc_data.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_misc_data.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_misc_data.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ .text.cccitty_ttyc_hdr_expt_init
+                0x00000000        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ .text.cccitty_ttyc_hdr_expt_clear_ch
+                0x00000000       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+ .text.cccitty_dev_deinit
+                0x00000000       0x54 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000      0x100 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000       0xe0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000       0xe8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000       0xe8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000       0xa8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000       0xa8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000       0x9c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000       0xc0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000       0xd0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000       0xac ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00000000       0x9c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x00000000        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x00000000        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x00000000        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x00000000        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ COMMON         0x00000000        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+ .text          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+ .data          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+ .bss           0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x00000000       0x18 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x00000000        0x1 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+ .text.dhl_assert_preopen_ccci_logging_port_for_exception
+ .text          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+ .data          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+ .bss           0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+ .text.MML1_RF_DRDI_GetConfig_GPIO_CCCI
+ .text          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+ .data          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+ .bss           0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+ .text.wccif_start_state
+                0x00000000        0xc ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+ .text.wccif_get_data_addr
+                0x00000000        0x8 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+ .text.wccif_init
+                0x00000000       0x18 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+ .text          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+ .data          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+ .bss           0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+ .text          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+ .data          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+ .bss           0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+ .text.hifwccifrx_lisr_handler
+                0x00000000       0x24 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                0x00000000       0x7c ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+ .text.enable_ccif_irq
+                0x00000000       0x18 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+ .text.disable_ccif_irq
+                0x00000000       0x18 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+ .text.hifwccif_isr_init
+                0x00000000       0x2c ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+ .text.is_ccif_irq_enable
+                0x00000000       0x14 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                0x00000000       0x4d ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+ .bss.ccif_irq_mode
+                0x00000000        0x1 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+ .rodata.cccidev_init_func_list_g
+                0x00000000        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                0x00000000       0x44 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .text.ccci_register_ipc_cb_funp
+                0x00000000       0x1c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+                0x00000000       0x40 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+                0x00000000       0x24 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+                0x00000000       0x2e ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+                0x00000000       0x2e ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+                0x00000000       0x2e ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+                0x00000000       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+LOAD ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a
+LOAD ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a
+LOAD ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a
+LOAD ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a
+                0x00002998       0xa0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+                0x00002998                hifwccif_except_delay_us
+                0x000029f8                hifwccif_except_sw_int_poll
+ .text.spcIO_sendMsgViaCCCI
+                0x000ecb74                spcIO_sendMsgViaCCCI
+ .text.spcIO_sendDataViaCCCI
+                0x000ecbfc                spcIO_sendDataViaCCCI
+ .text.CCCI_GET_QBM_DATAPTR
+                0x000f90cc       0x50 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .text.ccci_init
+                0x000f911c      0x240 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f911c                ccci_init
+ .text.ccci_owner_init
+                0x000f935c        0x6 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f935c                ccci_owner_init
+ .text.ccci_deinit
+                0x000f9364       0xc4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9364                ccci_deinit
+ .text.ccci_init_gpdior
+                0x000f9428      0x1f0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9428                ccci_init_gpdior
+ .text.ccci_write_gpd
+                0x000f9618      0x178 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9618                ccci_write_gpd
+ .text.ccci_polling_io
+                0x000f9790       0x98 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9790                ccci_polling_io
+ .text.ccci_dlior_agg_cb
+                0x000f9828      0x218 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9828                ccci_dlior_agg_cb
+ .text.ccci_dhl_print
+                0x000f9a40       0x26 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9a40                ccci_dhl_print
+ .text.ccci_dump_data
+                0x000f9a68       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9a68                ccci_dump_data
+ .text.ccci_data_trace_dump
+                0x000f9aa0       0x58 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9aa0                ccci_data_trace_dump
+ .text.ccci_ulior_cb
+                0x000f9af8      0x370 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9af8                ccci_ulior_cb
+ .text.ccci_ulbuff_cb
+                0x000f9e68      0x104 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9e68                ccci_ulbuff_cb
+ .text.ccci_write
+                0x000f9f6c      0x2cc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000f9f6c                ccci_write
+ .text.ccci_stream_write_with_reserved
+                0x000fa238       0x16 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa238                ccci_stream_write_with_reserved
+ .text.ccci_mailbox_write_with_reserved
+                0x000fa24e       0x28 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa24e                ccci_mailbox_write_with_reserved
+ .text.ccci_send_message
+                0x000fa276       0x18 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa276                ccci_send_message
+ .text.ccci_get_current_time
+                0x000fa290        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa290                ccci_get_current_time
+ .text.ccci_get_duration
+                0x000fa29c       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa29c                ccci_get_duration
+ .text.ccci_get_fs_shm_info
+                0x000fa2ac       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa2ac                ccci_get_fs_shm_info
+ .text.ccci_CalculateShareMem
+                0x000fa2bc       0x24 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa2bc                ccci_CalculateShareMem
+ .text.ccci_queryBootAttributes
+                0x000fa2e0       0x14 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa2e0                ccci_queryBootAttributes
+ .text.ccci_get_share_data
+                0x000fa2f4        0x8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa2f4                ccci_get_share_data
+ .text.set_ccci_boot_state
+                0x000fa2fc        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa2fc                set_ccci_boot_state
+ .text.get_ccci_boot_state
+                0x000fa308        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa308                get_ccci_boot_state
+ .text.ccci_handshake1_ack
+                0x000fa314       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa314                ccci_handshake1_ack
+ .text.ccci_boot_ack
+                0x000fa370       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa370                ccci_boot_ack
+ .text.lte_ccci_init_handshake_phase1
+                0x000fa390       0x34 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa390                lte_ccci_init_handshake_phase1
+ .text.lte_ccci_init_handshake_phase2
+                0x000fa3c4        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa3c4                lte_ccci_init_handshake_phase2
+ .text.ccci_task_init
+                0x000fa3c8        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa3c8                ccci_task_init
+ .text.ccci_main
+                0x000fa3cc       0x48 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000fa3cc                ccci_main
+ .text.ccci_get_ch_info
+                0x000fa414       0x50 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+                0x000fa414                ccci_get_ch_info
+                0x000fa464       0x2a ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ .text.ccci_cldma_hs1
+                0x000fa490      0x1cc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                0x000fa490                ccci_cldma_hs1
+ .text.ccci_cldma_hs2
+                0x000fa65c       0xcc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                0x000fa65c                ccci_cldma_hs2
+ .text.ccci_debug_get_status_L1Time_funp
+                0x000fa728       0x1c ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fa728                ccci_debug_get_status_L1Time_funp
+ .text.ccci_debug_tx_cb
+                0x000fa744       0x1c ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fa744                ccci_debug_tx_cb
+ .text.ccci_debug_ap_force_assert_md
+                0x000fa760       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fa760                ccci_debug_ap_force_assert_md
+ .text.ccci_debug_reset_seq_data
+                0x000fa780       0x14 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fa780                ccci_debug_reset_seq_data
+ .text.ccci_debug_get_status_register
+                0x000fa794       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fa794                ccci_debug_get_status_register
+ .text.ccci_debug_write_record
+                0x000fa7b4      0x188 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fa7b4                ccci_debug_write_record
+ .text.ccci_debug_check_seq
+                0x000fa93c       0xf0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fa93c                ccci_debug_check_seq
+ .text.ccci_debug_rx_cb
+                0x000faa2c      0x158 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000faa2c                ccci_debug_rx_cb
+ .text.ccci_debug_add_seq
+                0x000fab84       0x98 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fab84                ccci_debug_add_seq
+ .text.ccci_debug_get_status_worker
+                0x000fac1c      0x1b4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fac1c                ccci_debug_get_status_worker
+ .text.ccci_debug_set_feature
+                0x000fadd0       0x1c ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fadd0                ccci_debug_set_feature
+ .text.ccci_debug_init
+                0x000fadec       0x94 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x000fadec                ccci_debug_init
+ .text.ccci_except_ack
+                0x000fae80        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fae80                ccci_except_ack
+ .text.CCCIDEV_GET_QBM_DATAPTR
+                0x000fae84       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .text.CCCIDEV_RST_CCCI_COMM_GPD_LIST
+                0x000faee0       0x60 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .text.ccci_except_init
+                0x000faf40      0x130 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000faf40                ccci_except_init
+ .text.ccci_except_init_hmu
+                0x000fb070       0x30 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb070                ccci_except_init_hmu
+ .text.ccci_except_set_gpd
+                0x000fb0a0       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb0a0                ccci_except_set_gpd
+ .text.ccci_except_poll_gpd
+                0x000fb0dc       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb0dc                ccci_except_poll_gpd
+ .text.ccci_except_hif_st
+                0x000fb118       0x34 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb118                ccci_except_hif_st
+ .text.ccci_exception_info_passed_pre
+                0x000fb14c       0xf8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb14c                ccci_exception_info_passed_pre
+ .text.ccci_exception_handshake
+                0x000fb244      0x224 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb244                ccci_exception_handshake
+ .text.ccci_exception_info_passed
+                0x000fb468       0xd4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb468                ccci_exception_info_passed
+ .text.ccci_except_hif_isr
+                0x000fb53c       0x30 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb53c                ccci_except_hif_isr
+ .text.ccci_excep_dbg_logging_InHS2
+                0x000fb56c       0x74 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb56c                ccci_excep_dbg_logging_InHS2
+ .text.ccci_boottrc_send_log
+                0x000fb5e0       0xe4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb5e0                ccci_boottrc_send_log
+ .text.ccci_excep_init_shm
+                0x000fb6c4       0x18 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb6c4                ccci_excep_init_shm
+ .text.ccci_excep_query_shm
+                0x000fb6dc       0x84 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb6dc                ccci_excep_query_shm
+ .text.ccci_excep_shm_get_total_size
+                0x000fb760        0x6 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000fb760                ccci_excep_shm_get_total_size
+                0x000fb768       0x18 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                0x000fb780       0x18 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                0x000fb798       0x18 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                0x000fb7b0       0x28 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+ .text.ccci_hif_init
+                0x000fb7d8       0x40 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                0x000fb7d8                ccci_hif_init
+ .text.ccci_get_hw_handle_api
+                0x000fb818       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                0x000fb818                ccci_get_hw_handle_api
+ .text.lte_ccci_hw_init
+                0x000fb850       0x44 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+                0x000fb850                lte_ccci_hw_init
+ .text.lte_ccci_hal_init
+                0x000fb894       0x26 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+                0x000fb894                lte_ccci_hal_init
+ .text.lte_ccci_hw_init_phase2
+                0x000fb8ba        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+                0x000fb8ba                lte_ccci_hw_init_phase2
+ .text.ccci_lb_it_buff_tx_cb
+                0x000fb8c0       0x24 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+                0x000fb8c0                ccci_lb_it_buff_tx_cb
+ .text.ccci_lb_it_buff_rx_lb
+                0x000fb8e4        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+                0x000fb8e4                ccci_lb_it_buff_rx_lb
+ .text.ccci_lb_it_init
+                0x000fb8f0       0x94 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+                0x000fb8f0                ccci_lb_it_init
+ .text.ccci_misc_data_feature_support
+                0x000fb984       0x64 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_misc_data.obj)
+                0x000fb984                ccci_misc_data_feature_support
+ .text.CCCIDEV_GET_QBM_DATAPTR
+                0x000fb9e8       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ .text.cccitty_ttyc_cmd_expt_tx_gpd
+                0x000fba44       0x7c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                0x000fba44                cccitty_ttyc_cmd_expt_tx_gpd
+ .text.cccitty_ttyc_cmd_expt_tx_done_info
+                0x000fbac0       0x28 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                0x000fbac0                cccitty_ttyc_cmd_expt_tx_done_info
+ .text.cccitty_ttyc_cmd_expt_assign_rx_gpd
+                0x000fbae8       0x28 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                0x000fbae8                cccitty_ttyc_cmd_expt_assign_rx_gpd
+ .text.cccitty_ttyc_cmd_expt_get_rx_gpd
+                0x000fbb10      0x120 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                0x000fbb10                cccitty_ttyc_cmd_expt_get_rx_gpd
+ .text.cccitty_ttyc_cmd_expt_hif_state
+                0x000fbc30       0x2e ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                0x000fbc30                cccitty_ttyc_cmd_expt_hif_state
+ .text.cccitty_ttyc_cmd_expt_hif_poll
+                0x000fbc5e       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                0x000fbc5e                cccitty_ttyc_cmd_expt_hif_poll
+ .text.cccitty_ttyc_expt_hdr
+                0x000fbc8c       0xbc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                0x000fbc8c                cccitty_ttyc_expt_hdr
+ .text.cccitty_dev_expt_init
+                0x000fbd48       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                0x000fbd48                cccitty_dev_expt_init
+ .text.cccitty_ttyc_hdr_cmd_init
+                0x000fbd80       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbd80                cccitty_ttyc_hdr_cmd_init
+ .text.cccitty_ttyc_hdr_cmd_open
+                0x000fbdac       0x40 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbdac                cccitty_ttyc_hdr_cmd_open
+ .text.cccitty_ttyc_hdr_cmd_close
+                0x000fbdec       0x40 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbdec                cccitty_ttyc_hdr_cmd_close
+ .text.cccitty_ttyc_hdr_cmd_need_tx_done_cb
+                0x000fbe2c       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbe2c                cccitty_ttyc_hdr_cmd_need_tx_done_cb
+ .text.cccitty_ttyc_hdr_cmd_get_chunk_size
+                0x000fbe68        0x8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbe68                cccitty_ttyc_hdr_cmd_get_chunk_size
+ .text.cccitty_ttyc_hdr_cmd_get_mtu_size
+                0x000fbe70        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbe70                cccitty_ttyc_hdr_cmd_get_mtu_size
+ .text.cccitty_ttyc_hdr_cmd_get_owner_id
+                0x000fbe7c        0xe ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbe7c                cccitty_ttyc_hdr_cmd_get_owner_id
+ .text.cccitty_ttyc_hdr_cmd_set_owner
+                0x000fbe8a       0x12 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbe8a                cccitty_ttyc_hdr_cmd_set_owner
+ .text.cccitty_ttyc_hdr_cmd_set_flow_ctrl
+                0x000fbe9c       0x34 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbe9c                cccitty_ttyc_hdr_cmd_set_flow_ctrl
+ .text.cccitty_ttyc_hdr_cmd_set_dcb_config
+                0x000fbed0       0x44 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbed0                cccitty_ttyc_hdr_cmd_set_dcb_config
+ .text.cccitty_ttyc_hdr_cmd_read_dcb_config
+                0x000fbf14       0x1c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbf14                cccitty_ttyc_hdr_cmd_read_dcb_config
+ .text.cccitty_ttyc_hdr
+                0x000fbf30      0x204 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000fbf30                cccitty_ttyc_hdr
+ .text.cccitty_session_deinit
+                0x000fc134       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc134                cccitty_session_deinit
+ .text.cccitty_session_init
+                0x000fc16c      0x1a4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc16c                cccitty_session_init
+ .text.cccitty_get_debug_status
+                0x000fc310       0x70 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc310                cccitty_get_debug_status
+ .text.cccitty_set_dev_state
+                0x000fc380       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc380                cccitty_set_dev_state
+ .text.cccitty_on_dev_event
+                0x000fc3bc      0x10c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc3bc                cccitty_on_dev_event
+ .text.cccitty_get_instance
+                0x000fc4c8        0x8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc4c8                cccitty_get_instance
+ .text.cccitty_get_dev_instance
+                0x000fc4d0       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc4d0                cccitty_get_dev_instance
+ .text.cccitty_get_ul_devid
+                0x000fc4fc       0x54 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc4fc                cccitty_get_ul_devid
+ .text.cccitty_get_dl_devid
+                0x000fc550       0x54 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc550                cccitty_get_dl_devid
+ .text.cccitty_task_init
+                0x000fc5a4      0x108 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc5a4                cccitty_task_init
+ .text.cccitty_main
+                0x000fc6ac       0x34 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x000fc6ac                cccitty_main
+ .text.CCCIDEV_GET_GPD_LIST_SIZE
+                0x000fc6e0       0x1a ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+ .text.CCCIDEV_GET_QBM_DATAPTR
+                0x000fc6fc       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+ .text.CCCIDEV_RST_CCCI_COMM_GPD_LIST
+                0x000fc758       0x60 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+ .text.ccci_dest_ior
+                0x000fc7b8       0x7c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+ .text.CCCIDEV_QBM_DEQ
+                0x000fc834       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+ .text.cccitty_ttyc_hdr_cmd_put_bytes_ior
+                0x000fc890      0x1a4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                0x000fc890                cccitty_ttyc_hdr_cmd_put_bytes_ior
+ .text.cccitty_ccci_dl_cb
+                0x000fca34       0x84 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                0x000fca34                cccitty_ccci_dl_cb
+ .text.cccitty_ccci_ul_cb
+                0x000fcab8      0x60c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                0x000fcab8                cccitty_ccci_ul_cb
+ .text.cccitty_ul_deq_hdr
+                0x000fd0c4      0x2c8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                0x000fd0c4                cccitty_ul_deq_hdr
+ .text.cccitty_ttyc_hdr_cmd_assign_rx_ior
+                0x000fd38c      0x28c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                0x000fd38c                cccitty_ttyc_hdr_cmd_assign_rx_ior
+ .text.cccitty_ttyc_hdr_cmd_clr_rx_buf
+                0x000fd618      0x194 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                0x000fd618                cccitty_ttyc_hdr_cmd_clr_rx_buf
+ .text.cccitty_ccci_dummy_cb
+                0x000fd7ac       0x1c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                0x000fd7ac                cccitty_ccci_dummy_cb
+ .text.cccitty_dev_init
+                0x000fd7c8       0x54 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+                0x000fd7c8                cccitty_dev_init
+ .text.CCCI_FS_GET_PORT_BUSY
+                0x000fd81c       0x18 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .text.CCCIDEV_GET_QBM_DATAPTR
+                0x000fd834       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .text.ccci_fs_get_debug_status
+                0x000fd890       0x6c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fd890                ccci_fs_get_debug_status
+ .text.ccci_fs_exception_assert.constprop.5
+                0x000fd8fc       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .text.ccci_fs_dl_cb
+                0x000fd938       0xf0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fd938                ccci_fs_dl_cb
+ .text.ccci_fs_calc_buff_len
+                0x000fda28       0x22 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fda28                ccci_fs_calc_buff_len
+ .text.ccci_fs_enter_cs
+                0x000fda4c       0x28 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fda4c                ccci_fs_enter_cs
+ .text.ccci_fs_exit_cs
+                0x000fda74       0x28 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fda74                ccci_fs_exit_cs
+ .text.ccci_fs_polling_io
+                0x000fda9c       0xc8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fda9c                ccci_fs_polling_io
+ .text.ccci_fs_ul_buff_process
+                0x000fdb64      0x26c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fdb64                ccci_fs_ul_buff_process
+ .text.ccci_fs_ul_cb
+                0x000fddd0      0x1cc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fddd0                ccci_fs_ul_cb
+ .text.ccci_fs_get_port
+                0x000fdf9c      0x15c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fdf9c                ccci_fs_get_port
+ .text.ccci_fs_put_port
+                0x000fe0f8       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fe0f8                ccci_fs_put_port
+ .text.ccci_fs_get_buff
+                0x000fe130      0x324 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fe130                ccci_fs_get_buff
+ .text.ccci_fs_wait_rx
+                0x000fe454      0x14c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fe454                ccci_fs_wait_rx
+ .text.ccci_fs_wait_rx_exception
+                0x000fe5a0      0x1fc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fe5a0                ccci_fs_wait_rx_exception
+ .text.ccci_fs_ch_init
+                0x000fe79c       0xc0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fe79c                ccci_fs_ch_init
+ .text.ccci_fs_svc_init
+                0x000fe85c      0x348 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fe85c                ccci_fs_svc_init
+ .text.ccci_fs_rgpd_init
+                0x000feba4      0x120 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000feba4                ccci_fs_rgpd_init
+ .text.ccci_fs_data_trace_dump
+                0x000fecc4       0x58 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fecc4                ccci_fs_data_trace_dump
+ .text.ccci_fs_put_buff
+                0x000fed1c      0x810 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000fed1c                ccci_fs_put_buff
+ .text.ccci_fs_exception_assert
+                0x000ff52c       0x54 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000ff52c                ccci_fs_exception_assert
+ .text.ccci_fs_task_init
+                0x000ff580       0x24 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000ff580                ccci_fs_task_init
+ .text.ccci_fs_task_main_init
+                0x000ff5a4       0x14 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000ff5a4                ccci_fs_task_main_init
+ .text.ccci_fs_test_init
+                0x000ff5b8       0x34 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000ff5b8                ccci_fs_test_init
+ .text.ccci_fs_main
+                0x000ff5ec       0x24 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000ff5ec                ccci_fs_main
+ .text.CCCI_FS_OP_Wrapper
+                0x000ff610      0x278 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x000ff888      0x1f4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x000ffa7c      0x128 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x000ffba4       0xdc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x000ffc80       0xf0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x000ffd70       0xe4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x000ffe54       0xc0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x000fff14       0xc0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x000fffd4       0xe0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x001000b4       0xe0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00100194       0xe0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00100274      0x114 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00100388      0x11c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x001004a4       0xe8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x0010058c      0x128 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x001006b4       0xe0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00100794       0xb0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00100844       0xc0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00100904       0xb0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x001009b4       0xa8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00100a5c      0x124 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00100b80       0x6c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00100bec       0x94 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x00100c80       0xf0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ .text.ccci_ims_dlcb_dummy
+                0x00100d70       0x14 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                0x00100d70                ccci_ims_dlcb_dummy
+ .text.CCCIDEV_GET_QBM_DATAPTR
+                0x00100d84       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ .text.ccci_ims_get_debug_status
+                0x00100de0       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                0x00100de0                ccci_ims_get_debug_status
+ .text.ccci_ims_print
+                0x00100e18       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                0x00100e18                ccci_ims_print
+ .text.ccci_ims_svc_init
+                0x00100e44       0xb4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                0x00100e44                ccci_ims_svc_init
+ .text.ccci_ims_dl_req
+                0x00100ef8      0x230 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                0x00100ef8                ccci_ims_dl_req
+ .text.ccci_ims_ulcb_reg
+                0x00101128       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                0x00101128                ccci_ims_ulcb_reg
+ .text.ccci_ims_ccci_ul_cb
+                0x00101184      0x2ec ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                0x00101184                ccci_ims_ccci_ul_cb
+ .text.ccci_rpc_allocate_gpds
+                0x00101470       0x90 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                0x00101470                ccci_rpc_allocate_gpds
+ .text.ccci_rpc_task_main_init
+                0x00101500       0x14 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                0x00101500                ccci_rpc_task_main_init
+ .text.ccci_rpc_svc_init
+                0x00101514        0xa ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                0x00101514                ccci_rpc_svc_init
+ .text.ccci_rpc_task_init
+                0x0010151e        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                0x0010151e                ccci_rpc_task_init
+ .text.ccci_rpc_main
+                0x00101522        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                0x00101522                ccci_rpc_main
+ .text.CCCIDEV_GET_QBM_DATAPTR
+                0x00101524       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .text.CCCIDEV_RST_CCCI_COMM_GPD_LIST
+                0x00101580       0x60 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .text.ccci_rpc_send_cb
+                0x001015e0       0x74 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x001015e0                ccci_rpc_send_cb
+ .text.ccci_rpc_receive_cb
+                0x00101654      0x128 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x00101654                ccci_rpc_receive_cb
+ .text.ccci_rpc_get_debug_status
+                0x0010177c       0x48 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x0010177c                ccci_rpc_get_debug_status
+ .text.IPC_RPC_CCCI_Write
+                0x001017c4      0x2a4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x001017c4                IPC_RPC_CCCI_Write
+                0x00101a68       0x50 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .text.IPC_RPC_CCCI_Read
+                0x00101ab8      0x21c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x00101ab8                IPC_RPC_CCCI_Read
+                0x00101cd4      0x1e0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .text.ccci_rpc_init
+                0x00101eb4       0x80 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x00101eb4                ccci_rpc_init
+ .text.ccci_sys_msg_dlcb_dummy
+                0x00101f34       0x30 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                0x00101f34                ccci_sys_msg_dlcb_dummy
+ .text.ccci_system_channel_runtime_callback
+                0x00101f64      0x210 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                0x00101f64                ccci_system_channel_runtime_callback
+ .text.ccci_register_sysmsgsvc_callback
+                0x00102174       0x60 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                0x00102174                ccci_register_sysmsgsvc_callback
+ .text.ccci_sys_msg_svc_init
+                0x001021d4       0xbc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                0x001021d4                ccci_sys_msg_svc_init
+                0x00102290       0xd8 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x00102368       0xc8 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x00102430       0x54 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+ .text.set_ioc  0x00102484       0x24 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x001024a8       0xb8 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x00102560       0x30 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x00102590        0xe ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x0010259e        0x4 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x001025a2       0x1a ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x001025bc        0xa ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x001025c6       0x16 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+ .text.boot_init_ccif_clock
+                0x00109a6e        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+                0x00109a6e                boot_init_ccif_clock
+ .text._ap_md_lte_auto_gap_ccci_hisr_callback
+                0x0013422c                _ap_md_lte_auto_gap_ccci_hisr_callback
+ .text.imc_ccci_ctrl_ulcb
+                0x00362e34       0xbc ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+ .text.imc_ccci_send
+                0x00362ef0      0x160 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                0x00362ef0                imc_ccci_send
+ .text.imc_ccci_init
+                0x00363050        0xc ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                0x00363050                imc_ccci_init
+ .text.uemdrv_ccci_em_req_hdlr
+                0x00406e24                uemdrv_ccci_em_req_hdlr
+ .text.uem_ccci_ack_callback
+                0x0040779c                uem_ccci_ack_callback
+ .text.uem_ccci_em_req_hdlr
+                0x004077e4                uem_ccci_em_req_hdlr
+ .text.uem_ccci_em_uart_port_setting_hdlr
+                0x00407a44                uem_ccci_em_uart_port_setting_hdlr
+ .text.uem_ccci_em_gsm_power_scan_hdlr
+                0x00407b88                uem_ccci_em_gsm_power_scan_hdlr
+ .text.MML1_RF_DRDI_GetConfig_ADC_CCCI
+                0x00476774                MML1_RF_DRDI_GetConfig_ADC_CCCI
+ .text._reset_ccci_comm
+ .text.wccif_write_seq
+                0x00682f48        0xc ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+                0x00682f48                wccif_write_seq
+ .text.wccif_set
+                0x00682f54       0x18 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+                0x00682f54                wccif_set
+ .text.wccif_valid_state
+                0x00682f6c        0xc ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+                0x00682f6c                wccif_valid_state
+ .text.wccif_ack
+                0x00682f78       0x14 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+                0x00682f78                wccif_ack
+ .text.hifwccifrx_hisr_handler
+                0x00682f8c       0x18 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                0x00682f8c                hifwccifrx_hisr_handler
+ .text.cccidev_task_init
+                0x00695a18       0x12 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                0x00695a18                cccidev_task_init
+ .text.cccidev_task_on_ilm
+                0x00695a2c       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                0x00695a2c                cccidev_task_on_ilm
+ .text.cccidev_task_main
+                0x00695a88       0x1c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                0x00695a88                cccidev_task_main
+ .text.cccidev_task_create
+                0x00695aa4        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                0x00695aa4                cccidev_task_create
+                0x00695ab0       0x40 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00695af0       0x68 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00695b58       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00695b90       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00695bbc      0x190 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00695d4c       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00695d78      0x130 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00695ea8        0x8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00695eb0       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00695ed0       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00695ef0      0x128 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x00696018       0x7c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ .text.CCCIDEV_GET_QBM_DATAPTR
+                0x00696094       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ .text.CCCIDEV_GET_QBM_DATALEN
+                0x006960f0       0x24 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                0x00696114       0x40 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                0x00696154      0x244 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                0x00696398       0x24 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ .text.ccmni_ccci_ul_cb
+                0x006963bc      0x488 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                0x006963bc                ccmni_ccci_ul_cb
+                0x00696844      0x148 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                0x0069698c       0xe0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ .text.ccmni_ccci_dummy_cb
+                0x00696a6c       0x1c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                0x00696a6c                ccmni_ccci_dummy_cb
+                0x00696a88       0x58 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                0x00696ae0       0xec ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+ .text.CCCIDEV_GET_QBM_DATAPTR
+                0x00696bcc       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .text.CCCIDEV_RST_CCCI_COMM_GPD_LIST
+                0x00696c28       0x60 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .text.ccci_ipc_send_msg_cb
+                0x00696c88       0x84 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0x00696c88                ccci_ipc_send_msg_cb
+ .text.ccci_ipc_get_debug_status
+                0x00696d0c       0x24 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0x00696d0c                ccci_ipc_get_debug_status
+ .text.ccci_ipc_process_cb_funp
+                0x00696d30       0xa8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0x00696d30                ccci_ipc_process_cb_funp
+ .text.ccci_ipc_receive_msg_cb
+                0x00696dd8      0x25c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0x00696dd8                ccci_ipc_receive_msg_cb
+ .text.ccci_ipc_send_msg
+                0x00697034      0x358 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0x00697034                ccci_ipc_send_msg
+                0x0069738c       0x64 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0x006973f0       0x14 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0x00697404       0x12 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .text.ccci_ipc_init
+                0x00697418       0x70 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0x00697418                ccci_ipc_init
+                0x00697488       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+                0x006974c0       0x22 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+ .text.cccisrv_task_init
+                0x006974e4       0x18 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                0x006974e4                cccisrv_task_init
+ .text.cccisrv_task_on_ilm
+                0x006974fc       0x60 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                0x006974fc                cccisrv_task_on_ilm
+ .text.cccisrv_task_main
+                0x0069755c       0x26 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                0x0069755c                cccisrv_task_main
+ .text.cccisrv_task_create
+                0x00697584        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                0x00697584                cccisrv_task_create
+ .text.ccci_ipc_reload_rgpds
+                0x00697590       0x64 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                0x00697590                ccci_ipc_reload_rgpds
+ .text.ccci_ipc_main
+                0x006975f4       0x1c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                0x006975f4                ccci_ipc_main
+ .text.ccci_ipc_task_init
+                0x00697610        0xa ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                0x00697610                ccci_ipc_task_init
+ .text.ccci_ipc_task_main_init
+                0x0069761a        0xa ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                0x0069761a                ccci_ipc_task_main_init
+ .text.custom_em_thermal_red_ccci_hisr_callback
+                0x006a4a0c                custom_em_thermal_red_ccci_hisr_callback
+                0x006ce664      0x242 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x006ce8a6       0x3e ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+                0x006ce8e4       0xa0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                0x006ce984      0x11e ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .rodata.ccci_excep_memory_region_len
+                0x006ceaa4       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x006ceab4       0x23 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x006cead8       0xb0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .rodata.ccci_dummy_apis
+                0x006ceb88       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                0x006ceba8       0x55 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+ .rodata.ccci_cldma_apis
+                0x006cec00       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                0x006cec20      0x158 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+                0x006ced78        0x6 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ .rodata        0x006ced80        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x006ced8c       0x50 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+ .rodata.g_cccitty_ccci_ch_mappping
+                0x006ceddc       0x64 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x006cee40      0x183 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .rodata.cccitty_dev_state_machines_s
+                0x006cefc4       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x006cefd4      0x200 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                0x006cf1d4       0x81 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+                0x006cf255      0x227 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x006cf47c      0x31e ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x006cf79a      0x2f9 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                0x006cfa93       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                0x006cfabf       0x3a ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .rodata.ccci_sysmsgsvc_msg
+                0x006cfafc       0x98 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                0x006cfb94       0x34 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                0x006cfbc8      0x10b ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x00715ef3      0x152 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+ .rodata.cccidev_task_info.22904
+                0x0074ab98        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                0x0074aba4       0x37 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                0x0074abdc       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x0074abec        0x8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x0074abf4       0x7c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x0074ac70       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ .rodata.g_ccmni_ccci_ch_mappping
+                0x0074ac80       0xa0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x0074ad20      0x147 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                0x0074ae67       0x6a ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                0x0074aed1       0x70 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0x0074af41       0x34 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ .rodata.cccisrv_task_info.22971
+                0x0074af78        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ .rodata.cccisrv_init_func_list_g
+                0x0074af84       0x14 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                0x0074af84                cccisrv_init_func_list_g
+                0x0074af98       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                0x70056398                SA_CCCI_SM_ADDRESS
+                0x7005639c                SA_CCCI_SM_INDEX
+ .data.ccci_ch_info
+                0xf2771470      0x5e0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+ .data.ccci_debug_feature
+                0xf2771a50        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .data.ccci_debug_buff_type
+                0xf2771a54        0x1 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0xf2771a54                ccci_debug_buff_type
+ .data.ccci_debug_status
+                0xf2771a58        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0xf2771a58                ccci_debug_status
+ .data.ccci_boottrc_min_transmit_time
+                0xf2771a5c        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0xf2771a5c                ccci_boottrc_min_transmit_time
+ .data.ccci_exception_handshake_done
+                0xf2771a60        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0xf2771a60                ccci_exception_handshake_done
+ .data.ccci_excep_memory_type
+                0xf2771a64        0x1 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0xf2771a64                ccci_excep_memory_type
+                0xf2771a68       0x18 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+ .data.Uart_CCCI_Expt_Drv_Handler
+                0xf2771a80        0x8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                0xf2771a80                Uart_CCCI_Expt_Drv_Handler
+ .data.cccitty_attach_state_machine_s
+                0xf2771a88       0x30 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .data.cccitty_open_state_machine_s
+                0xf2771ab8       0x30 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .data.cccitty_detach_state_machine_s
+                0xf2771ae8       0x24 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .data.cccitty_close_state_machine_s
+                0xf2771b0c       0x30 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .data.Uart_CCCI_Drv_Handler
+                0xf2771b3c        0x8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0xf2771b3c                Uart_CCCI_Drv_Handler
+ .data.ccci_rpc_ch
+                0xf2771b44       0x44 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0xf2771b44                ccci_rpc_ch
+ .data.mml1_ccci_clkbuf_input
+                0xf2780d80                mml1_ccci_clkbuf_input
+ .data.cccidev_module_list_g
+                0xf2781e80        0x6 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                0xf2781e80                cccidev_module_list_g
+ .data.cccidev_ilm_func_list_g
+                0xf2781e88        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                0xf2781e88                cccidev_ilm_func_list_g
+                0xf2781e94       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0xf2781ed0       0x30 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0xf2781f00       0x30 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0xf2781f30       0x30 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ .data.ccci_ipc_ch
+                0xf2781f60       0x34 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0xf2781f60                ccci_ipc_ch
+ .data.ccci_ipc_maptbl
+                0xf2781f94       0x60 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0xf2781f94                ccci_ipc_maptbl
+ .data.cccisrv_module_list_g
+                0xf2781ff4        0xa ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                0xf2781ff4                cccisrv_module_list_g
+ .data.cccisrv_ilm_func_list_g
+                0xf2782000       0x14 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                0xf2782000                cccisrv_ilm_func_list_g
+ .bss.ccci_boot_state_g
+                0xf28d2cac        0x1 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .bss.ccci_hs_buff
+                0xf28d2cad      0x240 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ .bss.ccci_debug_seq_num
+                0xf28d2eee       0xbc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.add_ccci_debug_num.41959
+                0xf28d2fac        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.ccci_debug_record_excep_hdr.41964
+                0xf28d2fb0        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.ccci_debug_record_hdr.41963
+                0xf28d2fb4        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.g_ccci_debug_status
+                0xf28d2fb8     0x3800 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.ccci_debug_buff_current_addr.41961
+                0xf28d67b8        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.add_ccci_debug_excep_num.41960
+                0xf28d67bc        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.ccci_debug_buff_excep_current_addr.41962
+                0xf28d67c0        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.add_ccci_debug_header.41958
+                0xf28d67c4        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.ccci_debug_get_status_cb
+                0xf28d67c8       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.ccci_debug_io_request
+                0xf28d67e8       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .bss.ccci_except_polling_gpd_rx2
+                0xf28d67f8        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .bss.ccci_boottrc_gpd
+                0xf28d67fc       0x50 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .bss.ccci_exception_state
+                0xf28d684c        0x1 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0xf28d684c                ccci_exception_state
+ .bss.ccci_expt_inst
+                0xf28d6850       0x60 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .bss.g_ccci_expect_polling_buf_rx
+                0xf28d68b0      0xe20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .bss.ccci_boottrc_max_transmit_time
+                0xf28d76d0        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0xf28d76d0                ccci_boottrc_max_transmit_time
+ .bss.ccci_except_polling_gpd_tx
+                0xf28d76d4        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .bss.ccci_except_polling_gpd_rx
+                0xf28d76d8        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .bss.g_ccci_expect_polling_buf_tx
+                0xf28d76dc      0xe20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .bss.ccci_boottrc_avg_transmit_time
+                0xf28d84fc        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0xf28d84fc                ccci_boottrc_avg_transmit_time
+ .bss.ccci_boottrc_total_transmit_time
+                0xf28d8500        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0xf28d8500                ccci_boottrc_total_transmit_time
+ .bss.g_ccci_expect_polling_buf_rx2
+                0xf28d8504      0xe20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0xf28d9324        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .bss.ccci_boottrc_transmit_count
+                0xf28d9328        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0xf28d9328                ccci_boottrc_transmit_count
+                0xf28d932c       0x18 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+ .bss.ccci_hw_handle_apis
+                0xf28d9344      0x160 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                0xf28d94a4        0x1 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ .bss.g_cccittydbg_status
+                0xf28d94a8       0x78 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .bss.g_cccittydev_int
+                0xf28d9520      0x22c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .bss.ccci_fs_tgpd_pool
+                0xf28d974c      0xefb ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .bss.ccci_fs_tbd_pool
+                0xf28da647      0xefb ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .bss.ccci_fs_assert_dump_size
+                0xf28db544        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0xf28db544                ccci_fs_assert_dump_size
+ .bss.g_ccci_fs_ttc
+                0xf28db548        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0xf28db548                g_ccci_fs_ttc
+ .bss.ccci_fs_assert_dump_addr
+                0xf28db54c        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0xf28db54c                ccci_fs_assert_dump_addr
+ .bss.ccci_fs_assert_first.43136
+                0xf28db550        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .bss.ccci_fs_debug_status
+                0xf28db554       0x54 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .bss.ccci_fs_excep_first_reload_gpd.43075
+                0xf28db5a8        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .bss.DSP_OPEN  0xf28db5ac        0x1 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ .bss.ccci_ims_inst
+                0xf28db5b0       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ .bss.ccci_ims_debug_status
+                0xf28db5e8       0x30 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ .bss.g_ccci_rpc_polling_buf
+                0xf28db618     0x1120 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .bss.ccci_rpc_debug_status
+                0xf28dc738       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .bss.ccci_sys_msg_inst
+                0xf28dc774        0x8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+ .bss.ccci_sysmsgsvc_cb
+                0xf28dc77c       0x4c ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                0xf28dc7c8       0x10 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+ .bss.is_ccci_ex_ptr_sent
+                0xf31ec6c4                is_ccci_ex_ptr_sent
+ .bss.is_ccci_handshaked
+                0xf31ec6e0                is_ccci_handshaked
+ .bss.mml1_ccci_clkbuf_result
+                0xf323f910                mml1_ccci_clkbuf_result
+ .bss._g_bmpool_QBM_TYPE_CCCI_COMM
+ .bss.is_ccci_exception_info_passed
+                0xf36dbc64                is_ccci_exception_info_passed
+ .bss.rx_isr    0xf37202b8       0x14 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                0xf3731884       0x40 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0xf37318c4      0x204 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ .bss.ccci_ipc_debug_status
+                0xf3731ac8        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .bss.ccci_ipc_cb_table
+                0xf3731acc      0x2f8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .bss.g_ccci_ipc_polling_buf
+                0xf3731dc4     0x1120 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .bss.ccci_ipc_ilm_arr
+                0xf3732ee4      0x150 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0xf3732ee4                ccci_ipc_ilm_arr
+ COMMON         0xf39198b4    0x169e0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0xf3919a1c                ccci_ctrl_pool
+ COMMON         0xf3930294        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0xf3930294                ccci_debug_buff_size
+                0xf3930298                ccci_debug_buff
+                0xf393029c                ccci_debug_buff_addr
+ COMMON         0xf39302a0        0xc ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0xf39302a0                ccci_excep_dbg_log_type_hs2
+                0xf39302a4                ccci_excep_dbg_log_size_hs2
+                0xf39302a8                ccci_excep_dbg_log_base_hs2
+ COMMON         0xf39302ac     0x5434 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0xf39302ac                g_ccci_fs_ttt
+                0xf39313f4                ccci_fs_assert_dump_type
+                0xf39313f8                g_ccci_fs_polling
+                0xf3935638                g_ccci_fs_int
+ COMMON         0xf39356e0       0xc8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0xf39356e0                ccci_fs_filename
+ COMMON         0xf39357a8       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                0xf39a4b44                g_uem_ccci_tst_baudrate
+                0xf39a4b48                g_uem_ccci_tst_port
+                0x000036b9       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                0x000036ec       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+                0x0000371f       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                0x00003752       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                0x00003785       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                0x000037b8       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                0x000037eb       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+                0x0000381e       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+                0x00003851       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_misc_data.obj)
+                0x00003884       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                0x000038b7       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                0x000038ea       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                0x0000391d       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                0x00003950       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+                0x00003983       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                0x000039b6       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                0x000039e9       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                0x00003a1c       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                0x00003a4f       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                0x00003a82       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                0x00003ab5       0x33 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                0x00004ab8       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+                0x0000eb56       0x33 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                0x0001986d       0x33 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+                0x000198a0       0x33 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+                0x000198d3       0x33 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                0x0001ace7       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                0x0001ad1a       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                0x0001ad4d       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                0x0001ad80       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                0x0001adb3       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                0x0001ade6       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+                0x0001ae19       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                0x0001ae4c       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_misc_data.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+ .comment       0x00000000       0x71 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+ .comment       0x00000000       0x71 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+ .comment       0x00000000       0x71 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+ .comment       0x00000000       0x71 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+ .comment       0x00000000       0x71 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+ .debug_line    0x0000a13a       0xa8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+ .debug_info    0x00085852       0xd2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+ .debug_abbrev  0x00005211       0x73 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+                0x00001790       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+ .debug_ranges  0x00001b00       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+ .debug_str     0x0002372c       0x3d ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+ .debug_frame   0x00003444       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+IPC_RPC_ADC_GetChannelNumber                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+IPC_RPC_BufCount                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+IPC_RPC_CCCI_Read                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+IPC_RPC_CCCI_Write                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+IPC_RPC_EINT_GetAttribute                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+IPC_RPC_EINT_GetNumber                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+IPC_RPC_GPIO_GetPin                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+IPC_RPC_General_Query                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+IPC_RPC_Get_Secure_RO                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+IPC_RPC_Process_CMD                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+IPC_RPC_Query_EMI                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+IPC_RPC_REQ_BUF                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+IPC_RPC_ReadIndex                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+IPC_RPC_Secure_Algo                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+IPC_RPC_ShareBuffer_BlockSize                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+IPC_RPC_Wrapper                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_svc.obj)
+IPC_RPC_WriteIndex                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+MDExceShareMemBase                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+MDFileShareMemBase                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+MD_FS_CMPT_Read                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_ClearDiskFlag                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_Close                                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_CloseAll                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_Count                                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_CreateDir                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_Delete                                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_FindClose                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_FindFirst                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_FindNext                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_GetAttributes                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_GetClusterSize                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_GetDiskInfo                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_GetDrive                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_GetFileSize                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_GetFolderSize                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_LockFAT                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_Move                                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_OTPLock                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_OTPQueryLength                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_OTPRead                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_OTPWrite                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_Open                                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_OpenHint                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_Read                                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_RemoveDir                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_Rename                                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_Restore                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_Seek                                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_SetDiskFlag                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_ShutDown                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_UnlockAll                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_Write                                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MD_FS_XDelete                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+MML1_RF_DRDI_GetConfig_ADC_CCCI                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libmml1_rf.a(mml1_rf_drdi.obj)
+MML1_RF_DRDI_GetConfig_GPIO_CCCI                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libmml1_rf.a(mml1_rf_drdi.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+SA_CCCI_SM_ADDRESS                                ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsst.a(softwareLA.obj)
+SA_CCCI_SM_INDEX                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsst.a(softwareLA.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+Uart_CCCI_Drv_Handler                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+Uart_CCCI_Expt_Drv_Handler                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_misc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+_ap_md_lte_auto_gap_ccci_hisr_callback            ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_phs.obj)
+ap_md_share_data                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+boot_init_ccif_clock                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+ccci_CalculateShareMem                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_boot_ack                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_boottrc_avg_transmit_time                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_boottrc_max_transmit_time                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_boottrc_min_transmit_time                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_boottrc_send_log                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_boottrc_total_transmit_time                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_boottrc_transmit_count                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_cldma_hs1                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_cldma_hs2                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_ctrl_pool                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_data_trace_dump                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_debug_add_seq                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_debug_ap_force_assert_md                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_debug_buff                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_debug_buff_addr                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_debug_buff_size                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_debug_buff_type                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_debug_check_seq                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_debug_get_status_L1Time_funp                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_debug_get_status_ccciseq_funp                ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_debug_get_status_register                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ccci_debug_get_status_worker                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_debug_init                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ccci_debug_reset_seq_data                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_debug_rx_cb                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_debug_set_feature                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_debug_status                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_debug_tx_cb                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_debug_write_record                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_deinit                                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_dhl_print                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_dlior_agg_cb                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+ccci_dump_data                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_excep_dbg_log_base_hs2                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_excep_dbg_log_size_hs2                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_excep_dbg_log_type_hs2                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_excep_dbg_logging_InHS2                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_excep_init_shm                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_excep_memory_type                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_excep_query_shm                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_excep_shm_get_total_size                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_except_ack                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_except_clear_ch                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_except_hif_isr                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ccci_except_hif_st                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ccci_except_init                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_except_init_hmu                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_except_poll_gpd                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ccci_except_set_gpd                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ccci_exception_check_write_result                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_exception_handshake                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_exception_handshake_done                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_exception_info_passed                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_exception_info_passed_pre                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_exception_info_write_result                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_exception_state                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+ccci_fs_assert_dump_addr                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_assert_dump_size                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_assert_dump_type                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_calc_buff_len                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_ch_init                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_data_trace_dump                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_dl_cb                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_enter_cs                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_exception_assert                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ccci_fs_exit_cs                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_filename                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ccci_fs_get_buff                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ccci_fs_get_debug_status                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_get_port                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ccci_fs_main                                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_fs_polling_io                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_put_buff                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ccci_fs_put_port                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ccci_fs_rgpd_init                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_svc_init                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ccci_fs_task_init                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_fs_task_main_init                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_fs_test_init                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ccci_fs_ul_buff_process                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_ul_cb                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_fs_wait_rx                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ccci_fs_wait_rx_exception                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+ccci_get_ch_info                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_get_current_time                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_get_duration                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_get_ex_shm_info                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_get_fs_shm_info                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_get_hw_handle_api                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_get_share_data                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_misc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_handshake1_ack                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_hif_init                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ccci_ims_ccci_ul_cb                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ccci_ims_dl_req                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+ccci_ims_dlcb_dummy                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ccci_ims_get_debug_status                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ccci_ims_print                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+ccci_ims_svc_init                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ccci_ims_ulcb_reg                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+ccci_init                                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+ccci_init_gpdior                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_ipc_ch                                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+ccci_ipc_get_debug_status                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ccci_ipc_ilm_arr                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ccci_ipc_init                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+ccci_ipc_main                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_ipc_maptbl                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ccci_ipc_process_cb_funp                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ccci_ipc_receive_msg_cb                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ccci_ipc_reload_rgpds                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+ccci_ipc_send_msg                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ccci_ipc_send_msg_cb                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ccci_ipc_task_init                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_ipc_task_main_init                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_lb_it_1_task_create                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_lb_it_2_task_create                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_lb_it_3_task_create                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_lb_it_4_task_create                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_lb_it_buff_rx_lb                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_lb_it_buff_tx_cb                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_lb_it_init                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ccci_lb_it_task_init                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_mailbox_write                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_mailbox_write_with_reserved                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_main                                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_misc_data_feature_support                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_misc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+ccci_owner_init                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_polling_io                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+ccci_queryBootAttributes                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_register_ipc_cb_funp                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ccci_register_sysmsgsvc_callback                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+ccci_rpc_allocate_gpds                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ccci_rpc_ch                                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+ccci_rpc_get_debug_status                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ccci_rpc_init                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+ccci_rpc_main                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_rpc_receive_cb                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ccci_rpc_send_cb                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+ccci_rpc_svc_init                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ccci_rpc_task_init                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_rpc_task_main_init                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_send_message                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+ccci_stream_write                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_stream_write_with_reserved                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_sys_msg_dlcb_dummy                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+ccci_sys_msg_svc_init                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+ccci_system_channel_runtime_callback              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+ccci_task_init                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+ccci_task_main_init                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_ulbuff_cb                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+ccci_ulior_cb                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+ccci_ulior_net_cb                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_write                                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_write_gpd                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+cccidev_ilm_func_list_g                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+cccidev_init_func_list_g                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+cccidev_module_list_g                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+cccidev_task_create                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+cccidev_task_init                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+cccidev_task_main                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+cccidev_task_on_ilm                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+cccisrv_ilm_func_list_g                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+cccisrv_init_func_list_g                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+cccisrv_module_list_g                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+cccisrv_task_create                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+cccisrv_task_init                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+cccisrv_task_main                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+cccisrv_task_on_ilm                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+cccitty_ccci_dl_cb                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+cccitty_ccci_dummy_cb                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+cccitty_ccci_ul_cb                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+cccitty_dev_deinit                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+cccitty_dev_expt_init                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+cccitty_dev_init                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+cccitty_get_debug_status                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+cccitty_get_dev_instance                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_get_dl_devid                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+cccitty_get_instance                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+cccitty_get_ul_devid                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+cccitty_main                                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+cccitty_on_dev_event                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_session_deinit                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+cccitty_session_init                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+cccitty_set_dev_state                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+cccitty_task_init                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+cccitty_ttyc_cmd_expt_assign_rx_gpd               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ttyc_cmd_expt_get_rx_gpd                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ttyc_cmd_expt_hif_poll                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ttyc_cmd_expt_hif_state                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ttyc_cmd_expt_tx_done_info                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ttyc_cmd_expt_tx_gpd                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ttyc_expt_hdr                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ttyc_hdr                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+cccitty_ttyc_hdr_cmd_assign_rx_ior                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_close                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_clr_rx_buf                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_get_chunk_size               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ttyc_hdr_cmd_get_mtu_size                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ttyc_hdr_cmd_get_owner_id                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_init                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_need_tx_done_cb              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_open                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_put_bytes_ior                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_read_dcb_config              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_set_dcb_config               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_set_flow_ctrl                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_cmd_set_owner                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+cccitty_ttyc_hdr_expt_clear_ch                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ttyc_hdr_expt_init                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+cccitty_ul_deq_hdr                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+ccmni_ccci_dummy_cb                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_ccci_ul_cb                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_dev_deinit                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+ccmni_dev_main_init                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_dhl_print                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ccmni_get_debug_status                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_get_instance                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ccmni_get_ul_devid                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ccmni_ipc_dl                                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+ccmni_is_dlack_ch                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ccmni_main                                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+ccmni_on_dev_event                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_qbm_pool_status_cb                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_reload_ul_gpds                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_reload_ulq                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+ccmni_session_deinit                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_session_init                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_session_linkdown                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_session_linkup                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_set_dev_state                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ccmni_task_init                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+check_packet                                      ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+cldmac_except_clear_q                             ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+cldmac_except_hif_isr                             ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+cldmac_except_init                                ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+cldmac_except_link_st                             ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+cldmac_except_poll_gpd                            ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+cldmac_except_set_gpd                             ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+cldmac_polling_submit_one_gpd                     ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+cldmac_q_attach                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+cldmac_q_detach                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+cldmac_submit_ior                                 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+custom_em_thermal_red_ccci_hisr_callback          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(custom_em.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+dhl_assert_preopen_ccci_logging_port_for_exception ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libdhl.a(dhl_wrp.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+disable_ccif_irq                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+dummy_polling_io                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+dummy_q_attach                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+dummy_q_detach                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+dummy_submit_ior                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+enable_ccif_irq                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+g_IPC_RPC_SemId                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+g_ccci_fs_int                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+g_ccci_fs_polling                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+g_ccci_fs_ttc                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+g_ccci_fs_ttt                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+g_fs_polling_req_buf                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+g_fs_polling_req_buf_rx1                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+g_fs_polling_req_buf_rx2                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+g_uem_ccci_tst_baudrate                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_proc_msg.obj)
+g_uem_ccci_tst_port                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_proc_msg.obj)
+get_ccci_boot_state                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+get_ch_expt_inst                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+hifwccif_except_delay_us                          ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+hifwccif_except_sw_int_poll                       ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+hifwccif_isr_init                                 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+hifwccifrx_hisr_handler                           ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+imc_ccci_init                                     ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+imc_ccci_send                                     ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+ipc_msgsvc_allocate_ilm                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ipc_msgsvc_send_ext_queue                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+ipc_msgsvc_send_ext_queue_no_wait                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+is_ccci_ex_ptr_sent                               ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_error_handling.obj)
+is_ccci_exception_info_passed                     ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsst.a(ex_item.obj)
+is_ccci_handshaked                                ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_error_handling.obj)
+is_ccif_irq_enable                                ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_ch_cfg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+kal_register_interrupt                            ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+lte_ccci_hal_init                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+lte_ccci_hw_init                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+lte_ccci_hw_init_phase2                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+lte_ccci_init_handshake_phase1                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+lte_ccci_init_handshake_phase2                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+mml1_ccci_clkbuf_input                            ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libmml1_rf.a(mml1_rf_data.obj)
+mml1_ccci_clkbuf_result                           ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libmml1_rf.a(mml1_rf_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_sys_msg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_fs.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ipc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_sm.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hif_cfg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+remap_shared_data_ap_md_offset                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+rpc_gpd_pool                                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_rpc.obj)
+set_ccci_boot_state                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+set_ioc                                           ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+set_non_cachable_addr                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+set_shared_data_mpu_protection                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_cldma.obj)
+spcIO_sendDataViaCCCI                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libaudio.a(spc_io.obj)
+spcIO_sendMsgViaCCCI                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libaudio.a(spc_io.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_intr.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a(cldmacore_ccci.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_debug.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(ccmni_data.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(ccci_ims.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+uem_ccci_ack_callback                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_proc_msg.obj)
+uem_ccci_em_gsm_power_scan_hdlr                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_proc_msg.obj)
+uem_ccci_em_req_hdlr                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_proc_msg.obj)
+uem_ccci_em_uart_port_setting_hdlr                ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_proc_msg.obj)
+uemdrv_ccci_em_req_hdlr                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_msg_hdlr.obj)
+wccif_ack                                         ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+wccif_get_data_addr                               ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+wccif_init                                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+wccif_set                                         ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+wccif_start_state                                 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+wccif_valid_state                                 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_except.obj)
+wccif_write_seq                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libwccifdev.a(wccif_dev.obj)

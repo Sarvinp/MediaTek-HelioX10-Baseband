@@ -1,0 +1,805 @@
+./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj) (CacheInit)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj) (INT_Config)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj) (INT_ecoVersion)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init.obj) (INT_backupBootLogs)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj) (INT_InitRegions)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj) (DCM_Prerequisite)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init.obj) (boot_init_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_ehpi_master_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_ehpi_slave_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_gdma_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_gpio_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_gptm_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_i2c_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_ipsec_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj) (INT_FIQ_Parse)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_led_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_ltel2_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_mdcaif_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_mdcirq_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_msdc_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_nfi_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_nic_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_nli_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_pfc_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_rtc_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_sdio_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_spi_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_trace_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_u2_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_u3_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_uart_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_usim_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_abm_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_arm7_clock)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_bootrom_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_busmon_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_ca7_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_ccif_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_cldma_clock)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_cr4pcmon_clock)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj) (boot_init_dbgsys_clock)
+./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv.obj) (DRV_Boot_DSP)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj) (dspfnc_enable_pc_trace)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/liberrc.a(errc_evth.obj) (errc_sys_init)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_main.obj) (nvram_startup_cnf_hdlr)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_utility.obj) (l4c_phb_startup_begin_req)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_ft.obj) (l4ccsm_cc_startup_cnf_hdlr)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_ft.obj) (l4ccsm_ciss_startup_cnf_hdlr)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_main.obj) (phb_startup_erase_ln)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj) (phb_nvram_read_compare_digit)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj) (phb_sim_file_info)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libmml1_rf.a(mml1_rf_control.obj) (MML1_RF_MixedSys_Init)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj) (INC_Initialize)
+./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_main.obj) (nvram_startup_handler)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj) (SST_DTLB_Init)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libbtt_agent.a(btt_task.obj) (btt_cmd_init)
+chv_status          0x8               ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+phb_query_count     0x8               ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+boot_trace_log      0x400             ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init_trc.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+ .rodata        0x00000000        0x8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+ .text.INT_IsBootByCodeShadow
+ .text.INT_IsBootForUSBAT
+ .text.INT_GetBootloaderFlag
+ .data.boot_trace_log_ptr
+ .text.custom_get_BOOTCERT_StartAddr
+ .text.custom_get_BOOTCERT_Length
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+ .text.kal_bootup_trace
+ .text.tst_sys_init_trace
+ .text          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+ .data          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+ .bss           0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0x00000000       0x10 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+ .bss.sw_ver    0x00000000        0x2 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0x00000000        0x1 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0x00000000        0x1 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+ .text.L1D_DSP_EnterBootMode
+ .text.hif_boot_init
+ .text.l4c_sms_startup_read_next_req
+ .text.l4c_sms_startup_read_res_req
+ .text.l4c_phb_startup_read_next_req
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x00000000       0x44 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+ .text          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .data          0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .bss           0x00000000        0x0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .rodata.ADC_BOOTUP_EVAL_PERIOD
+ .rodata.ADC_BOOTUP_EVAL_COUNT
+ .text.l4c_phb_startup_read_lind
+ .text.l4c_sms_startup_read_lind
+ *bootarm_gcc.obj(INT_VECTOR_CODE)
+                0x00000000       0x40 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+ .text          0x00002a38      0x260 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                0x00002a58                BOOT_SYS_Stack_End
+                0x00002a64                BOOT_EX_Stack_End
+                0x00002a68                BOOT_EX_SYS_Stack_End
+ .text.INT_BootMode
+                0x00003688                INT_BootMode
+ .text.INT_backupBootLogs
+                0x000037e0                INT_backupBootLogs
+                0x00004c48                SYS_InitRegions
+ .text.SP_Drv_Init_Bootup
+                0x000f401c                SP_Drv_Init_Bootup
+ .text.ccci_queryBootAttributes
+                0x000fa2e0                ccci_queryBootAttributes
+ .text.set_ccci_boot_state
+                0x000fa2fc                set_ccci_boot_state
+ .text.get_ccci_boot_state
+                0x000fa308                get_ccci_boot_state
+ .text.ccci_boot_ack
+                0x000fa370                ccci_boot_ack
+ .text.ccci_boottrc_send_log
+                0x000fb5e0                ccci_boottrc_send_log
+ .text.cccitty_ttyc_hdr_cmd_init
+                0x000fbd80                cccitty_ttyc_hdr_cmd_init
+ .text.Drv_query_boot_mode
+                0x00104f80                Drv_query_boot_mode
+ .text.boot_init_clock
+                0x001052c0       0x8a ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+                0x001052c0                boot_init_clock
+ .text.boot_init_ehpi_master_clock
+                0x001066ac                boot_init_ehpi_master_clock
+ .text.boot_init_ehpi_slave_clock
+                0x001066ae                boot_init_ehpi_slave_clock
+ .text.boot_init_gdma_clock
+                0x00106968                boot_init_gdma_clock
+ .text.boot_init_gpio_clock
+                0x00106980                boot_init_gpio_clock
+ .text.boot_init_gptm_clock
+                0x00106984                boot_init_gptm_clock
+ .text.boot_init_i2c_clock
+                0x0010699c                boot_init_i2c_clock
+ .text.boot_init_ipsec_clock
+                0x0010699e                boot_init_ipsec_clock
+ .text.boot_init_led_clock
+                0x00106ad4                boot_init_led_clock
+ .text.boot_init_ltel2_clock
+                0x00106ad6                boot_init_ltel2_clock
+ .text.boot_init_mdcaif_clock
+                0x00106ad8                boot_init_mdcaif_clock
+ .text.boot_init_mdcirq_clock
+                0x00106ada                boot_init_mdcirq_clock
+ .text.boot_init_msdc_clock
+                0x00106adc                boot_init_msdc_clock
+ .text.boot_init_nfi_clock
+                0x00106ade                boot_init_nfi_clock
+ .text.boot_init_nic_clock
+                0x00106ae0                boot_init_nic_clock
+ .text.boot_init_nli_clock
+                0x00106ae2                boot_init_nli_clock
+ .text.boot_init_pfc_clock
+                0x00106ae4                boot_init_pfc_clock
+ .text.boot_init_rtc_clock
+                0x00106e9a                boot_init_rtc_clock
+ .text.boot_init_sdio_clock
+                0x00106e9c                boot_init_sdio_clock
+ .text.boot_init_spi_clock
+                0x00106e9e                boot_init_spi_clock
+ .text.boot_init_trace_clock
+                0x00106ea0                boot_init_trace_clock
+ .text.boot_init_u2_clock
+                0x00106ea2                boot_init_u2_clock
+ .text.boot_init_u3_clock
+                0x00106ea4                boot_init_u3_clock
+ .text.UART_Boot_PutUARTBytes
+                0x00107bfc                UART_Boot_PutUARTBytes
+ .text.UART_Bootup_Init
+                0x00107cc8                UART_Bootup_Init
+ .text.uart_ttyhdr_cmd_init
+                0x00109448                uart_ttyhdr_cmd_init
+ .text.boot_init_uart_clock
+                0x00109900                boot_init_uart_clock
+ .text.boot_init_usim_clock
+                0x00109968                boot_init_usim_clock
+ .text.boot_init_abm_clock
+                0x00109a24                boot_init_abm_clock
+ .text.boot_init_arm7_clock
+                0x00109a26                boot_init_arm7_clock
+ .text.boot_init_bootrom_clock
+                0x00109a28        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+                0x00109a28                boot_init_bootrom_clock
+ .text.boot_init_busmon_clock
+                0x00109a2c                boot_init_busmon_clock
+ .text.boot_init_ca7_clock
+                0x00109a6c                boot_init_ca7_clock
+ .text.boot_init_ccif_clock
+                0x00109a6e                boot_init_ccif_clock
+ .text.boot_init_cldma_clock
+                0x00109a70                boot_init_cldma_clock
+ .text.boot_init_cr4pcmon_clock
+                0x00109a8c                boot_init_cr4pcmon_clock
+ .text.boot_init_dbgsys_clock
+                0x00109a94        0x2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+                0x00109a94                boot_init_dbgsys_clock
+ .text.DRV_DSP_Boot_Proc
+                0x00175688                DRV_DSP_Boot_Proc
+                0x00175bd8       0x2c ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0x00175c04       0x54 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0x00175c58      0x214 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0x00175e6c      0x188 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+ .text.DRV_Boot_DSP
+                0x00175ff4      0x2d4 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0x00175ff4                DRV_Boot_DSP
+ .text.startup._GLOBAL__sub_I___dso_handle
+ .text.errc_sys_init_bcch_rcv_tbl
+                0x00217204                errc_sys_init_bcch_rcv_tbl
+ .text.errc_sys_init
+                0x00217c40                errc_sys_init
+ .text.etmr_sys_init
+                0x00276838                etmr_sys_init
+ .text.ft_util_reboot_to_normal_mode
+                0x0027e318                ft_util_reboot_to_normal_mode
+ .text.hmu_boot_init
+                0x00361f34                hmu_boot_init
+ .text.l4cuem_startup_cnf_hdlr
+                0x0038be10                l4cuem_startup_cnf_hdlr
+ .text.nvram_startup_cnf_hdlr
+                0x0038d350                nvram_startup_cnf_hdlr
+ .text.l4c_sim_startup_info_ind
+                0x0039431c                l4c_sim_startup_info_ind
+ .text.l4csmsal_startup_read_msg_ind_hdlr
+                0x00397cd0                l4csmsal_startup_read_msg_ind_hdlr
+ .text.l4csmsal_startup_begin_ind_hdlr
+                0x00397d1c                l4csmsal_startup_begin_ind_hdlr
+ .text.l4csmsal_startup_finish_ind_hdlr
+                0x00397d20                l4csmsal_startup_finish_ind_hdlr
+ .text.l4c_cmux_startup_req
+                0x003988a4                l4c_cmux_startup_req
+ .text.l4c_phb_startup_begin_rind
+                0x003a1f74                l4c_phb_startup_begin_rind
+ .text.l4c_phb_startup_finish_rind
+                0x003a1fa8                l4c_phb_startup_finish_rind
+ .text.smsal_startup_finish
+                0x003bf300                smsal_startup_finish
+ .text.l4ccsm_cc_startup_req_hdlr
+                0x003d78f4                l4ccsm_cc_startup_req_hdlr
+ .text.csmss_send_l4c_startup_cnf
+                0x003dc0e8                csmss_send_l4c_startup_cnf
+ .text.csmss_startup_req_hdlr
+                0x003e1858                csmss_startup_req_hdlr
+ .text.l4c_eq_set_boot_mode_req
+                0x003e6c20                l4c_eq_set_boot_mode_req
+ .text.l4c_phb_startup_begin_req
+                0x003e9504                l4c_phb_startup_begin_req
+ .text.l4cphb_startup_cnf_hdlr
+                0x003e9f40                l4cphb_startup_cnf_hdlr
+ .text.l4cphb_startup_read_ind_hdlr
+                0x003eaeec                l4cphb_startup_read_ind_hdlr
+ .text.l4cphb_startup_begin_ind_hdlr
+                0x003eaef0                l4cphb_startup_begin_ind_hdlr
+ .text.rmmi_eboot_hdlr
+                0x003ee704                rmmi_eboot_hdlr
+ .text.csmcc_send_l4c_startup_cnf
+                0x003f56a0                csmcc_send_l4c_startup_cnf
+ .text.l4ccsm_cc_startup_cnf_hdlr
+                0x003fc844                l4ccsm_cc_startup_cnf_hdlr
+ .text.l4ccsm_ciss_startup_cnf_hdlr
+                0x003fe46c                l4ccsm_ciss_startup_cnf_hdlr
+ .text.uem_startup_process
+                0x00406926                uem_startup_process
+ .text.uem_startup_finish
+                0x00406940                uem_startup_finish
+ .text.uemaud_startup_cnf_hdlr
+                0x00406bd8                uemaud_startup_cnf_hdlr
+ .text.ueml4c_startup_req_hdlr
+                0x00406cec                ueml4c_startup_req_hdlr
+ .text.l4cuem_startup_cnf_rsp
+                0x00407564                l4cuem_startup_cnf_rsp
+ .text.phb_startup_err_handler
+                0x0040ac18       0x58 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040ac70       0xd4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040ad44      0x1d0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040af14      0x258 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040b16c      0x168 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040b2d4       0xe8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040b3bc      0x428 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040b7e4       0x2a ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040b80e       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040b83a       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040b866      0x1f4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040ba5c       0x58 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040bab4       0x2c ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040bae0       0x60 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040bb40       0x64 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040bba4       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040bbe0       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040bc1c       0x78 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040bc94       0x38 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+ .text.phb_startup_confirm.constprop.9
+                0x0040bccc      0x124 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040bdf0      0x2c0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+ .text.phb_startup_build_index
+                0x0040c0b0      0x218 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+ .text.phb_startup_handler
+                0x0040c2c8      0x1b4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040c2c8                phb_startup_handler
+                0x0040c47c      0x168 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x0040c5e4       0x64 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+ .text.phb_startup_copy_ln
+                0x0040c648      0x27c ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+ .text.phb_startup_erase_ln
+                0x0040c8c4      0x13c ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                0x0040c8c4                phb_startup_erase_ln
+ .text.MML1_RF_MixedSys_Init
+                0x004778a0                MML1_RF_MixedSys_Init
+ .text.nvram_create_first_bootup_name
+                0x004861cc                nvram_create_first_bootup_name
+ .text.nvram_create_first_bootup_log
+                0x00486244                nvram_create_first_bootup_log
+ .text.nvram_check_first_bootup_log
+                0x00486260                nvram_check_first_bootup_log
+ .text.nvram_delete_first_bootup_log
+                0x00486278                nvram_delete_first_bootup_log
+ .text.nvram_util_is_usbboot
+                0x00486e0c                nvram_util_is_usbboot
+ .text.nvram_startup_confirm.isra.0
+                0x00488030       0x68 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .text.nvram_startup_handler
+                0x00488098       0x78 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+                0x00488098                nvram_startup_handler
+ .text.SHAQ_bootup
+                0x004a0954                SHAQ_bootup
+ .text.sim_startup_read
+                0x004e4b04                sim_startup_read
+ .text.isim_startup_read
+                0x004f1cb4                isim_startup_read
+ .text.usim_startup_read
+                0x004f1ea4                usim_startup_read
+ .text.ex_reboot4mp
+                0x0051a560                ex_reboot4mp
+ .text.ex_reboot
+                0x0051a670                ex_reboot
+ .text.EMM_WriteBootupTrace
+                0x0051a958                EMM_WriteBootupTrace
+ .text.btt_cmd_init
+                0x0068c75c                btt_cmd_init
+ .text.md_init_ctx
+                0x00699ee8                md_init_ctx
+ .text.cmux_uh_handleStartupReq
+                0x006a128c                cmux_uh_handleStartupReq
+ .text.cmux_handleCmuxStartupReq
+                0x006a1de8                cmux_handleCmuxStartupReq
+ .text.custom_disable_modem_auto_startup
+                0x006a5036                custom_disable_modem_auto_startup
+ .text.custom_sat_auto_startup
+                0x006a5a28                custom_sat_auto_startup
+ .text.l4c_phb_startup_begin_lind
+                0x006a7c3e                l4c_phb_startup_begin_lind
+ .text.l4c_sim_startup_info_lind
+                0x006a7c4a                l4c_sim_startup_info_lind
+ .text.l4c_phb_startup_finish_lind
+                0x006a7ca2                l4c_phb_startup_finish_lind
+ .text.l4c_sms_startup_begin_lind
+                0x006a7cd8                l4c_sms_startup_begin_lind
+ .text.l4c_sms_startup_finish_lind
+                0x006a7cda                l4c_sms_startup_finish_lind
+ .text.l4c_sms_startup_read_msg_lind
+                0x006a7cdc                l4c_sms_startup_read_msg_lind
+                0x006f3a64       0x10 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0x006f3a74       0xce ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0x007281ec       0x5c ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x00728248       0x6e ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                0x007304d7       0x44 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .rodata.g_EMM_BOOTTRC_ADDR
+                0x007368a0                g_EMM_BOOTTRC_ADDR
+ INTSRAM_RW     0x7003ebe0     0x21e0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                0x00aa0200   0x400000 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+ NONCACHEDZI    0x024a5660    0x86000 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+ .data          0xf276d000     0x11a0 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+ .data.ccci_boottrc_min_transmit_time
+                0xf2771a5c                ccci_boottrc_min_transmit_time
+ .data.system_boot_mode
+                0xf277b60c                system_boot_mode
+                0xf277cba0       0x8c ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+ .data.boot.52736
+ .data.boot.30323
+ .data.boot.30327
+                0xf2780868      0x250 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0xf2780ab8      0x12c ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+ .bss._IsBootForUSBAT
+ .bss._boot_mode
+ .bss.ccci_boot_state_g
+ .bss.ccci_boottrc_gpd
+ .bss.ccci_boottrc_max_transmit_time
+                0xf28d76d0                ccci_boottrc_max_transmit_time
+ .bss.ccci_boottrc_avg_transmit_time
+                0xf28d84fc                ccci_boottrc_avg_transmit_time
+ .bss.ccci_boottrc_total_transmit_time
+                0xf28d8500                ccci_boottrc_total_transmit_time
+ .bss.ccci_boottrc_transmit_count
+                0xf28d9328                ccci_boottrc_transmit_count
+ .bss.UART_Boot_Send_Count.16818
+                0xf2a3628c        0x4 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0xf2a36290        0x2 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0xf2a36292        0x2 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0xf2a36294        0x4 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0xf2a36298        0x4 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0xf3227b28        0x4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+ .bss.u16bootupCurIndex
+                0xf39144d4                boot_trace_log
+ COMMON         0xf39a4ea8       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x00000000       0x23 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                0x00004148       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+                0x00004a1f       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+                0x00004b84       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+                0x00005f3f       0x33 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                0x00012110       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                0x00012143       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                0x000158fe       0x33 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+ .comment       0x00000000       0x71 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+ .comment       0x00000000       0x71 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .debug_line    0x00000000       0xf4 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+ .debug_line    0x000049c9       0x7e ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+ .debug_line    0x00009ed6       0xab ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+ .debug_line    0x0000a457       0xaa ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+ .debug_line    0x00012c65      0x1e8 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .debug_info    0x00000000       0x95 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+ .debug_info    0x0005d93a       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+ .debug_info    0x00085422       0xd2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+ .debug_info    0x00085d8b       0xd2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+ .debug_info    0x0010670d     0x1838 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .debug_abbrev  0x00000000       0x12 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+ .debug_abbrev  0x00002548       0x29 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+ .debug_abbrev  0x0000502d       0x73 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+ .debug_abbrev  0x00005484       0x73 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+ .debug_abbrev  0x0000936a      0x1c2 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+                0x00000000       0x28 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                0x000008b8       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+                0x00001730       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+                0x00001820       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+                0x00002640       0x28 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .debug_ranges  0x00000000       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+ .debug_ranges  0x00000968       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+ .debug_ranges  0x00001aa0       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+ .debug_ranges  0x00001b80       0x10 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+ .debug_ranges  0x000034d0       0x18 ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .debug_loc     0x00015db4       0x8c ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .debug_str     0x0001d071       0x3c ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+ .debug_str     0x0002366d       0x43 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+ .debug_str     0x00023835       0x41 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+ .debug_str     0x0003b204      0x10e ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ .debug_frame   0x00001530       0x28 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+ .debug_frame   0x000033dc       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+ .debug_frame   0x00003504       0x20 ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+ .debug_frame   0x00005b80       0x4c ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+ADC_BOOTUP_EVAL_COUNT                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(custom_hw_default.obj)
+ADC_BOOTUP_EVAL_PERIOD                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(custom_hw_default.obj)
+BOOT_EX_SYS_Stack_End                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+BOOT_EX_Stack_End                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+BOOT_SYS_Stack_End                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+DRV_Boot_DSP                                      ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+DRV_DSP_Boot_Proc                                 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+Drv_query_boot_mode                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(devdrv_common.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+EMM_WriteBootupTrace                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsst.a(ex_mem_manager.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+EX_Stack_Pool                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+INC_TRC                                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+INT_BootMode                                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+INT_GetBootloaderFlag                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+INT_Initialize                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+INT_IsBootByCodeShadow                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init.obj)
+INT_IsBootForUSBAT                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init.obj)
+INT_Loaded_Flag                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+INT_Table                                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+INT_Vectors                                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+INT_backupBootLogs                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init_trc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+Init_Magic_Num                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+L1D_DSP_EnterBootMode                             ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libgl1.a(m12160.obj)
+LDR_PC_Initialize                                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+MML1_RF_MixedSys_Init                             ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libmml1_rf.a(mml1_rf_mixedsys.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+PHY_EXTSRAM_ZI$$Limit                             ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+SHAQ_bootup                                       ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libratdm.a(ratdm_shaq_api.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+SP_Drv_Init_Bootup                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libaudio.a(audio_service.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+SYS_InitRegions                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_svc.a(regioninit_gcc.obj)
+SYS_Stack_Pool                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+UART_Boot_PutUARTBytes                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(uart.obj)
+UART_Bootup_Init                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(uart.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+_constr_hdr                                       ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+_hw_misc_setting                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+_load_dsp_code                                    ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+_load_dsp_code_by_idx                             ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+_lte_dsp_core_stop                                ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+boot_init_abm_clock                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(abm_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_arm7_clock                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(arm7_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_bootrom_clock                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(bootrom_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_busmon_clock                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(busmon_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_ca7_clock                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ca7_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_ccif_clock                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ccif_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_cldma_clock                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(cldma_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_clock                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_cr4pcmon_clock                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(cr4pcmon_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_dbgsys_clock                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(dbgsys_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_ehpi_master_clock                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ehpi_master_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_ehpi_slave_clock                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ehpi_slave_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_gdma_clock                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(gdma_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_gpio_clock                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(gpio_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_gptm_clock                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(gptm_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_i2c_clock                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(i2c_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_ipsec_clock                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ipsec_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_led_clock                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(led_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_ltel2_clock                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(ltel2_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_mdcaif_clock                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(mdcaif_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_mdcirq_clock                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(mdcirq_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_msdc_clock                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(msdc_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_nfi_clock                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(nfi_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_nic_clock                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(nic_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_nli_clock                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(nli_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_pfc_clock                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(pfc_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_rtc_clock                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(rtc_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_sdio_clock                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(sdio_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_spi_clock                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(spi_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_trace_clock                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(trace_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_u2_clock                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(u2_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_u3_clock                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(u3_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_uart_clock                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(uart_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_init_usim_clock                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(usim_init.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(drv_boot_init.obj)
+boot_trace_log                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init_trc.obj)
+boot_trace_log_ptr                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(init_trc.obj)
+btt_cmd_init                                      ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libbtt_agent.a(btt_cmd.obj)
+ccci_boot_ack                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+ccci_boottrc_avg_transmit_time                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_boottrc_max_transmit_time                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_boottrc_min_transmit_time                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_boottrc_send_log                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_boottrc_total_transmit_time                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_boottrc_transmit_count                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_except.obj)
+ccci_queryBootAttributes                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+cccitty_ttyc_hdr_cmd_init                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccitty_hdr.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+chv_status                                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+cmux_handleCmuxStartupReq                         ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcmux.a(cmux_hdlr.obj)
+cmux_uh_handleStartupReq                          ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcmux.a(cmux_uh.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+csmcc_send_l4c_startup_cnf                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(csmcc_aux_msg_hdlr.obj)
+csmss_send_l4c_startup_cnf                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(csmss_aux_msg_hdlr.obj)
+csmss_startup_req_hdlr                            ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(csmss_msg_hdlr.obj)
+custom_disable_modem_auto_startup                 ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(custom_l4_utility.obj)
+custom_get_BOOTCERT_Length                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(custom_scatstruct.obj)
+custom_get_BOOTCERT_StartAddr                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(custom_scatstruct.obj)
+custom_sat_auto_startup                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(custom_nvram_extra.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+errc_sys_init                                     ./mtk_rel/LCSH6795_LWT_L/LWG/lib/liberrc.a(errc_sys_main.obj)
+errc_sys_init_bcch_rcv_tbl                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/liberrc.a(errc_sys_main.obj)
+etmr_sys_init                                     ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libetmr.a(etmr.obj)
+ex_reboot                                         ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsst.a(ex_item.obj)
+ex_reboot4mp                                      ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsst.a(ex_item.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+ft_util_reboot_to_normal_mode                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libft.a(ft_fnc_util.obj)
+g_EMM_BOOTTRC_ADDR                                ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsst.a(ex_mem_manager.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+g_SW_Encryption_Seed                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+g_dsp_log_buff                                    ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+g_dsp_reg_addr_tbl                                ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+g_icm_buff                                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+g_pm_buff                                         ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+gdma_base                                         ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+gdma_limit                                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+gdma_range                                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+gdma_range_LSB                                    ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+gdma_range_MSB                                    ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+get_ccci_boot_state                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+hif_boot_init                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libhmu.a(hmu.obj)
+hmu_boot_init                                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libhmu.a(hmu.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+isim_startup_read                                 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsim.a(usim_handler.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+kal_bootup_trace                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libdhl.a(dhl_wrp.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+l4c_cmux_startup_req                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_utility.obj)
+l4c_eq_set_boot_mode_req                          ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_eq_cmd.obj)
+l4c_phb_startup_begin_lind                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(lmmi_ind.obj)
+l4c_phb_startup_begin_req                         ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_phb_cmd.obj)
+l4c_phb_startup_begin_rind                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(rmmi_ind.obj)
+l4c_phb_startup_finish_lind                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(lmmi_ind.obj)
+l4c_phb_startup_finish_rind                       ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(rmmi_ind.obj)
+l4c_phb_startup_read_lind                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(lmmi_ind.obj)
+l4c_phb_startup_read_next_req                     ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_phb_cmd.obj)
+l4c_sim_startup_info_ind                          ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_sim_msg.obj)
+l4c_sim_startup_info_lind                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(lmmi_ind.obj)
+l4c_sms_startup_begin_lind                        ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(lmmi_ind.obj)
+l4c_sms_startup_finish_lind                       ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(lmmi_ind.obj)
+l4c_sms_startup_read_lind                         ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(lmmi_ind.obj)
+l4c_sms_startup_read_msg_lind                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libcustom.a(lmmi_ind.obj)
+l4c_sms_startup_read_next_req                     ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_sms_cmd.obj)
+l4c_sms_startup_read_res_req                      ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_sms_cmd.obj)
+l4ccsm_cc_startup_cnf_hdlr                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_cc_msg.obj)
+l4ccsm_cc_startup_req_hdlr                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(csmcc_msg_hdlr.obj)
+l4ccsm_ciss_startup_cnf_hdlr                      ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_ciss_msg.obj)
+l4cphb_startup_begin_ind_hdlr                     ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_phb_msg.obj)
+l4cphb_startup_cnf_hdlr                           ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_phb_msg.obj)
+l4cphb_startup_read_ind_hdlr                      ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_phb_msg.obj)
+l4csmsal_startup_begin_ind_hdlr                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_sms_msg.obj)
+l4csmsal_startup_finish_ind_hdlr                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_sms_msg.obj)
+l4csmsal_startup_read_msg_ind_hdlr                ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_sms_msg.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+l4cuem_startup_cnf_hdlr                           ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_eq_msg.obj)
+l4cuem_startup_cnf_rsp                            ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_proc_cmd.obj)
+md_init_ctx                                       ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libche.a(md.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+nvram_check_first_bootup_log                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_main.obj)
+nvram_create_first_bootup_log                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_main.obj)
+nvram_create_first_bootup_name                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_main.obj)
+nvram_delete_first_bootup_log                     ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_main.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+nvram_startup_cnf_hdlr                            ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(l4c_msghdlr.obj)
+nvram_startup_handler                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_handler_startup.obj)
+nvram_util_is_usbboot                             ./build/LCSH6795_LWT_L/LWG/bin/lib/libnvram.a(nvram_util.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+phb_build_index_continue_adn                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+phb_build_next                                    ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+phb_get_info                                      ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+phb_init_ln_confirm                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+phb_is_sim_file_support                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+phb_query_count                                   ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+phb_startup_erase_ln                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+phb_startup_handler                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libsys_drv.a(bootarm_gcc.obj)
+rmmi_eboot_hdlr                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(rmmi_validator.obj)
+set_ccci_boot_state                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_apis.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup_ln.obj)
+                                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(phb_handler_startup.obj)
+sim_startup_read                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsim.a(sim_handler.obj)
+smsal_startup_finish                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a(smsal_init.obj)
+sw_major_ver                                      ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+sw_sec_ver                                        ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+sw_ver                                            ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libel1.a(el1_drv_dsp_boot.obj)
+system_boot_mode                                  ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(devdrv_common.obj)
+tst_sys_init_trace                                ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libdhl.a(dhl_wrp.obj)
+uart_ttyhdr_cmd_init                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libdevdrv.a(uart.obj)
+uem_startup_finish                                ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_main.obj)
+uem_startup_process                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_main.obj)
+uemaud_startup_cnf_hdlr                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_msg_hdlr.obj)
+ueml4c_startup_req_hdlr                           ./build/LCSH6795_LWT_L/LWG/bin/lib/libl4misc.a(uem_msg_hdlr.obj)
+usim_startup_read                                 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsim.a(usim_handler.obj)

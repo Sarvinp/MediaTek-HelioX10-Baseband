@@ -7,8 +7,8 @@ CC		= tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -mthumb
 CC32	= tools/GCC/4.6.2/linux/bin/arm-none-eabi-gcc -marm
 CPPC    	= tools/GCC/4.6.2/linux/bin/arm-none-eabi-g++
 CPPC32 	= tools/GCC/4.6.2/linux/bin/arm-none-eabi-g++ -marm
-CFLAGS 	= -Wno-attributes -Wno-pragmas -fcommon -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-exceptions -ffunction-sections -fdata-sections -Wall -c -mno-unaligned-access -fshort-wchar
-CPLUSFLAGS = -Wno-attributes -Wno-pragmas -fcommon -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-exceptions -ffunction-sections -fdata-sections -Wall -c -mno-unaligned-access -fshort-wchar
+CFLAGS 	= -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -Wall -c -mno-unaligned-access -fshort-wchar
+CPLUSFLAGS = -Wno-attributes -Wno-pragmas -march=armv7-r -mcpu=cortex-r4 -mlittle-endian -Wa,-mimplicit-it=always -mabi=aapcs -Os -fno-strict-aliasing -fno-common -fno-exceptions -ffunction-sections -fdata-sections -Wall -c -mno-unaligned-access -fshort-wchar
 VIA	= @
 CUS_MTK_LIB = ./mtk_rel/LCSH6795_LWT_L/LWG/lib
 NEED_BUILD_BOOTLOADER = FALSE
@@ -34,7 +34,7 @@ CR4_PLATFORM   = TK6280 MT6280 MT6290 MT6595 MT6795
 COMPILER = GCC
 HEADER_TEMP = ./build/LCSH6795_LWT_L/LWG/header_temp
 AUTO_MERGE_PTH =   custom/driver/audio/MT6795_SP_MP/LWG custom/driver/audio/_Default_BB/MT6795   custom/driver/drv/misc_drv/MT6795_SP_MP/LWG custom/driver/drv/misc_drv/_Default_BB/MT6795
-ACTION = remake
+ACTION = update
 DEBUG_MODULES = CONFIG DEVDRV NVRAM SYS_DRV SYS_SVC
 NON_DEBUG_MODULES = NONE
 CUS_REL_PAR_SRC_COMP = 

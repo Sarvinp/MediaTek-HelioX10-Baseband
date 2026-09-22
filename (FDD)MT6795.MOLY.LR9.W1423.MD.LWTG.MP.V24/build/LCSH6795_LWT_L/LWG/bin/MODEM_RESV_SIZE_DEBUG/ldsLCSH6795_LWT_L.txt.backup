@@ -54,7 +54,7 @@
  *
  * Auto Generated Date:
  * -------
- *   2026/7/1
+ *   2026/9/19
  *
 
  *============================================================================
@@ -84,12 +84,12 @@ OUTPUT_ARCH(arm)
 ENTRY(INT_Vectors)
 MEMORY
 {
-    ROM : ORIGIN = 0x0, LENGTH = 0xe00000
-    RAM : ORIGIN = 0xe00000, LENGTH = 0x4200000
-    VRAM : ORIGIN = 0xf0000000 | 0xe00000, LENGTH = 0x4200000 - 0x40000
+    ROM : ORIGIN = 0x0, LENGTH = 0x900000
+    RAM : ORIGIN = 0xa00000, LENGTH = 0x3500000
+    VRAM : ORIGIN = 0xf0000000 | 0xa00000, LENGTH = 0x3500000 - 0x40000
     TCM : ORIGIN = 0x70000000, LENGTH = 0x80000
     DTCM : ORIGIN = 0x70040000, LENGTH = 0x40000
-    SECURE_RO : ORIGIN = 0xe00000, LENGTH = 0xffffffff - 0xe00000
+    SECURE_RO : ORIGIN = 0xa00000, LENGTH = 0xffffffff - 0xa00000
 }
 
 CACHELINESIZE = 32;
@@ -355,8 +355,8 @@ SECTIONS
         . = ALIGN(4);
         Image$$DYNAMIC_CACHEABLE_EXTSRAM_DEFAULT_CACHEABLE_ZI$$ZI$$Limit = . ;
     }  > VRAM  AT> ROM
-    Image$$CACHED_DUMMY_END$$Base = 0xf4fc0000;
-    EXTSRAM_DSP_TX 0x4fc0000  :  ALIGN(4)
+    Image$$CACHED_DUMMY_END$$Base = 0xf3ec0000;
+    EXTSRAM_DSP_TX 0x3ec0000  :  ALIGN(4)
     {
         Image$$EXTSRAM_DSP_TX$$Base = . ;
          * (EXTRAM_TXDATA)
@@ -365,7 +365,7 @@ SECTIONS
         Image$$EXTSRAM_DSP_TX$$ZI$$Base = . ;
         Image$$EXTSRAM_DSP_TX$$ZI$$Limit = . ;
     }  > RAM  AT> ROM
-    EXTSRAM_DSP_RX 0x4fe0000  :  ALIGN(4)
+    EXTSRAM_DSP_RX 0x3ee0000  :  ALIGN(4)
     {
         Image$$EXTSRAM_DSP_RX$$Base = . ;
          * (EXTRAM_RXDATA)

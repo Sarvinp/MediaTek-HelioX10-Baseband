@@ -17,14 +17,14 @@ bSupportedCompiler     = 1
 bTCMOnlyLoad           = 0
 AutoConfig is enabled
 ----------------------------Auto Adjust--------------------------
-Actual ROM(Load View) Size = 0x893b98
-current ROM Length in LDS= 0xe00000
-current RAM Origin in LDS = 0xe00000
-current RAM Length in LDS= 0x4200000
-current 1stER in ram = EXTSRAM, VMA=0xe00000
-current RAM Usage = 0x336732c
+Actual ROM(Load View) Size = 0x894770
+current ROM Length in LDS= 0x900000
+current RAM Origin in LDS = 0xa00000
+current RAM Length in LDS= 0x3500000
+current 1stER in ram = EXTSRAM, VMA=0xa00000
+current RAM Usage = 0x3364acc
 current RAM Reserved Sizes = 0x40000
-current RAM Margin = 0xe58cd4
+current RAM Margin = 0x15b534
 current at least Margin setting = 0x80000
 expected ROM Sizes = 0x900000
 expected VRAM Base = 0xa00000
@@ -33,9 +33,5 @@ expected MD Sizes to be 1MB aligned:
 expected MD_LV Sizes to be 2MB aligned:
 expected MD Sizes(ROM+RAM) = 0x3f00000 = 63 MB 
 -----------------------------------------------------------------
-Modify ROM Length = 0x900000
-Modify RAM ORIGIN = 0xa00000
-Modify RAM Length = 0x3500000
-Generate ./build/LCSH6795_LWT_L/LWG/custom/system/Template/lds_config/ldsTemplate/MEMORY/MT6795.txt successfully!
 -----------------------------------------------------------------
-RESULT = [4]AUTOCONFIG_SELF_MODIFY_SUCCESS, PASS
+RESULT = [5]NO_NEED_TO_UPDATE, PASS

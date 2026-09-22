@@ -25,7 +25,7 @@ Library Name                                                                    
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libmm.a                                         559198          2026.07.11.11.30.23
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libgas.a                                        2850728         2026.07.11.11.30.19
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libratcm.a                                      95416           2026.07.11.11.30.25
-./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a                                         2421260         2026.07.11.11.30.22
+./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl4.a                                         2421260         2026.09.15.18.49.13
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libtftlib.a                                     54726           2026.07.11.11.30.26
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/liberac.a                                       32706           2026.07.11.11.30.13
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libetcm.a                                       128188          2026.07.11.11.30.14
@@ -61,7 +61,7 @@ Library Name                                                                    
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libdp_engine.a                                  68222           2026.07.11.11.30.01
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/librohc.a                                       302834          2026.07.11.11.30.25
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libl2_lte_copro.a                               63524           2026.07.11.11.30.21
-./mtk_rel/LCSH6795_LWT_L/LWG/lib/libephy.a                                       186614          2026.07.11.11.30.13
+./mtk_rel/LCSH6795_LWT_L/LWG/lib/libephy.a                                       186614          2026.09.22.17.06.26
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libhmu_sec.a                                    3908            2026.07.11.11.30.20
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libnmu.a                                        66812           2026.07.11.11.30.24
 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libcldmacore.a                                  18770           2026.07.11.11.29.55

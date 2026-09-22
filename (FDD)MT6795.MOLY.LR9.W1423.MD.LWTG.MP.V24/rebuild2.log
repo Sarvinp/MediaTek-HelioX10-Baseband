@@ -1,0 +1,1687 @@
+project_name = LCSH6795_LWT_L
+flavor = LWG
+clean build/LCSH6795_LWT_L/LWG/tmp/*.*
+make: Nothing to be done for 'gen_concatenate_proj'.
+concatenate_proj_mak = build/LCSH6795_LWT_L/LWG/bin/~LCSH6795_LWT_L(LWG).mak
+*******************************************
+recommended Build Environment
+*******************************************
+* [OS]                : Linux
+* [PERL]              : v5.10.1 or v5.14.2
+* [MAKE]              : GNU Make v3.81
+* [SHELL]             : GNU bash v4.1.5
+* [GCC-ARM-NONE-EABI] : v4.6.2 or above
+* [NATIVE GCC(UBUNTU)]: v4.5 or above
+
+*******************************************
+ Start checking current Build Environment  
+*******************************************
+* [PERL]              : v5.34.0            [NOT RECOMMENDED] !!!
+* [MAKE]              : GUN Make v4.3     [NOT RECOMMENDED] !!!
+* [SHELL]             : GNU bash v5.1.16    [HIGHER THAN RECOMMENDED] !!!
+* [GCC-ARM-NONE-EABI] : v4.6.2             [OK] !!!
+* [NATIVE GCC(UBUNTU)]: gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0  [OK] !!!
+
+current Build Env. is not recommendation 
+To avoid unexpected errors , please install the recommended Tool Chain.
+*******************************************
+  Build Environment is NOT RECOMMENDED!
+*******************************************
+
+makefile check is done
+
+start Drv feature check...
+get feature list from drv_features.h...
+get feature list from drv_features_option.h...
+generate feature check file...
+validate features...
+infoFilename = ././build/LCSH6795_LWT_L/LWG/bin/log/info.log
+check def/undef features for drv_features.h...
+log generated at ././build/LCSH6795_LWT_L/LWG/bin/log/drv_features_option.log
+
+[drv_features.h, drv_features_option.h]
+All feature count = 1179
+Defined count = 106
+Undef count = 1073
+
+[drv_features_option.h]
+Mismatch Config count = 0
+
+DRV Feature Check - Done
+Processing custom_nvram_sec.d nvram_auto_gen.d ex_nvram_def.d fs_quota.d nvram_cust_pack.d nvram_factory_config.d nvram_data_items.d fs_quota_entry_dump.d nvram_gen_util.d audio_nvram_def.d adc_nvram_def.d ul1_nvram_def.d
+2026/09/09 12:48:27 
+Generate asn1_common information
+Generate audio information
+Generate ccci information
+Generate cccidev information
+Generate cccisrv information
+Generate config information
+Generate custom information
+Generate devdrv information
+Generate dbinfo information
+Generate ephy_ext information
+Generate drv information
+Generate ftc information
+Generate ft information
+Generate ipcore information
+Generate hmu information
+Generate l4misc information
+Generate mc information
+Generate l1_ext information
+Generate media information
+Generate md_drv information
+Generate mml1_rf_ext information
+Generate nvram information
+Generate sys_drv information
+Generate sys_svc information
+Generate tty information
+Generate uartcore information
+Generate ul1_hs_plus_ext information
+Generate verno information
+genmoduleinfo is done.
+Generating .lis and .def files are done
+2026/09/09 12:48:27 
+Check Directories ...
+Preprocessing ./service/dhl/database/msglog_db/custom_parse_db.c ...
+Preprocessing ~codegen_single_Modem.c
+Processing custom_parse_db.d
+Processing codegen_single_Modem.d
+Generate PS Trace Information ...
+Generate dbSig File ......
+Cgen -ltedb -cfg ./build/LCSH6795_LWT_L/LWG/dhl/database/cgenModem.cfg
+Cgen -cm:
+Check DB result: 0
+Examine DB result: 0
+Start Parsing: 12:48:31
+Phase 1: 12:48:31
+Modify size of union union_gename_3 from 20 to 24
+Phase 2: 12:48:31
+Phase 3: 12:48:31
+Phase 4: 12:48:31
+Start Parsing: 12:48:31
+Phase 1: 12:48:31
+Modify size of union union_gename_4 from 82 to 84
+Modify size of union union_gename_3 from 20 to 24
+Modify size of union union_gename_3 from 36 to 40
+Modify size of union union_gename_4 from 82 to 84
+Phase 2: 12:48:31
+Phase 3: 12:48:31
+Phase 4: 12:48:31
+Reading custom_data succeeded.
+Start to parse the custom NVRAM DATA!
+NVRAM ID:NVRAM_EF_ADC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ALS_LINE_ID_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_AS_BAND_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_BAND_INFO_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_BARCODE_NUM_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CAL_DATA_CHECK_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CAL_FLAG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CB_CH_INFO_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CB_DEFAULT_CH_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CFU_FLAG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CLASSMARK_RACAP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CSM_ESSP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CUST_HW_LEVEL_TBL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_DHL_FILTER_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_AMPRADJTBL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_BAND_INDICATOR_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_CUSTOM_DYNAMIC_INIT_DEBUG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_CUSTOM_DYNAMIC_INIT_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETCOMPPARAM_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_FREQADJTBL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_FEATURE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_FEATURE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MPRADJTBL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_PWRONCAL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RF_IO_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RF_RX_PATH_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RXOFF_BPIOFFSET_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RXON_BPIOFFSET_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RX_PDATABASE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TEMPERATUREDAC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXOFF_BPIOFFSET_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXON_BPIOFFSET_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TX_PDATABASE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EPSLOCI_EPSNSC_TIN_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_AFR_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_FINGER_PRINT_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_LEARNED_MCC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_PERFORMANCE_PARA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_STORED_CARRIER_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_STORED_CELL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ETWS_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_GPS_SETTING_DATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_HMU_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_HMU_HD_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_IMEI_IMEISV_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_IMS_PROFILE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_2G_RF_PARAMETER_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_3G_CAL_DATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_AFCDATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_AGCPATHLOSS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_CRYSTAL_AFCDATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_CRYSTAL_CAPDATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_CUSTOM_DRDI_STATUS_DEBUGINFO_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_DCS1800_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_GSM850_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_GSM900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_PCS1900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_RAMPTABLE_DCS1800_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_RAMPTABLE_GSM850_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_RAMPTABLE_GSM900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_RAMPTABLE_PCS1900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_TXPC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_TX_POWER_ROLLBACK_TABLE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_GMSK_TXPC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_GMSK_TX_POWER_ROLLBACK_TABLE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_INTERSLOT_RAMP_DCS1800_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_INTERSLOT_RAMP_GSM850_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_INTERSLOT_RAMP_GSM900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_INTERSLOT_RAMP_PCS1900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_LNAPATHLOSS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_MIPI_CTRL_TABLE_DCS1800_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_MIPI_CTRL_TABLE_GSM850_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_MIPI_CTRL_TABLE_GSM900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_MIPI_CTRL_TABLE_PCS1900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_RAMPTABLE_DCS1800_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_RAMPTABLE_GSM850_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_RAMPTABLE_GSM900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_RAMPTABLE_PCS1900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_RFSPECIALCOEF_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_TEMPERATURE_ADC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_TXIQ_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_LTECSR_PROFILE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_LTE_CAP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_LTE_PREFERENCE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_MM_LOCIGPRS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_MSCAP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_MSQ_LIST_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_MS_SECURITY_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_NET_PAR_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_NMU_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PHB_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PHB_LN_ENTRY_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PHB_LN_TYPE_SEQ_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PORT_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PREV_VISITED_CELL_INFO_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PS_CONFORMANCE_TESTMODE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_RAC_PREFERENCE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_REGIONAL_PHONE_MODE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SBP_MODEM_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SBP_MODEM_DATA_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SIM_ASSERT_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SMSAL_COMMON_PARAM_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SMSAL_MAILBOX_ADDR_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SMSAL_MWIS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SMSAL_SMSP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SMSAL_SMS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SYS_CACHE_OCTET_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SYS_STATISTICS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_TCM_CID_0_PROFILE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_TCM_PDP_PROFILE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_TST_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_TST_FILTER_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UEM_MANUFACTURE_DATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UEM_RMI_DATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UE_EUTRA_CAP_CSFB_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UE_EUTRA_CAP_MMDC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_3G_RF_PARAMETER_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_AFCCAP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_AFCDAC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_CUSTOM_DYNAMIC_INIT_DEBUG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_HSPA_CATEGORY_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_IOT_CUSTOMIZATION_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_ASM_ISOLATION_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_ASM_ISOLATION_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_INIT_CW_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_DATA_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_DATA_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_EVENT_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_EVENT_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_SLEEP_CW_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TPC_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TPC_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TPC_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TPC_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TPC_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_DATA_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_DATA_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_EVENT_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_EVENT_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TEMP_DAC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_BAND_PRIORITY_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_DMCR_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_FREQUENCY_REPOSITORY_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_IMSI_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_SIB_SKIP_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_START_HFN_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_USIME_RRC_DYNAMIC_CAP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_VDM_ADS_PROFILE_LID in original Database is replaced!
+Creating file "./build/LCSH6795_LWT_L/LWG/dhl/database/enumFileCustomAppSrc".
+Create file "./build/LCSH6795_LWT_L/LWG/dhl/database/enumFileCustomAppSrc" successfully.
+Cgen -ps:
+Parsing file "./build/LCSH6795_LWT_L/LWG/dhl/database/pstrace_db/codegen_single_Modem.ptr".
+MOD_SIM trace is replaced with the new file.
+Warning: enum type sim_plug_out_type_enum is not in database
+Warning: enum type sim_instruction_code_enum is not in database
+Warning: enum type usim_channel_op_enum is not in database
+Warning: enum type usim_sfi_enum is not in database
+Warning: enum type sim_sync_poll_timer_state_enum is not in database
+Warning: enum type sim_instruction_code_enum is not in database
+Warning: enum type usim_instruction_code_enum is not in database
+MOD_NVRAM trace is replaced with the new file.
+MOD_SMSAL trace is replaced with the new file.
+MOD_PHB trace is replaced with the new file.
+Warning: enum type data_desc_enum is not in database
+MOD_SMU trace is replaced with the new file.
+MOD_L4C trace is replaced with the new file.
+Warning: enum type l4c_ipv4v6_state_enum is not in database
+Warning: enum type l4c_ipv4v6_state_enum is not in database
+Warning: enum type UART_PORT is not in database
+Warning: enum type hz_sim_status_enum is not in database
+Warning: enum type UART_PORT is not in database
+MOD_UEM trace is replaced with the new file.
+MOD_RAC trace is replaced with the new file.
+MOD_RAT_TCM trace is replaced with the new file.
+MOD_BMT trace is replaced with the new file.
+MOD_EX_LOG trace is replaced with the new file.
+Warning: enum type kal_error_str is not in database
+MOD_SST_COMMON trace is replaced with the new file.
+Warning: enum type kal_buff_state is not in database
+MOD_ATCI trace is replaced with the new file.
+MOD_DEVDRV trace is replaced with the new file.
+Generating traces for MOD_EVENT_INFO (1 - 100).
+Generating traces for MOD_EVENT_INFO (101 - 600).
+Generating traces for MOD_EVENT_INFO (601 - 700).
+Generating traces for MOD_EVENT_INFO (701 - 1200).
+Generating traces for MOD_EVENT_INFO (1201 - 1300).
+Generating traces for MOD_EVENT_INFO (1301 - 1400).
+Generating traces for MOD_EVENT_INFO (1401 - 1500).
+Generating traces for MOD_EVENT_INFO (1501 - 1600).
+Generating traces for MOD_EVENT_INFO (1601 - 1700).
+Generating traces for MOD_EVENT_INFO (1701 - 1800).
+Generating traces for MOD_EVENT_INFO (1801 - 1900).
+Generating traces for MOD_EVENT_INFO (1901 - 2000).
+Generating traces for MOD_EVENT_INFO (2001 - 2100).
+MOD_TTY trace is replaced with the new file.
+MOD_IDC trace is replaced with the new file.
+MOD_RTC_HISR trace is replaced with the new file.
+MOD_MSDC_HISR trace is replaced with the new file.
+MOD_PPP_HW trace is replaced with the new file.
+MOD_DRV_HISR trace is replaced with the new file.
+MOD_L1SP trace is replaced with the new file.
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type tSP4G_SpeechCodecType is not in database
+Warning: enum type tSP4G_SpeechCodecType is not in database
+Warning: enum type tSP4G_SpeechCodecType is not in database
+Warning: enum type tSP4G_SpeechCodecType is not in database
+MOD_L1AUDIO_SPH_SRV trace is replaced with the new file.
+MOD_SIM_DRV trace is replaced with the new file.
+MOD_DSPFM trace is replaced with the new file.
+MOD_HMU trace is replaced with the new file.
+MOD_IPCORE trace is replaced with the new file.
+MOD_CCCI trace is replaced with the new file.
+MOD_CCCIDEV trace is replaced with the new file.
+MOD_CCCITTY trace is replaced with the new file.
+MOD_CCCIIPC trace is replaced with the new file.
+MOD_CCCIRPC trace is replaced with the new file.
+MOD_CCCISRV trace is replaced with the new file.
+MOD_CCCIMSG trace is replaced with the new file.
+MOD_CCCIFS trace is replaced with the new file.
+MOD_CCMNI trace is replaced with the new file.
+MOD_FS trace is replaced with the new file.
+Warning: enum type EntryType is not in database
+Warning: enum type rtf_search_ret_enum is not in database
+Warning: enum type fs_src_file_enum is not in database
+Warning: enum type fs_src_file_enum is not in database
+Warning: enum type fs_src_file_enum is not in database
+Warning: enum type MountStates is not in database
+Warning: enum type MountStates is not in database
+Warning: enum type FSAL_Status is not in database
+Warning: enum type FSAL_Status is not in database
+Warning: enum type fs_src_file_enum is not in database
+MOD_SYSTEM trace is replaced with the new file.
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type demp_lock_user is not in database
+Warning: enum type demp_lock_user is not in database
+Warning: enum type demp_lock_user is not in database
+Warning: enum type demp_lock_user is not in database
+1 trace definition files parsed
+Generating definition file "./build/LCSH6795_LWT_L/LWG/dhl/database/pstrace_db/ps_trace_1.h".
+[PSTrc] Find the duplicated item. MsgName
+[PSTrc] Find the duplicated item. ERROR_NVRAM_STATE
+[PSTrc] Find the duplicated item. SMART_PAGING_RESET
+[PSTrc] Find the duplicated item. RMC_GROUP1_SET_L2_RAND_FILL_BIT
+[PSTrc] Find the duplicated item. SIM_GEMINI_CMD1
+[PSTrc] Find the duplicated item. SIM_GEMINI_CMD2
+[PSTrc] Find the duplicated item. SIM_GEMINI_CMD3
+[PSTrc] Find the duplicated item. SIM_GEMINI_GEN1
+[PSTrc] Find the duplicated item. SIM_GEMINI_GEN2
+[PSTrc] Find the duplicated item. DCM_COUNTER
+[PSTrc] Find the duplicated item. DCM_ACTIVE_CYCLES
+Cgen -rle:
+Starting reading from ./build/LCSH6795_LWT_L/LWG/dhl/database/pstrace_db/ps_trace_1.h
+There are 25034 traces.
+There are 586 different kinds of traces.
+./build/LCSH6795_LWT_L/LWG/dhl/database/pstrace_db/ps_trace_2.h is created.
+Cgen -sps:
+Cgen -db_sig:
+Generating "./build/LCSH6795_LWT_L/LWG/dhl/database/MDDB_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24.EDB".
+Check ./build/LCSH6795_LWT_L/LWG/dhl/database/MDDB_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24.EDB
+Check DB result: 0
+Write DB result: 0
+Create file "./build/LCSH6795_LWT_L/LWG/dhl/database/MDDB_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24.EDB" successfully.
+"db_sig" is finished.
+Cgen -filter_gen:
+Can't find LAST_SAP_CODE in the database.
+Starting reading from ./build/LCSH6795_LWT_L/LWG/dhl/database/log2SD_Catcher_filters.ini
+[Info] Below classes are skipped. They don't exist in the L1 module "L1C_GSM".
+L1T_SDCCH_DL , L1T_SACCH_DL , L1T_FACCH_DL
+[Info] "AGPS" is skipped. It doesn't exist in the L1 module "L1C_GSM2".
+[Info] L1 module "L1C_GSM_2" is skipped. It doesn't exist in the database.
+[Info] L1 module "L1TAMR_2" is skipped. It doesn't exist in the database.
+[Info] L1 module "L1C_GPRS2_2" is skipped. It doesn't exist in the database.
+[Info] Below classes are skipped. They don't exist in the L1 module "L1D_SEC".
+L1D_DSP_FILTER , L1D_DSP_FILTER_L
+[Info] Below classes are skipped. They don't exist in the L1 module "L1I_GSM".
+AGCPM , AGCPM_L
+[Info] Below classes are skipped. They don't exist in the L1 module "L1D_PRI".
+SleepMode , FMCalibration
+[Info] "SM_LOCKER_L" is skipped. It doesn't exist in the L1 module "L1SM_1".
+[Info] Module "MOD_ABM" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CLDMAIPC" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_J2ME" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_FW" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_COMMON_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_MEDIA_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_PSDM" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SOC" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL_CONN" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_TCPIP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WAP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WPS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRLP_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_DRV_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_ATCI_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CISS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CSM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L1_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L2R_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L4C_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_LAPDM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_LLC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MAC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MPAL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MRS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_NWSEL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RAC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RAT_TCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RATCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RATDM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_REASM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RLC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RLP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRLP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_DRV_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMSAL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMU_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SNDCP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_TCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_PHB_3" is skipped. It doesn't exist in the database.
+[Info] Sap "TCM_PPP_SAP" is skipped. It doesn't exist in the database.
+"filter_gen" is finished.
+Cgen -filter_gen:
+Can't find LAST_SAP_CODE in the database.
+Starting reading from ./service/dhl/database/XDD/mini_log_Catcher_filters.ini
+[Info] Below classes are skipped. They don't exist in the L1 module "L1C_GSM".
+L1T_SDCCH_DL , L1T_SACCH_DL , L1T_FACCH_DL
+[Info] "AGPS" is skipped. It doesn't exist in the L1 module "L1C_GSM2".
+[Info] L1 module "L1C_GSM_2" is skipped. It doesn't exist in the database.
+[Info] L1 module "L1C_GPRS2_2" is skipped. It doesn't exist in the database.
+[Info] Below classes are skipped. They don't exist in the L1 module "L1I_GSM".
+AGCPM , AGCPM_L
+[Info] Module "MOD_ABM" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_J2ME" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_FW" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_COMMON_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_MEDIA_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SOC" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL_CONN" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_TCPIP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WAP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WPS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRLP_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS_2" is skipped. It doesn't exist in the database.
+"filter_gen" is finished.
+Cgen -filter_gen:
+Can't find LAST_SAP_CODE in the database.
+Starting reading from ./build/LCSH6795_LWT_L/LWG/dhl/database/log2SD_Catcher_filters.ini
+[Info] Below classes are skipped. They don't exist in the L1 module "L1C_GSM".
+L1T_SDCCH_DL , L1T_SACCH_DL , L1T_FACCH_DL
+[Info] "AGPS" is skipped. It doesn't exist in the L1 module "L1C_GSM2".
+[Info] L1 module "L1C_GSM_2" is skipped. It doesn't exist in the database.
+[Info] L1 module "L1TAMR_2" is skipped. It doesn't exist in the database.
+[Info] L1 module "L1C_GPRS2_2" is skipped. It doesn't exist in the database.
+[Info] Below classes are skipped. They don't exist in the L1 module "L1D_SEC".
+L1D_DSP_FILTER , L1D_DSP_FILTER_L
+[Info] Below classes are skipped. They don't exist in the L1 module "L1I_GSM".
+AGCPM , AGCPM_L
+[Info] Below classes are skipped. They don't exist in the L1 module "L1D_PRI".
+SleepMode , FMCalibration
+[Info] "SM_LOCKER_L" is skipped. It doesn't exist in the L1 module "L1SM_1".
+[Info] Module "MOD_ABM" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CLDMAIPC" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_J2ME" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_FW" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_COMMON_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_MEDIA_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_PSDM" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SOC" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL_CONN" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_TCPIP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WAP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WPS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRLP_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_DRV_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_ATCI_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CISS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CSM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L1_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L2R_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L4C_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_LAPDM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_LLC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MAC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MPAL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MRS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_NWSEL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RAC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RAT_TCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RATCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RATDM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_REASM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RLC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RLP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRLP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_DRV_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMSAL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMU_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SNDCP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_TCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_PHB_3" is skipped. It doesn't exist in the database.
+[Info] Sap "TCM_PPP_SAP" is skipped. It doesn't exist in the database.
+"filter_gen" is finished.
+Check File ./build/LCSH6795_LWT_L/LWG/dhl/database/catcher_filter.bin result: 0
+Write File ./build/LCSH6795_LWT_L/LWG/dhl/database/catcher_filter.bin result: 0
+Cgen -dsp_filter_gen:
+"dsp_filter_gen" is finished.
+Cgen -filter_merge:
+Starting reading from ./build/LCSH6795_LWT_L/LWG/dhl/database/catcher_filter.bin
+"filter_merge" is finished.
+Check File ./build/LCSH6795_LWT_L/LWG/dhl/database/catcher_filter.bin result: 0
+Write File ./build/LCSH6795_LWT_L/LWG/dhl/database/catcher_filter.bin result: 0
+Cgen -cm:
+Check DB result: 0
+Examine DB result: 0
+Start Parsing: 12:48:37
+Phase 1: 12:48:37
+Modify size of union union_gename_3 from 20 to 24
+Phase 2: 12:48:37
+Phase 3: 12:48:37
+Phase 4: 12:48:37
+Start Parsing: 12:48:37
+Phase 1: 12:48:37
+Modify size of union union_gename_4 from 82 to 84
+Modify size of union union_gename_3 from 20 to 24
+Modify size of union union_gename_3 from 36 to 40
+Modify size of union union_gename_4 from 82 to 84
+Phase 2: 12:48:37
+Phase 3: 12:48:37
+Phase 4: 12:48:37
+Reading custom_data succeeded.
+Start to parse the custom NVRAM DATA!
+NVRAM ID:NVRAM_EF_ADC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ALS_LINE_ID_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_AS_BAND_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_BAND_INFO_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_BARCODE_NUM_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CAL_DATA_CHECK_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CAL_FLAG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CB_CH_INFO_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CB_DEFAULT_CH_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CFU_FLAG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CLASSMARK_RACAP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CSM_ESSP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_CUST_HW_LEVEL_TBL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_DHL_FILTER_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_AMPRADJTBL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_BAND_INDICATOR_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_CUSTOM_DYNAMIC_INIT_DEBUG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_CUSTOM_DYNAMIC_INIT_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETCOMPPARAM_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_ETVINLUTDATA_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_FREQADJTBL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_FEATURE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_PA_TPC_SECTION_DATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TPC_EVENT_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_DATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_BYPASS_TX_EVENT_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_FEATURE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_PA_TPC_SECTION_DATA_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_DATA_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_RX_EVENT_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TPC_EVENT_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_DATA_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MIPI_TX_EVENT_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_MPRADJTBL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_PWRONCAL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RF_IO_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RF_RX_PATH_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RSSIGAINTBL_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RXOFF_BPIOFFSET_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RXON_BPIOFFSET_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_RX_PDATABASE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TEMPERATUREDAC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXDAC_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXOFF_BPIOFFSET_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXON_BPIOFFSET_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_10THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_11THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_12THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_13THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_14THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_1STBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_2NDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_3RDBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_4THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_5THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_6THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_7THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_8THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TXPAOCTLEV_9THBAND_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EL1_TX_PDATABASE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_EPSLOCI_EPSNSC_TIN_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_AFR_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_FINGER_PRINT_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_LEARNED_MCC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_PERFORMANCE_PARA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_STORED_CARRIER_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ERRC_STORED_CELL_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_ETWS_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_GPS_SETTING_DATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_HMU_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_HMU_HD_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_IMEI_IMEISV_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_IMS_PROFILE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_2G_RF_PARAMETER_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_3G_CAL_DATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_AFCDATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_AGCPATHLOSS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_CRYSTAL_AFCDATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_CRYSTAL_CAPDATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_CUSTOM_DRDI_STATUS_DEBUGINFO_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_DCS1800_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_GSM850_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_GSM900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_INTERSLOT_RAMP_PCS1900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_RAMPTABLE_DCS1800_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_RAMPTABLE_GSM850_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_RAMPTABLE_GSM900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_RAMPTABLE_PCS1900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_TXPC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_EPSK_TX_POWER_ROLLBACK_TABLE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_GMSK_TXPC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_GMSK_TX_POWER_ROLLBACK_TABLE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_INTERSLOT_RAMP_DCS1800_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_INTERSLOT_RAMP_GSM850_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_INTERSLOT_RAMP_GSM900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_INTERSLOT_RAMP_PCS1900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_LNAPATHLOSS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_MIPI_CTRL_TABLE_DCS1800_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_MIPI_CTRL_TABLE_GSM850_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_MIPI_CTRL_TABLE_GSM900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_MIPI_CTRL_TABLE_PCS1900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_RAMPTABLE_DCS1800_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_RAMPTABLE_GSM850_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_RAMPTABLE_GSM900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_RAMPTABLE_PCS1900_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_RFSPECIALCOEF_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_TEMPERATURE_ADC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_L1_TXIQ_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_LTECSR_PROFILE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_LTE_CAP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_LTE_PREFERENCE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_MM_LOCIGPRS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_MSCAP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_MSQ_LIST_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_MS_SECURITY_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_NET_PAR_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_NMU_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PHB_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PHB_LN_ENTRY_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PHB_LN_TYPE_SEQ_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PORT_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PREV_VISITED_CELL_INFO_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_PS_CONFORMANCE_TESTMODE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_RAC_PREFERENCE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_REGIONAL_PHONE_MODE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SBP_MODEM_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SBP_MODEM_DATA_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SIM_ASSERT_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SMSAL_COMMON_PARAM_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SMSAL_MAILBOX_ADDR_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SMSAL_MWIS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SMSAL_SMSP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SMSAL_SMS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SYS_CACHE_OCTET_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_SYS_STATISTICS_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_TCM_CID_0_PROFILE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_TCM_PDP_PROFILE_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_TST_CONFIG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_TST_FILTER_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UEM_MANUFACTURE_DATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UEM_RMI_DATA_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UE_EUTRA_CAP_CSFB_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UE_EUTRA_CAP_MMDC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_3G_RF_PARAMETER_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_AFCCAP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_AFCDAC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_CUSTOM_DYNAMIC_INIT_DEBUG_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_HSPA_CATEGORY_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_IOT_CUSTOMIZATION_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_ASM_ISOLATION_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_ASM_ISOLATION_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_ASM_ISOLATION_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_INIT_CW_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_DATA_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_DATA_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_DATA_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_EVENT_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_EVENT_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_RX_EVENT_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_SLEEP_CW_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TPC_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TPC_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TPC_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TPC_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TPC_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_DATA_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_DATA_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_DATA_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_EVENT_HIGHBAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_EVENT_LOWBAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_MIPI_TX_EVENT_LOWBAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS2_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_PATHLOSS_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TEMP_DAC_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXDAC_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPADRIFTCOMP_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPAOCTLEV_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND10_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND11_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND19_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND1_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND2_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND3_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND4_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND5_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND6_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND7_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND8_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UL1_TXPRACHTMCOMP_BAND9_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_BAND_PRIORITY_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_DMCR_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_FREQUENCY_REPOSITORY_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_IMSI_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_SIB_SKIP_SETTING_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_START_HFN_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_UMTS_USIME_RRC_DYNAMIC_CAP_LID in original Database is replaced!
+NVRAM ID:NVRAM_EF_VDM_ADS_PROFILE_LID in original Database is replaced!
+Creating file "./build/LCSH6795_LWT_L/LWG/dhl/database/enumFileCustomAppSrc".
+Create file "./build/LCSH6795_LWT_L/LWG/dhl/database/enumFileCustomAppSrc" successfully.
+Cgen -ps:
+Parsing file "./build/LCSH6795_LWT_L/LWG/dhl/database/pstrace_db/codegen_single_Modem.ptr".
+MOD_SIM trace is replaced with the new file.
+Warning: enum type sim_plug_out_type_enum is not in database
+Warning: enum type sim_instruction_code_enum is not in database
+Warning: enum type usim_channel_op_enum is not in database
+Warning: enum type usim_sfi_enum is not in database
+Warning: enum type sim_sync_poll_timer_state_enum is not in database
+Warning: enum type sim_instruction_code_enum is not in database
+Warning: enum type usim_instruction_code_enum is not in database
+MOD_NVRAM trace is replaced with the new file.
+MOD_SMSAL trace is replaced with the new file.
+MOD_PHB trace is replaced with the new file.
+Warning: enum type data_desc_enum is not in database
+MOD_SMU trace is replaced with the new file.
+MOD_L4C trace is replaced with the new file.
+Warning: enum type l4c_ipv4v6_state_enum is not in database
+Warning: enum type l4c_ipv4v6_state_enum is not in database
+Warning: enum type UART_PORT is not in database
+Warning: enum type hz_sim_status_enum is not in database
+Warning: enum type UART_PORT is not in database
+MOD_UEM trace is replaced with the new file.
+MOD_RAC trace is replaced with the new file.
+MOD_RAT_TCM trace is replaced with the new file.
+MOD_BMT trace is replaced with the new file.
+MOD_EX_LOG trace is replaced with the new file.
+Warning: enum type kal_error_str is not in database
+MOD_SST_COMMON trace is replaced with the new file.
+Warning: enum type kal_buff_state is not in database
+MOD_ATCI trace is replaced with the new file.
+MOD_DEVDRV trace is replaced with the new file.
+Generating traces for MOD_EVENT_INFO (1 - 100).
+Generating traces for MOD_EVENT_INFO (101 - 600).
+Generating traces for MOD_EVENT_INFO (601 - 700).
+Generating traces for MOD_EVENT_INFO (701 - 1200).
+Generating traces for MOD_EVENT_INFO (1201 - 1300).
+Generating traces for MOD_EVENT_INFO (1301 - 1400).
+Generating traces for MOD_EVENT_INFO (1401 - 1500).
+Generating traces for MOD_EVENT_INFO (1501 - 1600).
+Generating traces for MOD_EVENT_INFO (1601 - 1700).
+Generating traces for MOD_EVENT_INFO (1701 - 1800).
+Generating traces for MOD_EVENT_INFO (1801 - 1900).
+Generating traces for MOD_EVENT_INFO (1901 - 2000).
+Generating traces for MOD_EVENT_INFO (2001 - 2100).
+MOD_TTY trace is replaced with the new file.
+MOD_IDC trace is replaced with the new file.
+MOD_RTC_HISR trace is replaced with the new file.
+MOD_MSDC_HISR trace is replaced with the new file.
+MOD_PPP_HW trace is replaced with the new file.
+MOD_DRV_HISR trace is replaced with the new file.
+MOD_L1SP trace is replaced with the new file.
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type MSG_SPC_APP_T is not in database
+Warning: enum type tSP4G_SpeechCodecType is not in database
+Warning: enum type tSP4G_SpeechCodecType is not in database
+Warning: enum type tSP4G_SpeechCodecType is not in database
+Warning: enum type tSP4G_SpeechCodecType is not in database
+MOD_L1AUDIO_SPH_SRV trace is replaced with the new file.
+MOD_SIM_DRV trace is replaced with the new file.
+MOD_DSPFM trace is replaced with the new file.
+MOD_HMU trace is replaced with the new file.
+MOD_IPCORE trace is replaced with the new file.
+MOD_CCCI trace is replaced with the new file.
+MOD_CCCIDEV trace is replaced with the new file.
+MOD_CCCITTY trace is replaced with the new file.
+MOD_CCCIIPC trace is replaced with the new file.
+MOD_CCCIRPC trace is replaced with the new file.
+MOD_CCCISRV trace is replaced with the new file.
+MOD_CCCIMSG trace is replaced with the new file.
+MOD_CCCIFS trace is replaced with the new file.
+MOD_CCMNI trace is replaced with the new file.
+MOD_FS trace is replaced with the new file.
+Warning: enum type EntryType is not in database
+Warning: enum type rtf_search_ret_enum is not in database
+Warning: enum type fs_src_file_enum is not in database
+Warning: enum type fs_src_file_enum is not in database
+Warning: enum type fs_src_file_enum is not in database
+Warning: enum type MountStates is not in database
+Warning: enum type MountStates is not in database
+Warning: enum type FSAL_Status is not in database
+Warning: enum type FSAL_Status is not in database
+Warning: enum type fs_src_file_enum is not in database
+MOD_SYSTEM trace is replaced with the new file.
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type task_indx_type is not in database
+Warning: enum type demp_lock_user is not in database
+Warning: enum type demp_lock_user is not in database
+Warning: enum type demp_lock_user is not in database
+Warning: enum type demp_lock_user is not in database
+1 trace definition files parsed
+Generating definition file "./build/LCSH6795_LWT_L/LWG/dhl/database/pstrace_db/ps_trace_1.h".
+[PSTrc] Find the duplicated item. MsgName
+[PSTrc] Find the duplicated item. ERROR_NVRAM_STATE
+[PSTrc] Find the duplicated item. SMART_PAGING_RESET
+[PSTrc] Find the duplicated item. RMC_GROUP1_SET_L2_RAND_FILL_BIT
+[PSTrc] Find the duplicated item. SIM_GEMINI_CMD1
+[PSTrc] Find the duplicated item. SIM_GEMINI_CMD2
+[PSTrc] Find the duplicated item. SIM_GEMINI_CMD3
+[PSTrc] Find the duplicated item. SIM_GEMINI_GEN1
+[PSTrc] Find the duplicated item. SIM_GEMINI_GEN2
+[PSTrc] Find the duplicated item. DCM_COUNTER
+[PSTrc] Find the duplicated item. DCM_ACTIVE_CYCLES
+Cgen -rle:
+Starting reading from ./build/LCSH6795_LWT_L/LWG/dhl/database/pstrace_db/ps_trace_1.h
+There are 25034 traces.
+There are 586 different kinds of traces.
+./build/LCSH6795_LWT_L/LWG/dhl/database/pstrace_db/ps_trace_2.h is created.
+Cgen -sps:
+Cgen -db_sig:
+Generating "./build/LCSH6795_LWT_L/LWG/dhl/database/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24".
+Check ./build/LCSH6795_LWT_L/LWG/dhl/database/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24
+Check DB result: 0
+Write DB result: 0
+Create file "./build/LCSH6795_LWT_L/LWG/dhl/database/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24" successfully.
+"db_sig" is finished.
+Cgen -filter_gen:
+Can't find LAST_SAP_CODE in the database.
+Starting reading from ./build/LCSH6795_LWT_L/LWG/dhl/database/log2SD_Catcher_filters.ini
+[Info] Below classes are skipped. They don't exist in the L1 module "L1C_GSM".
+L1T_SDCCH_DL , L1T_SACCH_DL , L1T_FACCH_DL
+[Info] "AGPS" is skipped. It doesn't exist in the L1 module "L1C_GSM2".
+[Info] L1 module "L1C_GSM_2" is skipped. It doesn't exist in the database.
+[Info] L1 module "L1TAMR_2" is skipped. It doesn't exist in the database.
+[Info] L1 module "L1C_GPRS2_2" is skipped. It doesn't exist in the database.
+[Info] Below classes are skipped. They don't exist in the L1 module "L1D_SEC".
+L1D_DSP_FILTER , L1D_DSP_FILTER_L
+[Info] Below classes are skipped. They don't exist in the L1 module "L1I_GSM".
+AGCPM , AGCPM_L
+[Info] Below classes are skipped. They don't exist in the L1 module "L1D_PRI".
+SleepMode , FMCalibration
+[Info] "SM_LOCKER_L" is skipped. It doesn't exist in the L1 module "L1SM_1".
+[Info] Module "MOD_ABM" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CLDMAIPC" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_J2ME" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_FW" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_COMMON_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_MEDIA_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_PSDM" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SOC" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL_CONN" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_TCPIP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WAP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WPS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRLP_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_DRV_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_ATCI_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CISS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CSM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L1_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L2R_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L4C_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_LAPDM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_LLC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MAC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MPAL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MRS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_NWSEL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RAC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RAT_TCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RATCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RATDM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_REASM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RLC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RLP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRLP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_DRV_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMSAL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMU_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SNDCP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_TCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_PHB_3" is skipped. It doesn't exist in the database.
+[Info] Sap "TCM_PPP_SAP" is skipped. It doesn't exist in the database.
+"filter_gen" is finished.
+Cgen -filter_gen:
+Can't find LAST_SAP_CODE in the database.
+Starting reading from ./service/dhl/database/XDD/mini_log_Catcher_filters.ini
+[Info] Below classes are skipped. They don't exist in the L1 module "L1C_GSM".
+L1T_SDCCH_DL , L1T_SACCH_DL , L1T_FACCH_DL
+[Info] "AGPS" is skipped. It doesn't exist in the L1 module "L1C_GSM2".
+[Info] L1 module "L1C_GSM_2" is skipped. It doesn't exist in the database.
+[Info] L1 module "L1C_GPRS2_2" is skipped. It doesn't exist in the database.
+[Info] Below classes are skipped. They don't exist in the L1 module "L1I_GSM".
+AGCPM , AGCPM_L
+[Info] Module "MOD_ABM" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_J2ME" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_FW" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_COMMON_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_MEDIA_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SOC" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL_CONN" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_TCPIP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WAP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WPS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRLP_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS_2" is skipped. It doesn't exist in the database.
+"filter_gen" is finished.
+Cgen -filter_gen:
+Can't find LAST_SAP_CODE in the database.
+Starting reading from ./build/LCSH6795_LWT_L/LWG/dhl/database/log2SD_Catcher_filters.ini
+[Info] Below classes are skipped. They don't exist in the L1 module "L1C_GSM".
+L1T_SDCCH_DL , L1T_SACCH_DL , L1T_FACCH_DL
+[Info] "AGPS" is skipped. It doesn't exist in the L1 module "L1C_GSM2".
+[Info] L1 module "L1C_GSM_2" is skipped. It doesn't exist in the database.
+[Info] L1 module "L1TAMR_2" is skipped. It doesn't exist in the database.
+[Info] L1 module "L1C_GPRS2_2" is skipped. It doesn't exist in the database.
+[Info] Below classes are skipped. They don't exist in the L1 module "L1D_SEC".
+L1D_DSP_FILTER , L1D_DSP_FILTER_L
+[Info] Below classes are skipped. They don't exist in the L1 module "L1I_GSM".
+AGCPM , AGCPM_L
+[Info] Below classes are skipped. They don't exist in the L1 module "L1D_PRI".
+SleepMode , FMCalibration
+[Info] "SM_LOCKER_L" is skipped. It doesn't exist in the L1 module "L1SM_1".
+[Info] Module "MOD_ABM" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CLDMAIPC" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_J2ME" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_FW" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_COMMON_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MMI_MEDIA_APP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_PSDM" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SOC" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SUPL_CONN" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_TCPIP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WAP" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_WPS" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRLP_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_DRV_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS_2" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_ATCI_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CISS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_CSM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L1_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L2R_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_L4C_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_LAPDM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_LLC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MAC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MPAL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_MRS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_NWSEL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RAC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RAT_TCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RATCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RATDM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_REASM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RLC_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RLP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRLP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_RRM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SIM_DRV_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMSAL_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SMU_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SNDCP_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_SS_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_TCM_3" is skipped. It doesn't exist in the database.
+[Info] Module "MOD_PHB_3" is skipped. It doesn't exist in the database.
+[Info] Sap "TCM_PPP_SAP" is skipped. It doesn't exist in the database.
+"filter_gen" is finished.
+Check File ./build/LCSH6795_LWT_L/LWG/dhl/database/catcher_filter.bin result: 0
+Write File ./build/LCSH6795_LWT_L/LWG/dhl/database/catcher_filter.bin result: 0
+Cgen -dsp_filter_gen:
+"dsp_filter_gen" is finished.
+Cgen -filter_merge:
+Starting reading from ./build/LCSH6795_LWT_L/LWG/dhl/database/catcher_filter.bin
+"filter_merge" is finished.
+Check File ./build/LCSH6795_LWT_L/LWG/dhl/database/catcher_filter.bin result: 0
+Write File ./build/LCSH6795_LWT_L/LWG/dhl/database/catcher_filter.bin result: 0
+Processing cgen_db_sig.det cgen_ps_Modem.det cgen_filter_gen_Modem.det custom_parse_db.det cgen_cm.det cgen_preflow.det log2SD_Catcher_filters.det nvram_auto_gen.det codegen_single_Modem.det cgen_cfg_Modem.det
+Processing custom_parse_db.det
+Processing
+cksysdrv was done.
+Clean asn1_common.a audio.a ccci.a cccidev.a cccisrv.a config.a custom.a dbinfo.a devdrv.a drv.a ephy_ext.a ft.a ftc.a hmu.a ipcore.a l1_ext.a l4misc.a mc.a md_drv.a media.a mml1_rf_ext.a nvram.a sys_drv.a sys_svc.a tty.a uartcore.a ul1_hs_plus_ext.a verno.a under ./build/LCSH6795_LWT_L/LWG/bin/lib
+Start to build asn1_common.a audio.a ccci.a cccidev.a cccisrv.a config.a custom.a dbinfo.a devdrv.a drv.a ephy_ext.a ft.a ftc.a hmu.a ipcore.a l1_ext.a l4misc.a mc.a md_drv.a media.a mml1_rf_ext.a nvram.a sys_drv.a sys_svc.a tty.a uartcore.a ul1_hs_plus_ext.a verno.a
+Copying header files ......
+cp: cannot stat './modem/gl1/l1_dm/common/l1_const.h': No such file or directory
+cp: cannot stat './interface/modem/l1/fdd/internal/ul1_cnst.h': No such file or directory
+cp: cannot stat './interface/modem/l1/fdd/internal/ul1_def.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_types.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_core_private.h': No such file or directory
+cp: cannot stat './modem/md_sm/common/l1sm/l1sm_internal_public.h': No such file or directory
+cp: cannot stat './modem/gl1/l1_dm/common/tool.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_tool.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_public.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_core.h': No such file or directory
+cp: cannot stat './modem/interface/l1/gsm/mph_cnst.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_private.h': No such file or directory
+cp: cannot stat './driver/sleep_drv/internal/inc/dcxo_div.h': No such file or directory
+cp: cannot stat './modem/interface/l1/inner/l1_timertype.h': No such file or directory
+cp: cannot stat './modem/ul1/ul1_hs_plus/common/ul1_types.h': No such file or directory
+cp: cannot stat './modem/common/mcd/include/mcd_struct.h': No such file or directory
+2026/09/09 12:48:54 Building asn1_common
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/asn1_common.log
+		    Total 0 warnings found.
+2026/09/09 12:48:55 Building audio
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/audio.log
+		    Total 0 warnings found.
+2026/09/09 12:48:55 Building ccci
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ccci.log
+		    Total 0 warnings found.
+2026/09/09 12:48:56 Building cccidev
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/cccidev.log
+		    Total 0 warnings found.
+2026/09/09 12:48:57 Building cccisrv
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/cccisrv.log
+		    Total 0 warnings found.
+2026/09/09 12:48:58 Building config
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/config.log
+		    Total 0 warnings found.
+2026/09/09 12:48:58 Building custom
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/custom.log
+		    Total 0 warnings found.
+2026/09/09 12:49:00 Building dbinfo
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/dbinfo.log
+		    Total 0 warnings found.
+2026/09/09 12:49:01 Building devdrv
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/devdrv.log
+		    Total 0 warnings found.
+2026/09/09 12:49:03 Building drv
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/drv.log
+		    Total 0 warnings found.
+2026/09/09 12:49:03 Building ephy_ext
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ephy_ext.log
+		    Total 0 warnings found.
+2026/09/09 12:49:04 Building ft
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ft.log
+		    Total 0 warnings found.
+2026/09/09 12:49:05 Building ftc
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ftc.log
+		    Total 0 warnings found.
+2026/09/09 12:49:05 Building hmu
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/hmu.log
+		    Total 0 warnings found.
+2026/09/09 12:49:06 Building ipcore
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ipcore.log
+		    Total 0 warnings found.
+2026/09/09 12:49:06 Building l1_ext
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/l1_ext.log
+		    Total 0 warnings found.
+2026/09/09 12:49:07 Building l4misc
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/l4misc.log
+		    Total 0 warnings found.
+2026/09/09 12:49:08 Building mc
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/mc.log
+		    Total 0 warnings found.
+2026/09/09 12:49:09 Building md_drv
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/md_drv.log
+		    Total 0 warnings found.
+2026/09/09 12:49:09 Building media
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/media.log
+		    Total 0 warnings found.
+2026/09/09 12:49:10 Building mml1_rf_ext
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/mml1_rf_ext.log
+		    Total 0 warnings found.
+2026/09/09 12:49:10 Building nvram
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/nvram.log
+		    Total 0 warnings found.
+2026/09/09 12:49:11 Building sys_drv
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/sys_drv.log
+		    Total 0 warnings found.
+2026/09/09 12:49:12 Building sys_svc
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/sys_svc.log
+		    Total 0 warnings found.
+2026/09/09 12:49:13 Building tty
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/tty.log
+		    Total 0 warnings found.
+2026/09/09 12:49:13 Building uartcore
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/uartcore.log
+		    Total 0 warnings found.
+2026/09/09 12:49:14 Building ul1_hs_plus_ext
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/ul1_hs_plus_ext.log
+		    Total 0 warnings found.
+2026/09/09 12:49:15 Building verno
+                    LOG: ./build/LCSH6795_LWT_L/LWG/bin/log/verno.log
+		    Total 0 warnings found.
+Linking LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.MOLY_LR9_W1423_MD_LWTG_MP_V24 ...
+2026/09/09 12:49:16 
+make[1]: Entering directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+make -fmake/build.mak -r -R FORCE_GEN=TRUE copro_info_gen
+make[2]: Entering directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+
+start Drv feature check...
+get feature list from drv_features.h...
+get feature list from drv_features_option.h...
+generate feature check file...
+validate features...
+infoFilename = ././build/LCSH6795_LWT_L/LWG/bin/log/info.log
+check def/undef features for drv_features.h...
+log generated at ././build/LCSH6795_LWT_L/LWG/bin/log/drv_features_option.log
+
+[drv_features.h, drv_features_option.h]
+All feature count = 1179
+Defined count = 106
+Undef count = 1073
+
+[drv_features_option.h]
+Mismatch Config count = 0
+
+DRV Feature Check - Done
+make[2]: Leaving directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+Result[5]: Calculating correct Modem Reserved Size value...Done.
+Do not need to adjust memory configuration and refer to ./build/LCSH6795_LWT_L/LWG/bin/log/ModemReservedSize_AutoConfig.log
+
+copy ./build/LCSH6795_LWT_L/LWG/bin/log/auto_adjust_mem.log ./build/LCSH6795_LWT_L/LWG/bin/MODEM_RESV_SIZE_DEBUG/auto_adjust_mem.log
+make[1]: Leaving directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+Creating binary file LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.MOLY_LR9_W1423_MD_LWTG_MP_V24.bin
+Generating DbgInfo Database...
+[DbgInfoGen] Printing the DBGINFO header...
+[DbgInfoGen] Parsing the symbol table...
+[DbgInfoGen] Parsing the line table...
+[DbgInfoGen]     GCC: (GNU Tools for ARM Embedded Processors) 4.6.2 20121016 (release) [ARM/embedded-4_6-branch revision 192487]
+[DbgInfoGen] Printing the symbol table...
+[DbgInfoGen] Printing the file table...
+[DbgInfoGen] The DbgInfo DB is created. (./build/LCSH6795_LWT_L/LWG/dhl/database/DbgInfo_LR9.W1423.MD.LWTG.MP_LCSH6795_LWT_L_MOLY_LR9_W1423_MD_LWTG_MP_V24_2026_09_09_12_48)
+make[1]: Entering directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+make[1]: Leaving directory '/root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24'
+Cgen -sfcm:
+Check DB result: 0
+Examine DB result: 0
+Generating "./build/LCSH6795_LWT_L/LWG/dhl/database/MDDB_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24.EDB".
+Check ./build/LCSH6795_LWT_L/LWG/dhl/database/MDDB_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24.EDB
+Check DB result: 0
+Write DB result: 0
+Create file "./build/LCSH6795_LWT_L/LWG/dhl/database/MDDB_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24.EDB" successfully.
+Cgen -sfcm:
+Check DB result: 0
+Examine DB result: 0
+Generating "./build/LCSH6795_LWT_L/LWG/dhl/database/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24".
+Check ./build/LCSH6795_LWT_L/LWG/dhl/database/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24
+Check DB result: 0
+Write DB result: 0
+Create file "./build/LCSH6795_LWT_L/LWG/dhl/database/BPLGUInfoCustomAppSrcP_MT6795_S00_MOLY_LR9_W1423_MD_LWTG_MP_V24" successfully.
+Generate cmm files
+check system drive ....
+Done.
+2026/09/09 12:49:29 

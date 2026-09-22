@@ -1,0 +1,99 @@
+./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libconfig.a(syscomp_config.obj) (imc_task_create)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj) (imc_task_init)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj) (imc_task_main)
+                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj) (imc_task_reset)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libaudio.a(sidetone.obj) (kal_create_timer)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libconfig.a(syscomp_config.obj) (sdm_task_create)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libconfig.a(syscomp_config.obj) (vdm_task_create)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libconfig.a(syscomp_config.obj) (cccidev_task_create)
+                              ./build/LCSH6795_LWT_L/LWG/bin/lib/libconfig.a(syscomp_config.obj) (cccisrv_task_create)
+ .text.ccci_lb_it_1_task_create
+ .text.ccci_lb_it_2_task_create
+ .text.ccci_lb_it_3_task_create
+ .text.ccci_lb_it_4_task_create
+ .text.dummytask_create
+ .text          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+ .data          0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+ .bss           0x00000000        0x0 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+ .text.kal_create_data_buff_pool_r
+ .bss.num_task_created_g
+ .text.mddbg_task_create
+ .text.ert_task_create
+                0x00126750                ert_task_create
+ .text.el1_task_create
+                0x0012675c                el1_task_create
+ .text.el2_task_create
+                0x00126768                el2_task_create
+ .text.etstm_task_create
+                0x00126774                etstm_task_create
+ .text.imc_task_create
+                0x00362058        0xc ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+                0x00362058                imc_task_create
+ .text.kal_create_buff_pool
+                0x0037e614                kal_create_buff_pool
+ .text.kal_create_msg_q
+                0x0037f338                kal_create_msg_q
+ .text.kal_create_mutex
+                0x0037f5e4                kal_create_mutex
+ .text.kal_create_enh_mutex
+                0x0037f630                kal_create_enh_mutex
+ .text.kal_create_sem
+                0x0037f9b8                kal_create_sem
+ .text.kal_create_event_group
+                0x0037fa7c                kal_create_event_group
+ .text.kal_create_thread_stack
+                0x0037fcb8                kal_create_thread_stack
+ .text.kal_create_task
+                0x0037fd0c                kal_create_task
+ .text.kal_create_timer_int
+                0x003804ec                kal_create_timer_int
+ .text.kal_create_timer
+                0x00380550                kal_create_timer
+ .text.task_created
+                0x0038060c                task_created
+ .text.qbm_task_create
+                0x0049942c                qbm_task_create
+ .text.sdm_task_create
+                0x004df84c                sdm_task_create
+ .text.vdm_task_create
+                0x00678950                vdm_task_create
+ .text.cccidev_task_create
+                0x00695aa4                cccidev_task_create
+ .text.cccisrv_task_create
+                0x00697584                cccisrv_task_create
+                0x00715888        0xc ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+                0x0000ea57       0x33 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+ .comment       0x00000000       0x71 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+ccci_lb_it_1_task_create                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_lb_it_2_task_create                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_lb_it_3_task_create                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+ccci_lb_it_4_task_create                          ./build/LCSH6795_LWT_L/LWG/bin/lib/libccci.a(ccci_lb_it.obj)
+cccidev_task_create                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccidev.a(cccidev_task.obj)
+cccisrv_task_create                               ./build/LCSH6795_LWT_L/LWG/bin/lib/libcccisrv.a(cccisrv_task.obj)
+dummytask_create                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libemm.a(emm_create.obj)
+el1_task_create                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libedyn.a(lte_dyn.obj)
+el2_task_create                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libedyn.a(lte_dyn.obj)
+ert_task_create                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libedyn.a(lte_dyn.obj)
+etstm_task_create                                 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libedyn.a(lte_dyn.obj)
+imc_task_create                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+                                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libimc.a(imc_task_create.obj)
+kal_create_buff_pool                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_buff_mgr.obj)
+kal_create_data_buff_pool_r                       ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_buff_mgr.obj)
+kal_create_enh_mutex                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_itc.obj)
+kal_create_event_group                            ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_itc.obj)
+kal_create_msg_q                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_itc.obj)
+kal_create_mutex                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_itc.obj)
+kal_create_sem                                    ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_itc.obj)
+kal_create_task                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_tasks.obj)
+kal_create_thread_stack                           ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_tasks.obj)
+kal_create_timer                                  ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_timer.obj)
+kal_create_timer_int                              ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_timer.obj)
+mddbg_task_create                                 ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsst.a(mddbg.obj)
+num_task_created_g                                ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_nucleus_tasks.obj)
+qbm_task_create                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libqmu_bm.a(qmu_bm_l2log.obj)
+sdm_task_create                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libsdm.a(sdm_create.obj)
+task_created                                      ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libkal.a(kal_task_lifecycle.obj)
+vdm_task_create                                   ./mtk_rel/LCSH6795_LWT_L/LWG/lib/libvdm.a(vdm_create.obj)

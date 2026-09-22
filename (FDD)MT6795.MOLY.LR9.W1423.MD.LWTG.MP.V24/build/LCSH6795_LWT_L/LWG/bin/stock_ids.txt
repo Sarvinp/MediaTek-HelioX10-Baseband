@@ -1,0 +1,14 @@
+Failed to get DSPMOLY version
+mtk_rel/MT6795_HIAU/LWG_DSDS_CUSTOM/L4/csm/ss/applib2_asn_common.c
+mtk_rel/MT6795_HIAU/LWG_DSDS_CUSTOM/L4/csm/ss/applib2_asn_memory.c
+build/MT6795_HIAU/LWG_DSDS_CUSTOM/modem/dbme/db_access.c
+build/MT6795_HIAU/LWG_DSDS_CUSTOM/modem/dbme/dbme.c
+build/MT6795_HIAU/LWG_DSDS_CUSTOM/modem/rrc_asn/rrc_db_decode.c
+build/MT6795_HIAU/LWG_DSDS_CUSTOM/modem/rrc_asn/rrc_db_encode.c
+custom/driver/drv/misc_drv/MT6795_HIAU/DEFAULT/custom_sim_driver.c
+LWG_DSDS_CUSTOM
+MT6795_HIMAR_HW
+LR9.W1423.MD.LWTG.MP MT6795_HIMAR_UHL
+MT6795_HIAU
+LWG_DSDS_CUSTOM
+MT6795_S00
