@@ -4503,6 +4503,7 @@ sim_status L1sim_Cmd_Layer_MTK(kal_uint8  *txData,kal_uint32  *txSize,kal_uint8 
    kal_uint8 sim_get_resp_sim[] = {0xa0, 0xc0, 0x00, 0x00, 0x00 }; // 0xa0: SIM, 0x00: USIM
 	sim_status status, status_w = 0;
 	kal_uint32 rx_len,rx_buf_len;
+	kal_uint32 t0_guard = 0;	/* R39: cap T=0 status loop */
 	// sim_protocol_app_enum p = SimCard->app_proto;
 	Sim_Card *SimCard;
 
@@ -4553,6 +4554,12 @@ sim_status L1sim_Cmd_Layer_MTK(kal_uint8  *txData,kal_uint32  *txSize,kal_uint8 
 	warn = KAL_FALSE;
 	for(;;)
 	{
+		/* R39: unbounded loop hung MD on endless 61xx/6C cycling; cap it */
+		if(++t0_guard > 64) {
+			DRV_ICC_print(SIM_PRINT_L1SIM_CMD_TRC3, 0x00000039, t0_guard, case4, status_w, status);
+			status = SIM_SW_STATUS_FAIL;
+			return status;
+		}
 		if(error == KAL_TRUE){
 			DRV_ICC_print(SIM_PRINT_L1SIM_CMD_TRC3, 0x00000009, drv_get_current_time(), case4, status_w, status);
 			//sim_dump_fifo(hw_cb);
