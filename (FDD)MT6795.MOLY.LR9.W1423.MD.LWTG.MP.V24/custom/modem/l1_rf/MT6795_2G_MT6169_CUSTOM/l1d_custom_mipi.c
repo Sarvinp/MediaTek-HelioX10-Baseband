@@ -861,7 +861,7 @@ sGGE_MIPI_CTRL_TABLE_BAND GGE_MIPI_CTRL_TABLE_PCS1900=
 
 sGGE_MIPIEVENT* GGE_MIPI_CTRL_TABLE_RX_EVENT[] =
 {  
-   0,                                                                                        /* FrequencyBand400  */
+   &GGE_MIPI_CTRL_TABLE_GSM850.mipi_rx_ctrl_table.mipi_rxctrl_event[0], /* R50: Band400 non-NULL */                                                                                        /* FrequencyBand400  */
    &GGE_MIPI_CTRL_TABLE_GSM850.mipi_rx_ctrl_table.mipi_rxctrl_event[0],                      /* FrequencyBand850  */
    &GGE_MIPI_CTRL_TABLE_GSM900.mipi_rx_ctrl_table.mipi_rxctrl_event[0],                      /* FrequencyBand900  */
    &GGE_MIPI_CTRL_TABLE_DCS1800.mipi_rx_ctrl_table.mipi_rxctrl_event[0],                     /* FrequencyBand1800 */
@@ -870,7 +870,7 @@ sGGE_MIPIEVENT* GGE_MIPI_CTRL_TABLE_RX_EVENT[] =
 
 sGGE_MIPIDATA_SUBBAND* GGE_MIPI_CTRL_TABLE_RX_DATA[] =
 {  
-   0,                                                                                        /* FrequencyBand400  */
+   &GGE_MIPI_CTRL_TABLE_GSM850.mipi_rx_ctrl_table.mipi_rxctrl_data[0], /* R50: Band400 non-NULL */                                                                                        /* FrequencyBand400  */
    &GGE_MIPI_CTRL_TABLE_GSM850.mipi_rx_ctrl_table.mipi_rxctrl_data[0],                       /* FrequencyBand850  */
    &GGE_MIPI_CTRL_TABLE_GSM900.mipi_rx_ctrl_table.mipi_rxctrl_data[0],                       /* FrequencyBand900  */
    &GGE_MIPI_CTRL_TABLE_DCS1800.mipi_rx_ctrl_table.mipi_rxctrl_data[0],                      /* FrequencyBand1800 */
@@ -879,7 +879,7 @@ sGGE_MIPIDATA_SUBBAND* GGE_MIPI_CTRL_TABLE_RX_DATA[] =
 
 sGGE_MIPIEVENT* GGE_MIPI_CTRL_TABLE_TX_EVENT[] =
 {  
-   0,                                                                                        /* FrequencyBand400  */
+   &GGE_MIPI_CTRL_TABLE_GSM850.mipi_tx_ctrl_table.mipi_txctrl_event[0], /* R50: Band400 non-NULL */                                                                                        /* FrequencyBand400  */
    &GGE_MIPI_CTRL_TABLE_GSM850.mipi_tx_ctrl_table.mipi_txctrl_event[0],                      /* FrequencyBand850  */
    &GGE_MIPI_CTRL_TABLE_GSM900.mipi_tx_ctrl_table.mipi_txctrl_event[0],                      /* FrequencyBand900  */
    &GGE_MIPI_CTRL_TABLE_DCS1800.mipi_tx_ctrl_table.mipi_txctrl_event[0],                     /* FrequencyBand1800 */
@@ -888,7 +888,7 @@ sGGE_MIPIEVENT* GGE_MIPI_CTRL_TABLE_TX_EVENT[] =
 
 sGGE_MIPIDATA_SUBBAND* GGE_MIPI_CTRL_TABLE_TX_DATA_NOTCH_SWITCH[] =
 {  
-   0,                                                                                        /* FrequencyBand400  */
+   &GGE_MIPI_CTRL_TABLE_GSM850.mipi_tx_ctrl_table.mipi_txctrl_data[0], /* R50: Band400 non-NULL */                                                                                        /* FrequencyBand400  */
    &GGE_MIPI_CTRL_TABLE_GSM850.mipi_tx_ctrl_table.mipi_txctrl_data[0],                       /* FrequencyBand850  */
    &GGE_MIPI_CTRL_TABLE_GSM900.mipi_tx_ctrl_table.mipi_txctrl_data[0],                       /* FrequencyBand900  */
    &GGE_MIPI_CTRL_TABLE_DCS1800_NOTCH_SWITCH.mipi_tx_ctrl_table.mipi_txctrl_data[0],         /* FrequencyBand1800 */
@@ -897,7 +897,7 @@ sGGE_MIPIDATA_SUBBAND* GGE_MIPI_CTRL_TABLE_TX_DATA_NOTCH_SWITCH[] =
 
 sGGE_MIPIDATA_SUBBAND* GGE_MIPI_CTRL_TABLE_TX_DATA[] =
 {  
-   0,                                                                                        /* FrequencyBand400  */
+   &GGE_MIPI_CTRL_TABLE_GSM850.mipi_tx_ctrl_table.mipi_txctrl_data[0], /* R50: Band400 non-NULL */                                                                                        /* FrequencyBand400  */
    &GGE_MIPI_CTRL_TABLE_GSM850.mipi_tx_ctrl_table.mipi_txctrl_data[0],                       /* FrequencyBand850  */
    &GGE_MIPI_CTRL_TABLE_GSM900.mipi_tx_ctrl_table.mipi_txctrl_data[0],                       /* FrequencyBand900  */
    &GGE_MIPI_CTRL_TABLE_DCS1800.mipi_tx_ctrl_table.mipi_txctrl_data[0],                      /* FrequencyBand1800 */
@@ -906,7 +906,7 @@ sGGE_MIPIDATA_SUBBAND* GGE_MIPI_CTRL_TABLE_TX_DATA[] =
 
 sGGE_MIPIPADATA* GGE_MIPI_CTRL_TABLE_PA_DATA[] =
 {
-   0,                                                                                        /* FrequencyBand400  */
+   &GGE_MIPI_CTRL_TABLE_GSM850.mipi_tx_ctrl_table.mipi_txctrl_pa_data, /* R50: Band400 non-NULL */                                                                                        /* FrequencyBand400  */
    &GGE_MIPI_CTRL_TABLE_GSM850.mipi_tx_ctrl_table.mipi_txctrl_pa_data,                       /* FrequencyBand850  */
    &GGE_MIPI_CTRL_TABLE_GSM900.mipi_tx_ctrl_table.mipi_txctrl_pa_data,                       /* FrequencyBand900  */
    &GGE_MIPI_CTRL_TABLE_DCS1800.mipi_tx_ctrl_table.mipi_txctrl_pa_data,                      /* FrequencyBand1800 */
@@ -915,7 +915,7 @@ sGGE_MIPIPADATA* GGE_MIPI_CTRL_TABLE_PA_DATA[] =
 
 sGGE_MIPIEVENT* GGE_MIPI_CTRL_TABLE_TXMID_EVENT[] =
 {
-   0,                                                                                        /* FrequencyBand400  */
+   &GGE_MIPI_CTRL_TABLE_GSM850.mipi_tx_ctrl_table.mipi_txctrl_event[0], /* R50 */                                                                                        /* FrequencyBand400  */
 #if IS_MIPI_INTERSLOT_RAMPING_OPTIMIZE_SUPPORT
    &GGE_MIPI_CTRL_TABLE_GSM850.mipi_txmid_ctrl_table.mipi_txmidctrl_event[0][0],             /* FrequencyBand850  */
    &GGE_MIPI_CTRL_TABLE_GSM900.mipi_txmid_ctrl_table.mipi_txmidctrl_event[0][0],             /* FrequencyBand900  */
@@ -931,7 +931,7 @@ sGGE_MIPIEVENT* GGE_MIPI_CTRL_TABLE_TXMID_EVENT[] =
 
 sGGE_MIPIDATA_SUBBAND* GGE_MIPI_CTRL_TABLE_TXMID_DATA[] =
 {
-   0,                                                                                        /* FrequencyBand400  */
+   &GGE_MIPI_CTRL_TABLE_GSM850.mipi_txmid_ctrl_table.mipi_txmidctrl_data[0], /* R50: Band400 non-NULL */                                                                                        /* FrequencyBand400  */
    &GGE_MIPI_CTRL_TABLE_GSM850.mipi_txmid_ctrl_table.mipi_txmidctrl_data[0],                 /* FrequencyBand850  */
    &GGE_MIPI_CTRL_TABLE_GSM900.mipi_txmid_ctrl_table.mipi_txmidctrl_data[0],                 /* FrequencyBand900  */
    &GGE_MIPI_CTRL_TABLE_DCS1800.mipi_txmid_ctrl_table.mipi_txmidctrl_data[0],                /* FrequencyBand1800 */
