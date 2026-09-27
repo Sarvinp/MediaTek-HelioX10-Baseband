@@ -1280,7 +1280,7 @@ nvram_errno_enum nvram_read_data_item
     #endif
         )
         {
-            EXT_ASSERT(KAL_FALSE, DISPLAY_ERROR(status), NVRAM_LOC_READ_IMPORTANT_DATA_FAIL, ldi->LID);
+            nvram_trace(TRACE_FUNC, IO_READ_DATA_ITEM_RESULT, ldi->LID, status, __LINE__); /* R49c: assert->trace */
         }
     #endif
 
