@@ -1208,7 +1208,7 @@ nvram_errno_enum nvram_read_data_item
 
 	        if (status != NVRAM_IO_ERRNO_OK)
 	        {
-	            nvram_trace(TRACE_FUNC, IO_READ_DATA_ITEM_MULTIPLE, ldi->LID, status, 0, __LINE__); /* R49: assert->trace */
+	            EXT_ASSERT(KAL_FALSE, DISPLAY_ERROR(status), NVRAM_LOC_RESTORE_SUCCESS_READ_FAIL, ldi->LID);
 	        }
         }	
 #endif
@@ -1224,7 +1224,7 @@ nvram_errno_enum nvram_read_data_item
 
 	        if (status != NVRAM_IO_ERRNO_OK)
 	        {
-	            nvram_trace(TRACE_FUNC, IO_READ_DATA_ITEM_MULTIPLE, ldi->LID, status, 0, __LINE__); /* R49: assert->trace */
+	            EXT_ASSERT(KAL_FALSE, DISPLAY_ERROR(status), NVRAM_LOC_RESTORE_SUCCESS_READ_FAIL, ldi->LID);
 	        }
         }
     }
@@ -1280,7 +1280,7 @@ nvram_errno_enum nvram_read_data_item
     #endif
         )
         {
-            nvram_trace(TRACE_FUNC, IO_READ_DATA_ITEM_RESULT, ldi->LID, status, __LINE__); /* R49c: assert->trace */
+            EXT_ASSERT(KAL_FALSE, DISPLAY_ERROR(status), NVRAM_LOC_READ_IMPORTANT_DATA_FAIL, ldi->LID);
         }
     #endif
 
