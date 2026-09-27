@@ -83,7 +83,10 @@ LTE_MIPI_EVENT_TABLE_T LTE_BandNone_MIPI_RX_EVENT[] =
 {
    /* No.     elm type     , data idx       , evt_type           , evt_offset     */
    /*                        { start, stop },                      ( us )         */
-   { /* 0  */ LTE_MIPI_NULL, { 0    , 0    }, LTE_MIPI_EVENT_NULL, 0              },
+   { /* 0 */ LTE_MIPI_ASM, { 0    , 1    }, LTE_MIPI_TRX_ON   , US2OFFCNT(10) },
+   { /* 1 */ LTE_MIPI_ANT, { 2    , 5    }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
+   { /* 2 */ LTE_MIPI_ASM, { 6    , 7    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(5) },
+   { /* 3 */ LTE_MIPI_ANT, { 8    , 8    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(15) },
 };
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band1_MIPI_RX_EVENT[] =
@@ -346,7 +349,12 @@ LTE_MIPI_EVENT_TABLE_T LTE_BandNone_MIPI_TX_EVENT[] =
 {
    /* No.     elm type     , data idx       , evt_type           , evt_offset     */
    /*                        { start, stop },                      ( us )         */
-   { /* 0  */ LTE_MIPI_NULL, { 0    , 0    }, LTE_MIPI_EVENT_NULL, 0              },
+   { /* 0 */ LTE_MIPI_ASM, { 0    , 1    }, LTE_MIPI_TRX_ON   , US2OFFCNT(10) },
+   { /* 1 */ LTE_MIPI_PA , { 2    , 3    }, LTE_MIPI_TRX_ON   , US2OFFCNT(12) },
+   { /* 2 */ LTE_MIPI_ANT, { 4    , 7    }, LTE_MIPI_TRX_ON   , US2OFFCNT(20) },
+   { /* 3 */ LTE_MIPI_ASM, { 8    , 9    }, LTE_MIPI_TRX_OFF  , US2OFFCNT(5) },
+   { /* 4 */ LTE_MIPI_PA , { 10   , 11   }, LTE_MIPI_TRX_OFF  , US2OFFCNT(20) },
+   { /* 5 */ LTE_MIPI_ANT, { 12   , 12   }, LTE_MIPI_TRX_OFF  , US2OFFCNT(15) },
 };
 
 LTE_MIPI_EVENT_TABLE_T LTE_Band1_MIPI_TX_EVENT[] =
