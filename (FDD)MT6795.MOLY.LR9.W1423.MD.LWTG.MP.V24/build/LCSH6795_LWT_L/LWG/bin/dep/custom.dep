@@ -99,6 +99,23 @@ custom_nvram_secro.obj:	build/LCSH6795_LWT_L/LWG/nvram_auto_gen/custom_nvram_sec
 custom_nvram_secro_tbl.obj:	build/LCSH6795_LWT_L/LWG/nvram_auto_gen/custom_nvram_secro_tbl.c
 #ENDUPDATE#
 #UPDATE#
+l1d_custom_mipi.obj:	custom/modem/l1_rf/MT6795_2G_MT6169_CUSTOM/l1d_custom_mipi.c \
+	modem/gl1/l1_dm/l1d_ext/l1d_cid.h \
+	modem/gl1/l1_dm/l1d_ext/m12190.h \
+	interface/modem/l1/gsm/external/l1cal.h \
+	interface/modem/l1/gsm/external/l1_option.h \
+	custom/modem/l1_rf/MT6795_2G_MT6169_CUSTOM/l1d_custom_rf.h \
+	custom/modem/l1_rf/MT6795_2G_MT6169_CUSTOM/l1d_custom_mipi.h \
+	custom/modem/mml1_rf/MT6795_MMRF_DRDI_CUSTOM/mml1_custom_drdi.h \
+	interface/modem/l1/gsm/external/l1_types_public.h \
+	interface/modem/l1/gsm/external/mph_types.h \
+	interface/modem/l1/gsm/external/l1_gemini_def.h \
+	modem/gl1/l1_dm/l1d_ext/l1d_mipi_data.h \
+	modem/gl1/l1_dm/l1d_ext/l1d_rf.h \
+	interface/modem/l1/gsm/external/l1_interface.h \
+	modem/gl1/l1_dm/l1d_ext/l1d_mipi.h
+#ENDUPDATE#
+#UPDATE#
 tst_file_default_Catcher_filter.obj:	build/LCSH6795_LWT_L/LWG/dhl/src/tst_file_default_Catcher_filter.c
 #ENDUPDATE#
 #UPDATE#

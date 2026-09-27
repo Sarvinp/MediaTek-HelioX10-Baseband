@@ -10,6 +10,6 @@ build/LCSH6795_LWT_L/LWG/bin/~LCSH6795_LWT_L(LWG).mak
 => No need to generate tmp file contents
 Set Default Value:
 --------------------------------------------------------------
-ForceToUseCoproInfo => 1(0x1)
-CoproLoadViewSize => 1048576(0x100000)
 CoproTotalRAMUsage => 4194304(0x400000)
+CoproLoadViewSize => 1048576(0x100000)
+ForceToUseCoproInfo => 1(0x1)

@@ -1,25 +1,25 @@
 [Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/gen_bin_from_elf.pl
-[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/warnings/register.pm
-[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/File/Basename.pm
-[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/sysGen2.pl
-[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/FileInfoParser.pm
-[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/CommonUtility.pm
-[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/File/Spec/Unix.pm
-[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/scatInfo.pm
-[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/ldsInfoWrap.pm
-[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/strict.pm
-[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/File/Spec.pm
-[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/config_MemSegment.pm
-[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/warnings.pm
-[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/ldsInfo.pm
-[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/Cwd.pm
 [Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/sysGenUtility.pm
-[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/tools/pack_dep_gen.pm
-[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/vars.pm
-[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/constant.pm
-[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/Exporter.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/File/Basename.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/File/Spec.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/Cwd.pm
+[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/FileInfoParser.pm
 [Dependency] /usr/lib/x86_64-linux-gnu/perl-base/XSLoader.pm
 [Dependency] /usr/lib/x86_64-linux-gnu/perl-base/File/Path.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/warnings.pm
+[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/CommonUtility.pm
+[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/ldsInfoWrap.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/warnings/register.pm
+[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/tools/pack_dep_gen.pm
+[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/scatInfo.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/strict.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/vars.pm
+[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/ldsInfo.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/Exporter.pm
+[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/config_MemSegment.pm
+[Dependency] /root/MediaTek-HelioX10-Baseband/(FDD)MT6795.MOLY.LR9.W1423.MD.LWTG.MP.V24/tools/sysGen2.pl
+[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/File/Spec/Unix.pm
+[Dependency] /usr/lib/x86_64-linux-gnu/perl-base/constant.pm
 Input: tools/GCC/4.6.2/linux/bin/arm-none-eabi-objcopy ./build/LCSH6795_LWT_L/LWG/custom/system/ldsLCSH6795_LWT_L.txt ./build/LCSH6795_LWT_L/LWG/bin/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.elf ./build/LCSH6795_LWT_L/LWG/bin/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.MOLY_LR9_W1423_MD_LWTG_MP_V24.bin
 tools/GCC/4.6.2/linux/bin/arm-none-eabi-objcopy -O binary ./build/LCSH6795_LWT_L/LWG/bin/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.elf ./build/LCSH6795_LWT_L/LWG/bin/LCSH6795_LWT_L_MDBIN_PCB01_MT6795_S00.MOLY_LR9_W1423_MD_LWTG_MP_V24.bin
 Done!
